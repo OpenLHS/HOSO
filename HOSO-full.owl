@@ -15,8 +15,11 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/HOSO-full.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2023-04-27/HOSO-full.owl"/>
-        <terms:description>None</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
+        <dc:contributor xml:lang="en">Adrien Barton</dc:contributor>
+        <dc:contributor xml:lang="en">Jean-François Ethier</dc:contributor>
+        <dc:contributor xml:lang="en">Paul Fabry</dc:contributor>
+        <terms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Healthcare Organizations and Services ontology</terms:title>
         <owl:versionInfo>2023-04-27</owl:versionInfo>
     </owl:Ontology>
@@ -1185,6 +1188,26 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
         <rdfs:label>has part that occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000001 -->
+
+    <owl:ObjectProperty rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000001">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <obo:IAO_0000115 xml:lang="en">TBD</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has participating performer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000002 -->
+
+    <owl:ObjectProperty rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000002">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <obo:IAO_0000115 xml:lang="en">TBD</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has participating recipient</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2681,14 +2704,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000005">
@@ -3250,6 +3265,226 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is a specified output of a health activity.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">health activity outcome information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000003 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000003">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/NOYO_0000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare service organism specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000004 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">TBD</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare facility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000005 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organism as a consequence of a training of this organism to perform in some health procedures.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">health worker role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000006 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organisation and is realized by providing some healthcare service delivery.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare organization role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000007 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An organism that is the bearer of a health worker role.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">health worker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000008 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An organisation that bears a healthcare organisation role.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000009 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000009">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A health worker who is a member of a healthcare organisation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare worker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000010 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000010">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HEPRO_0000004"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000001"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000011 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000011">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/NOYO_0000006"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000006"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organisation.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare organization service delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000012 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000012">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000011"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery that aims at providing a desired effect on the health status of individuals and their communities. It is usually composed of health procedures and possibly associated ancillary processes.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000013 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000013">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery that aims to support healthcare services without directly providing a desired effect on the health status of individuals or communities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ancillary care service delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000014 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000014">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery that aims to provide for the activities of daily living of individuals or communities.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">custodial care service delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000015 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000015">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000012"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http:/purl.obolibrary.org/obo/NOYO_0000008"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A healthcare service where the targeted organism intended to have a desired effect of some health procedure is specified.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">individual healthcare service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000016 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000016">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000012"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare service that aims at providing a desired effect on the health status of a community.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">populational healthcare service</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000017 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000017">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A temporally-connected individual healthcare service that aims to improve, maintain or restore the health of some participating organism.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">healthcare encounter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http:/purl.obolibrary.org/obo/HOSO_0000018 -->
+
+    <owl:Class rdf:about="http:/purl.obolibrary.org/obo/HOSO_0000018">
+        <rdfs:subClassOf rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000017"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002479"/>
+                <owl:someValuesFrom rdf:resource="http:/purl.obolibrary.org/obo/HOSO_0000004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A healthcare encounter during which the recipient is located in a healthcare facility at some time.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">facility-based healthcare encounter</rdfs:label>
     </owl:Class>
     
 

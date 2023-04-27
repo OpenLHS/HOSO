@@ -3,11 +3,20 @@
     "id" : "http://purl.obolibrary.org/obo/HOSO/HOSO-full.json",
     "meta" : {
       "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/elements/1.1/contributor",
+        "val" : "Adrien Barton"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/contributor",
+        "val" : "Jean-François Ethier"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/contributor",
+        "val" : "Paul Fabry"
+      }, {
         "pred" : "http://purl.org/dc/terms/description",
-        "val" : "None"
+        "val" : "HOSO is an ontology of informational entities and processes related to healthcare organizations and services."
       }, {
         "pred" : "http://purl.org/dc/terms/license",
-        "val" : "https://creativecommons.org/licenses/unspecified"
+        "val" : "https://creativecommons.org/licenses/by/4.0/"
       }, {
         "pred" : "http://purl.org/dc/terms/title",
         "val" : "Healthcare Organizations and Services ontology"
@@ -1711,10 +1720,6 @@
           "val" : "http://purl.obolibrary.org/obo/bfo.owl"
         } ]
       }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HOSO_0000000",
-      "lbl" : "root node",
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IAO_0000005",
       "lbl" : "objective specification",
@@ -3475,6 +3480,168 @@
         }
       }
     }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000001",
+      "lbl" : "has participating performer",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "TBD"
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000002",
+      "lbl" : "has participating recipient",
+      "type" : "PROPERTY",
+      "meta" : {
+        "definition" : {
+          "val" : "TBD"
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000003",
+      "lbl" : "healthcare service organism specification",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000004",
+      "lbl" : "healthcare facility",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "TBD"
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000005",
+      "lbl" : "health worker role",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A role that inheres in an organism as a consequence of a training of this organism to perform in some health procedures."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000006",
+      "lbl" : "healthcare organization role",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A role that inheres in an organisation and is realized by providing some healthcare service delivery."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000007",
+      "lbl" : "health worker",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organism that is the bearer of a health worker role."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000008",
+      "lbl" : "healthcare organization",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organisation that bears a healthcare organisation role."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000009",
+      "lbl" : "healthcare worker",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A health worker who is a member of a healthcare organisation."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000010",
+      "lbl" : "healthcare procedure",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000011",
+      "lbl" : "healthcare organization service delivery",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organisation."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000012",
+      "lbl" : "healthcare service",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A healthcare organisation service delivery that aims at providing a desired effect on the health status of individuals and their communities. It is usually composed of health procedures and possibly associated ancillary processes."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000013",
+      "lbl" : "ancillary care service delivery",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A healthcare organisation service delivery that aims to support healthcare services without directly providing a desired effect on the health status of individuals or communities."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000014",
+      "lbl" : "custodial care service delivery",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A healthcare organisation service delivery that aims to provide for the activities of daily living of individuals or communities."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000015",
+      "lbl" : "individual healthcare service",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A healthcare service where the targeted organism intended to have a desired effect of some health procedure is specified."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000016",
+      "lbl" : "populational healthcare service",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A healthcare service that aims at providing a desired effect on the health status of a community."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000017",
+      "lbl" : "healthcare encounter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A temporally-connected individual healthcare service that aims to improve, maintain or restore the health of some participating organism."
+        }
+      }
+    }, {
+      "id" : "http:/purl.obolibrary.org/obo/HOSO_0000018",
+      "lbl" : "facility-based healthcare encounter",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A healthcare encounter during which the recipient is located in a healthcare facility at some time."
+        }
+      }
+    }, {
       "id" : "http:/purl.obolibrary.org/obo/NOYO_0000001",
       "lbl" : "request",
       "type" : "CLASS",
@@ -3929,6 +4096,110 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002353",
       "obj" : "http:/purl.obolibrary.org/obo/HEPRO_0000005"
     }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000003",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/NOYO_0000003"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000003",
+      "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000040"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000007",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000005"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000245"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000008",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000006"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000009",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000007"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000009",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002350",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000008"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000010",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HEPRO_0000004"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000010",
+      "pred" : "http:/purl.obolibrary.org/obo/HOSO_0000001",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000009"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000011",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/NOYO_0000006"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000011",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000055",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000006"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000012",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000011"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000012",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000010"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000013",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000011"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000014",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000011"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000015",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000012"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000015",
+      "pred" : "http:/purl.obolibrary.org/obo/NOYO_0000008",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000003"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000016",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000012"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000017",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000015"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000017",
+      "pred" : "http:/purl.obolibrary.org/obo/HOSO_0000002",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000018",
+      "pred" : "is_a",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000017"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000018",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002479",
+      "obj" : "http:/purl.obolibrary.org/obo/HOSO_0000004"
+    }, {
       "sub" : "http:/purl.obolibrary.org/obo/NOYO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
@@ -4084,6 +4355,14 @@
       "sub" : "http://purl.obolibrary.org/obo/RO_0002353",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000056"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000001",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http:/purl.obolibrary.org/obo/HOSO_0000002",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
       "sub" : "http:/purl.obolibrary.org/obo/NOYO_0000007",
       "pred" : "subPropertyOf",

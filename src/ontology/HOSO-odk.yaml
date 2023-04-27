@@ -16,4 +16,8 @@ import_group:
     - id: HEPRO
       module_type: mirror
       mirror_from: "https://raw.githubusercontent.com/OpenLHS/HEPRO/main/HEPRO-full.owl"
+robot_report:
+  custom_sparql_exports:
+    - base-classes-report
+    - base-properties-report
 robot_java_args: "-Xmx8G"
