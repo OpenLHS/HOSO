@@ -1,0 +1,28 @@
+# PURL configuration for http://purl.obolibrary.org/obo/HOSO
+
+idspace: HOSO
+base_url: /obo/HOSO
+
+products:
+- HOSO.owl: https://raw.githubusercontent.com/OpenLHS/HOSO/main/HOSO.owl
+- HOSO.obo: https://raw.githubusercontent.com/OpenLHS/HOSO/main/HOSO.obo
+
+term_browser: ontobee
+example_terms:
+- HOSO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/OpenLHS/HOSO/v
+
+- prefix: /tracker/
+  replacement: https://github.com/OpenLHS/HOSO/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/HOSO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/OpenLHS/HOSO/main/
+

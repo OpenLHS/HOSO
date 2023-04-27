@@ -1,0 +1,19 @@
+id: HOSO
+title: Healthcare Organizations and Services ontology
+github_org: OpenLHS
+repo: HOSO
+documentation:
+  documentation_system: mkdocs
+release_artefacts:
+  - full
+  - base
+primary_release: full
+export_formats:
+  - owl
+  - json
+import_group:
+  products:
+    - id: HEPRO
+      module_type: mirror
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/HEPRO/main/HEPRO-full.owl"
+robot_java_args: "-Xmx8G"
