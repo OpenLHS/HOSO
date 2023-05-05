@@ -1,0 +1,978 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://OpenLHS.github.io/HOSO/">
+      
+      
+      
+        <link rel="next" href="cite/">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
+    
+    
+      
+        <title>Healthcare Organizations and Services ontology</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.558e4712.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.2505c338.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#hoso-ontology-documentation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="Healthcare Organizations and Services ontology" class="md-header__button md-logo" aria-label="Healthcare Organizations and Services ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Healthcare Organizations and Services ontology
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/OpenLHS/HOSO/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Healthcare Organizations and Services ontology" class="md-nav__button md-logo" aria-label="Healthcare Organizations and Services ontology" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Healthcare Organizations and Services ontology
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/OpenLHS/HOSO/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Getting started
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#schema" class="md-nav__link">
+    Schema
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="cite/" class="md-nav__link">
+        Cite
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
+          How-to guides
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="How-to guides" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          How-to guides
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1" tabindex="0" aria-expanded="false">
+          Standard ODK workflows
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Standard ODK workflows" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Standard ODK workflows
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/" class="md-nav__link">
+        Overview
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/EditorsWorkflow/" class="md-nav__link">
+        Editors Workflow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/ReleaseWorkflow/" class="md-nav__link">
+        Release Workflow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/RepoManagement/" class="md-nav__link">
+        Manage your ODK Repository
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/SettingUpDockerForODK/" class="md-nav__link">
+        Setting up Docker for ODK
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/UpdateImports/" class="md-nav__link">
+        Imports management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/components/" class="md-nav__link">
+        Components management
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/ManageDocumentation/" class="md-nav__link">
+        Managing the documentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/ManageAutomatedTest.md" class="md-nav__link">
+        Managing your automated testing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/ContinuousIntegration/" class="md-nav__link">
+        Continuous Integration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="odk-workflows/RepositoryFileStructure/" class="md-nav__link">
+        Your ODK Repository Overview
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contributing/" class="md-nav__link">
+        Contributing
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#schema" class="md-nav__link">
+    Schema
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classes" class="md-nav__link">
+    Classes
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    Properties
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+
+<h1 id="hoso-ontology-documentation">HOSO Ontology Documentation</h1>
+<p>Welcome to the HOSO documentation!</p>
+<p>You can find descriptions of the standard ontology engineering workflows <a href="odk-workflows/">here</a>.</p>
+<h2 id="schema">Schema</h2>
+<p><img alt="Screenshot" src="img/HOSO.png" /></p>
+<h2 id="classes">Classes</h2>
+<table>
+<thead>
+<tr>
+<th>IRI</th>
+<th>value</th>
+<th>def</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HOSO_0000003</td>
+<td>healthcare service organism specification</td>
+<td>A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.</td>
+</tr>
+<tr>
+<td>HOSO_0000004</td>
+<td>healthcare facility</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>HOSO_0000006</td>
+<td>healthcare organization role</td>
+<td>A role that inheres in an organisation and is realized by providing some healthcare service delivery.</td>
+</tr>
+<tr>
+<td>HOSO_0000008</td>
+<td>healthcare organization</td>
+<td>An organisation that bears a healthcare organisation role.</td>
+</tr>
+<tr>
+<td>HOSO_0000009</td>
+<td>healthcare provider</td>
+<td>A health provider who is a member of a healthcare organisation.</td>
+</tr>
+<tr>
+<td>HOSO_0000010</td>
+<td>healthcare procedure</td>
+<td>A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.</td>
+</tr>
+<tr>
+<td>HOSO_0000011</td>
+<td>healthcare organization service delivery</td>
+<td>A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.</td>
+</tr>
+<tr>
+<td>HOSO_0000012</td>
+<td>healthcare organization clinical visit</td>
+<td>A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.</td>
+</tr>
+<tr>
+<td>HOSO_0000013</td>
+<td>ancillary care service delivery</td>
+<td>A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.</td>
+</tr>
+<tr>
+<td>HOSO_0000014</td>
+<td>custodial care service delivery</td>
+<td>A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.</td>
+</tr>
+<tr>
+<td>HOSO_0000016</td>
+<td>populational healthcare service</td>
+<td>A healthcare service that aims at providing a desired effect on the health status of a community.</td>
+</tr>
+<tr>
+<td>HOSO_0000017</td>
+<td>healthcare organization clinical encounter</td>
+<td>A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism.</td>
+</tr>
+<tr>
+<td>HOSO_0000018</td>
+<td>facility-supported healthcare encounter</td>
+<td>A healthcare encounter during which the recipient is located in a healthcare facility at some time.</td>
+</tr>
+<tr>
+<td>HOSO_0000019</td>
+<td>public provincial health identifier</td>
+<td>An identifier that denotes a public provincial health insurance record.</td>
+</tr>
+<tr>
+<td>HOSO_0000022</td>
+<td>healthcare facility identifier</td>
+<td>An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.</td>
+</tr>
+<tr>
+<td>HOSO_0000023</td>
+<td>healthcare organization identifier</td>
+<td>An identifier that denotes a healthcare organization.</td>
+</tr>
+<tr>
+<td>HOSO_0000026</td>
+<td>outpatient visit</td>
+<td>A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient.</td>
+</tr>
+<tr>
+<td>HOSO_0000028</td>
+<td>inpatient visit</td>
+<td>A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.</td>
+</tr>
+<tr>
+<td>HOSO_0000029</td>
+<td>day inpatient visit</td>
+<td>An inpatient visit that does not extend overnight.</td>
+</tr>
+<tr>
+<td>HOSO_0000030</td>
+<td>day inpatient surgery visit</td>
+<td>A day inpatient visit which includes a surgical procedure.</td>
+</tr>
+<tr>
+<td>HOSO_0000031</td>
+<td>hospitalization</td>
+<td>An inpatient visit located in a hospital facility requested by a physician, that may extends overnight.</td>
+</tr>
+<tr>
+<td>HOSO_0000032</td>
+<td>emergency department visit</td>
+<td>A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions. It is not necessarily an immediate inpatient subsequent visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000033</td>
+<td>emergency department inpatient visit</td>
+<td>An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000034</td>
+<td>emergency department outpatient visit</td>
+<td>An emergency department visit and an outpatient visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000035</td>
+<td>walk-in clinic visit</td>
+<td>an outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions</td>
+</tr>
+<tr>
+<td>HOSO_0000036</td>
+<td>outpatient surgery visit</td>
+<td>an outpatient visit which includes a surgical procedure</td>
+</tr>
+<tr>
+<td>HOSO_0000037</td>
+<td>outpatient diagnostic visit</td>
+<td>an outpatient visit which includes a diagnostic procedure</td>
+</tr>
+<tr>
+<td>HOSO_0000038</td>
+<td>immediate inpatient subsequent visit</td>
+<td>An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000039</td>
+<td>prior visit category to an inpatient visit</td>
+<td>An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000040</td>
+<td>still born healthcare service</td>
+<td>A healthcare organisation visit where the main entity of interest is a still born.</td>
+</tr>
+<tr>
+<td>HOSO_0000041</td>
+<td>healthcare birth visit</td>
+<td>A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary.</td>
+</tr>
+<tr>
+<td>HOSO_0000042</td>
+<td>inpatient visit from an external location</td>
+<td>an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit</td>
+</tr>
+<tr>
+<td>HOSO_0000043</td>
+<td>ambulance initiated emergency department visit</td>
+<td>An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000044</td>
+<td>cadaver service</td>
+<td>A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service.</td>
+</tr>
+<tr>
+<td>HOSO_0000045</td>
+<td>healthcare visit of expiration</td>
+<td>A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary.</td>
+</tr>
+<tr>
+<td>HOSO_0000046</td>
+<td>visit discharge specification</td>
+<td>A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000047</td>
+<td>visit transfer specification</td>
+<td>A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000048</td>
+<td>visit transfer specification category</td>
+<td>An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified.</td>
+</tr>
+<tr>
+<td>HOSO_0000049</td>
+<td>visit discharge specification for home</td>
+<td>A visit discharge specification for a given clinical visit that has no visit transfer specification.</td>
+</tr>
+<tr>
+<td>HOSO_0000050</td>
+<td>visit ended by the patient</td>
+<td>A healthcare organization clinical visit ended at the initiative of the patient without physician approval.</td>
+</tr>
+<tr>
+<td>HOSO_0000051</td>
+<td>visit ended by the patient without notification</td>
+<td>A visit ended by the patient without notifying the healthcare organization.</td>
+</tr>
+<tr>
+<td>HOSO_0000052</td>
+<td>triage-only emergency department visit</td>
+<td>An emergency department visit with a triage encounter but no further encounter.</td>
+</tr>
+<tr>
+<td>HOSO_0000053</td>
+<td>emergency department visit with partial treatment</td>
+<td>An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided.</td>
+</tr>
+<tr>
+<td>HOSO_0000054</td>
+<td>visit diagnosis related group code</td>
+<td>An identifier that denotes a diagnosis related group.</td>
+</tr>
+<tr>
+<td>HOSO_0000055</td>
+<td>healthcare organization clinical visit start charaterisation</td>
+<td>A temporal characterisation that is about the start of a healthcare organisation clinical visit</td>
+</tr>
+<tr>
+<td>HOSO_0000056</td>
+<td>healthcare organization clinical visit finish charaterisation</td>
+<td>A temporal characterisation that is about the finish of a healthcare organisation clinical visit</td>
+</tr>
+<tr>
+<td>HOSO_0000060</td>
+<td>public provincial health insurance record</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000061</td>
+<td>primary health insurance beneficiary human role</td>
+<td>A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.</td>
+</tr>
+<tr>
+<td>HOSO_0000062</td>
+<td>primary health insurance beneficiary human</td>
+<td>A human that has a role of primary health insurance benificiary role</td>
+</tr>
+<tr>
+<td>HOSO_0000063</td>
+<td>public provincial health insurance primary residence statement</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000067</td>
+<td>provincial health insurance primary residence statement beginning</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000068</td>
+<td>immediate subsequent visit</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000069</td>
+<td>immediate subsequent visit in same organization</td>
+<td>An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.</td>
+</tr>
+<tr>
+<td>HOSO_0000125</td>
+<td>clinical visit ending determination</td>
+<td>A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.</td>
+</tr>
+<tr>
+<td>HOSO_0000137</td>
+<td>human clinical visit specified patient</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000138</td>
+<td>healthcare provider identifier</td>
+<td>An identifier that denotes a healthcare provider.</td>
+</tr>
+<tr>
+<td>HOSO_0000139</td>
+<td>facility-supported clinical visit</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000140</td>
+<td>facility address</td>
+<td>A postal address that enables an agent to locate a facility.</td>
+</tr>
+<tr>
+<td>HOSO_0000142</td>
+<td>canadian facility address</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000145</td>
+<td>diagnosis related group</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="properties">Properties</h2>
+<table>
+<thead>
+<tr>
+<th>IRI</th>
+<th>value</th>
+<th>def</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HOSO_0000001</td>
+<td>has participating performer</td>
+<td>TBD</td>
+</tr>
+<tr>
+<td>HOSO_0000002</td>
+<td>has participating recipient</td>
+<td>TBD</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["content.tabs.link"], "search": "assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.51d95adb.min.js"></script>
+      
+    
+  </body>
+</html>
