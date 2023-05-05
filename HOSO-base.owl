@@ -283,40 +283,12 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000005 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities.</obo:IAO_0000115>
-        <obo:IAO_0000600 xml:lang="en">This usually includes health professional like physicians, nurses or pharmacists etc.
-It could also includes non professionals like patient attendant but it would exclude others like secretaries or accountants.</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">health provider role - HEPRO</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HOSO_0000006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <obo:IAO_0000115 xml:lang="en">A role that inheres in an organisation and is realized by providing some healthcare service delivery.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">healthcare organization role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000007 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organism that is the bearer of a health provider role.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">health provider - HEPRO</rdfs:label>
     </owl:Class>
     
 
@@ -490,33 +462,6 @@ It could also includes non professionals like patient attendant but it would exc
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An identifier that denotes a public provincial health insurance record.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">public provincial health identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000020 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An individual identifier that denotes a health provider.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">health provider identifier - HEPRO</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000020"/>
-        <obo:IAO_0000115 xml:lang="en">A health provider identifier that is used to denote a person authorised to act as a physician.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">physician identifier - HEPRO</rdfs:label>
     </owl:Class>
     
 

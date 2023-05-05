@@ -69,34 +69,12 @@
         }
       }
     }, {
-      "id" : "http://purl.obolibrary.org/obo/HOSO_0000005",
-      "lbl" : "health provider role - HEPRO",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities."
-        },
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "This usually includes health professional like physicians, nurses or pharmacists etc.\nIt could also includes non professionals like patient attendant but it would exclude others like secretaries or accountants."
-        } ]
-      }
-    }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000006",
       "lbl" : "healthcare organization role",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
           "val" : "A role that inheres in an organisation and is realized by providing some healthcare service delivery."
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HOSO_0000007",
-      "lbl" : "health provider - HEPRO",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An organism that is the bearer of a health provider role."
         }
       }
     }, {
@@ -196,24 +174,6 @@
       "meta" : {
         "definition" : {
           "val" : "An identifier that denotes a public provincial health insurance record."
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HOSO_0000020",
-      "lbl" : "health provider identifier - HEPRO",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "An individual identifier that denotes a health provider."
-        }
-      }
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HOSO_0000021",
-      "lbl" : "physician identifier - HEPRO",
-      "type" : "CLASS",
-      "meta" : {
-        "definition" : {
-          "val" : "A health provider identifier that is used to denote a person authorised to act as a physician."
         }
       }
     }, {
@@ -663,21 +623,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OMRSE_00000062"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000023"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000007",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0100026"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000007",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
-      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000005"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000008",
       "pred" : "is_a",
@@ -738,14 +686,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000019",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
       "obj" : "http://purl.obolibrary.org/obo/HOSO_0000060"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000020",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/IAO_0020000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000021",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000020"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000022",
       "pred" : "is_a",
