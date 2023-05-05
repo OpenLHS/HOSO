@@ -616,19 +616,9 @@
 <td>TBD</td>
 </tr>
 <tr>
-<td>HOSO_0000005</td>
-<td>health worker role</td>
-<td>A role that inheres in an organism as a consequence of a training of this organism to perform in some health procedures.</td>
-</tr>
-<tr>
 <td>HOSO_0000006</td>
 <td>healthcare organization role</td>
 <td>A role that inheres in an organisation and is realized by providing some healthcare service delivery.</td>
-</tr>
-<tr>
-<td>HOSO_0000007</td>
-<td>health worker</td>
-<td>An organism that is the bearer of a health worker role.</td>
 </tr>
 <tr>
 <td>HOSO_0000008</td>
@@ -637,8 +627,8 @@
 </tr>
 <tr>
 <td>HOSO_0000009</td>
-<td>healthcare worker</td>
-<td>A health worker who is a member of a healthcare organisation.</td>
+<td>healthcare provider</td>
+<td>A health provider who is a member of a healthcare organisation.</td>
 </tr>
 <tr>
 <td>HOSO_0000010</td>
@@ -648,27 +638,22 @@
 <tr>
 <td>HOSO_0000011</td>
 <td>healthcare organization service delivery</td>
-<td>A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organisation.</td>
+<td>A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.</td>
 </tr>
 <tr>
 <td>HOSO_0000012</td>
-<td>healthcare service</td>
-<td>A healthcare organisation service delivery that aims at providing a desired effect on the health status of individuals and their communities. It is usually composed of health procedures and possibly associated ancillary processes.</td>
+<td>healthcare organization clinical visit</td>
+<td>A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.</td>
 </tr>
 <tr>
 <td>HOSO_0000013</td>
 <td>ancillary care service delivery</td>
-<td>A healthcare organisation service delivery that aims to support healthcare services without directly providing a desired effect on the health status of individuals or communities.</td>
+<td>A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.</td>
 </tr>
 <tr>
 <td>HOSO_0000014</td>
 <td>custodial care service delivery</td>
-<td>A healthcare organisation service delivery that aims to provide for the activities of daily living of individuals or communities.</td>
-</tr>
-<tr>
-<td>HOSO_0000015</td>
-<td>individual healthcare service</td>
-<td>A healthcare service where the targeted organism intended to have a desired effect of some health procedure is specified.</td>
+<td>A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.</td>
 </tr>
 <tr>
 <td>HOSO_0000016</td>
@@ -677,13 +662,248 @@
 </tr>
 <tr>
 <td>HOSO_0000017</td>
-<td>healthcare encounter</td>
-<td>A temporally-connected individual healthcare service that aims to improve, maintain or restore the health of some participating organism.</td>
+<td>healthcare organization clinical encounter</td>
+<td>A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism.</td>
 </tr>
 <tr>
 <td>HOSO_0000018</td>
-<td>facility-based healthcare encounter</td>
+<td>facility-supported healthcare encounter</td>
 <td>A healthcare encounter during which the recipient is located in a healthcare facility at some time.</td>
+</tr>
+<tr>
+<td>HOSO_0000019</td>
+<td>public provincial health identifier</td>
+<td>An identifier that denotes a public provincial health insurance record.</td>
+</tr>
+<tr>
+<td>HOSO_0000022</td>
+<td>healthcare facility identifier</td>
+<td>An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.</td>
+</tr>
+<tr>
+<td>HOSO_0000023</td>
+<td>healthcare organization identifier</td>
+<td>An identifier that denotes a healthcare organization.</td>
+</tr>
+<tr>
+<td>HOSO_0000026</td>
+<td>outpatient visit</td>
+<td>A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient.</td>
+</tr>
+<tr>
+<td>HOSO_0000028</td>
+<td>inpatient visit</td>
+<td>A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.</td>
+</tr>
+<tr>
+<td>HOSO_0000029</td>
+<td>day inpatient visit</td>
+<td>An inpatient visit that does not extend overnight.</td>
+</tr>
+<tr>
+<td>HOSO_0000030</td>
+<td>day inpatient surgery visit</td>
+<td>A day inpatient visit which includes a surgical procedure.</td>
+</tr>
+<tr>
+<td>HOSO_0000031</td>
+<td>hospitalization</td>
+<td>An inpatient visit located in a hospital facility requested by a physician, that may extends overnight.</td>
+</tr>
+<tr>
+<td>HOSO_0000032</td>
+<td>emergency department visit</td>
+<td>A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions. It is not necessarily an immediate inpatient subsequent visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000033</td>
+<td>emergency department inpatient visit</td>
+<td>An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000034</td>
+<td>emergency department outpatient visit</td>
+<td>An emergency department visit and an outpatient visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000035</td>
+<td>walk-in clinic visit</td>
+<td>an outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions</td>
+</tr>
+<tr>
+<td>HOSO_0000036</td>
+<td>outpatient surgery visit</td>
+<td>an outpatient visit which includes a surgical procedure</td>
+</tr>
+<tr>
+<td>HOSO_0000037</td>
+<td>outpatient diagnostic visit</td>
+<td>an outpatient visit which includes a diagnostic procedure</td>
+</tr>
+<tr>
+<td>HOSO_0000038</td>
+<td>Immediate inpatient subsequent visit</td>
+<td>An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000039</td>
+<td>prior visit category to an inpatient visit</td>
+<td>An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000040</td>
+<td>still born healthcare service</td>
+<td>A healthcare organisation visit where the main entity of interest is a still born.</td>
+</tr>
+<tr>
+<td>HOSO_0000041</td>
+<td>healthcare birth visit</td>
+<td>A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary.</td>
+</tr>
+<tr>
+<td>HOSO_0000042</td>
+<td>inpatient visit from an external location</td>
+<td>an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit</td>
+</tr>
+<tr>
+<td>HOSO_0000043</td>
+<td>ambulance initiated emergency department visit</td>
+<td>An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000044</td>
+<td>cadaver service</td>
+<td>A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service.</td>
+</tr>
+<tr>
+<td>HOSO_0000045</td>
+<td>healthcare visit of expiration</td>
+<td>A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary.</td>
+</tr>
+<tr>
+<td>HOSO_0000046</td>
+<td>visit discharge specification</td>
+<td>A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000047</td>
+<td>visit transfer specification</td>
+<td>A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.</td>
+</tr>
+<tr>
+<td>HOSO_0000048</td>
+<td>visit transfer specification category</td>
+<td>An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified.</td>
+</tr>
+<tr>
+<td>HOSO_0000049</td>
+<td>visit discharge specification for home</td>
+<td>A visit discharge specification for a given clinical visit that has no visit transfer specification.</td>
+</tr>
+<tr>
+<td>HOSO_0000050</td>
+<td>visit ended by the patient</td>
+<td>A healthcare organization clinical visit ended at the initiative of the patient without physician approval.</td>
+</tr>
+<tr>
+<td>HOSO_0000051</td>
+<td>visit ended by the patient without notification</td>
+<td>A visit ended by the patient without notifying the healthcare organization.</td>
+</tr>
+<tr>
+<td>HOSO_0000052</td>
+<td>triage-only emergency department visit</td>
+<td>An emergency department visit with a triage encounter but no further encounter.</td>
+</tr>
+<tr>
+<td>HOSO_0000053</td>
+<td>emergency department visit with partial treatment</td>
+<td>An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided.</td>
+</tr>
+<tr>
+<td>HOSO_0000054</td>
+<td>visit diagnosis related group code</td>
+<td>An identifier that denotes a diagnosis related group.</td>
+</tr>
+<tr>
+<td>HOSO_0000055</td>
+<td>Healthcare organization clinical visit start charaterisation</td>
+<td>A temporal characterisation that is about the start of a healthcare organisation clinical visit</td>
+</tr>
+<tr>
+<td>HOSO_0000056</td>
+<td>Healthcare organization clinical visit finish charaterisation</td>
+<td>A temporal characterisation that is about the finish of a healthcare organisation clinical visit</td>
+</tr>
+<tr>
+<td>HOSO_0000060</td>
+<td>public provincial health insurance record</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000061</td>
+<td>primary health insurance beneficiary human role</td>
+<td>A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.</td>
+</tr>
+<tr>
+<td>HOSO_0000062</td>
+<td>primary health insurance beneficiary human</td>
+<td>A human that has a role of primary health insurance benificiary role</td>
+</tr>
+<tr>
+<td>HOSO_0000063</td>
+<td>public provincial health insurance primary residence statement</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000067</td>
+<td>provincial health insurance primary residence statement beginning</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000068</td>
+<td>immediate subsequent visit</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000069</td>
+<td>immediate subsequent visit in same organization</td>
+<td>An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.</td>
+</tr>
+<tr>
+<td>HOSO_0000125</td>
+<td>clinical visit ending determination</td>
+<td>A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.</td>
+</tr>
+<tr>
+<td>HOSO_0000137</td>
+<td>human clinical visit specified patient</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000138</td>
+<td>healthcare provider identifier</td>
+<td>An identifier that denotes a healthcare provider.</td>
+</tr>
+<tr>
+<td>HOSO_0000139</td>
+<td>facility-supported clinical visit</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000140</td>
+<td>facility address</td>
+<td>A postal address that enables an agent to locate a facility.</td>
+</tr>
+<tr>
+<td>HOSO_0000142</td>
+<td>canadian facility address</td>
+<td></td>
+</tr>
+<tr>
+<td>HOSO_0000145</td>
+<td>diagnosis related group</td>
+<td></td>
 </tr>
 </tbody>
 </table>
