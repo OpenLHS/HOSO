@@ -2163,7 +2163,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000038",
-      "lbl" : "Immediate inpatient subsequent visit",
+      "lbl" : "immediate inpatient subsequent visit",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -2335,7 +2335,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000055",
-      "lbl" : "Healthcare organization clinical visit start charaterisation",
+      "lbl" : "healthcare organization clinical visit start charaterisation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
@@ -2344,7 +2344,7 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000056",
-      "lbl" : "Healthcare organization clinical visit finish charaterisation",
+      "lbl" : "healthcare organization clinical visit finish charaterisation",
       "type" : "CLASS",
       "meta" : {
         "definition" : {
