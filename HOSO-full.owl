@@ -3786,7 +3786,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000028"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000069"/>
         <obo:IAO_0000115 xml:lang="en">An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Immediate inpatient subsequent visit</rdfs:label>
+        <rdfs:label xml:lang="en">immediate inpatient subsequent visit</rdfs:label>
     </owl:Class>
     
 
@@ -4111,7 +4111,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A temporal characterisation that is about the start of a healthcare organisation clinical visit</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Healthcare organization clinical visit start charaterisation</rdfs:label>
+        <rdfs:label xml:lang="en">healthcare organization clinical visit start charaterisation</rdfs:label>
     </owl:Class>
     
 
@@ -4127,7 +4127,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A temporal characterisation that is about the finish of a healthcare organisation clinical visit</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Healthcare organization clinical visit finish charaterisation</rdfs:label>
+        <rdfs:label xml:lang="en">healthcare organization clinical visit finish charaterisation</rdfs:label>
     </owl:Class>
     
 
