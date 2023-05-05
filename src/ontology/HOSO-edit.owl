@@ -12,29 +12,78 @@ Ontology(<http://purl.obolibrary.org/obo/HOSO.owl>
 Import(<http://purl.obolibrary.org/obo/HOSO/imports/HEPRO_import.owl>)
 Annotation(dce:contributor "Adrien Barton"@en)
 Annotation(dce:contributor "Jean-François Ethier"@en)
+Annotation(dce:contributor "Mark McGilchrist"@en)
 Annotation(dce:contributor "Paul Fabry"@en)
 Annotation(dcterms:description "HOSO is an ontology of informational entities and processes related to healthcare organizations and services."@en)
 Annotation(dcterms:license <https://creativecommons.org/licenses/by/4.0/>)
 Annotation(dcterms:title "Healthcare Organizations and Services ontology")
 
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000003>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000004>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000005>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000006>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000007>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000008>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000009>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000010>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000011>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000012>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000013>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000014>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000015>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000016>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000017>))
-Declaration(Class(<http:/purl.obolibrary.org/obo/HOSO_0000018>))
-Declaration(ObjectProperty(<http:/purl.obolibrary.org/obo/HOSO_0000001>))
-Declaration(ObjectProperty(<http:/purl.obolibrary.org/obo/HOSO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000026>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000034>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000053>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000054>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000055>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000056>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000060>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000061>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000062>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000063>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000137>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000138>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000139>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000140>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000142>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000145>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/HOSO_0000001>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/HOSO_0000002>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -59,17 +108,17 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Object Properties
 ############################
 
-# Object Property: <http:/purl.obolibrary.org/obo/HOSO_0000001> (has participating performer)
+# Object Property: <http://purl.obolibrary.org/obo/HOSO_0000001> (has participating performer)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000001> "TBD"@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000001> "has participating performer"@en)
-SubObjectPropertyOf(<http:/purl.obolibrary.org/obo/HOSO_0000001> <http://purl.obolibrary.org/obo/RO_0000057>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000001> "TBD"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000001> "has participating performer"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/HOSO_0000001> <http://purl.obolibrary.org/obo/RO_0000057>)
 
-# Object Property: <http:/purl.obolibrary.org/obo/HOSO_0000002> (has participating recipient)
+# Object Property: <http://purl.obolibrary.org/obo/HOSO_0000002> (has participating recipient)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000002> "TBD"@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000002> "has participating recipient"@en)
-SubObjectPropertyOf(<http:/purl.obolibrary.org/obo/HOSO_0000002> <http://purl.obolibrary.org/obo/RO_0000057>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000002> "TBD"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000002> "has participating recipient"@en)
+SubObjectPropertyOf(<http://purl.obolibrary.org/obo/HOSO_0000002> <http://purl.obolibrary.org/obo/RO_0000057>)
 
 
 
@@ -77,111 +126,429 @@ SubObjectPropertyOf(<http:/purl.obolibrary.org/obo/HOSO_0000002> <http://purl.ob
 #   Classes
 ############################
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000003> (healthcare service organism specification)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000003> (healthcare service organism specification)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000003> "A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000003> "healthcare service organism specification"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000003> <http:/purl.obolibrary.org/obo/NOYO_0000003>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0100026>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000003> "A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000003> "healthcare service organism specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000003> <http://purl.obolibrary.org/obo/NOYO_0000003>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000003> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/OBI_0100026>))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000004> (healthcare facility)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000004> (healthcare facility)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000004> "TBD"@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000004> "healthcare facility"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000004> <http://purl.obolibrary.org/obo/BFO_0000040>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000004> "TBD"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000004> "healthcare facility"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000004> <http://purl.obolibrary.org/obo/OMRSE_00000062>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000005> (health worker role)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000005> (health provider role - HEPRO)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000005> "A role that inheres in an organism as a consequence of a training of this organism to perform in some health procedures."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000005> "health worker role"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000005> <http://purl.obolibrary.org/obo/BFO_0000023>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000005> "A role that inheres in an organism as a consequence of training in order to be able to participate as a performer in some health activities."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000005> "This usually includes health professional like physicians, nurses or pharmacists etc.
+It could also includes non professionals like patient attendant but it would exclude others like secretaries or accountants."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000005> "health provider role - HEPRO"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000005> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000006> (healthcare organization role)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000006> (healthcare organization role)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000006> "A role that inheres in an organisation and is realized by providing some healthcare service delivery."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000006> "healthcare organization role"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000006> <http://purl.obolibrary.org/obo/BFO_0000023>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000006> "A role that inheres in an organisation and is realized by providing some healthcare service delivery."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000006> "healthcare organization role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000006> <http://purl.obolibrary.org/obo/BFO_0000023>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000007> (health worker)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000007> (health provider - HEPRO)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000007> "An organism that is the bearer of a health worker role."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000007> "health worker"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000007> <http://purl.obolibrary.org/obo/OBI_0100026>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http:/purl.obolibrary.org/obo/HOSO_0000005>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000007> "An organism that is the bearer of a health provider role."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000007> "health provider - HEPRO"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000007> <http://purl.obolibrary.org/obo/OBI_0100026>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000007> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HOSO_0000005>))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000008> (healthcare organization)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000008> (healthcare organization)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000008> "An organisation that bears a healthcare organisation role."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000008> "healthcare organization"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000008> <http://purl.obolibrary.org/obo/OBI_0000245>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http:/purl.obolibrary.org/obo/HOSO_0000006>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000008> "An organisation that bears a healthcare organisation role."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000008> "healthcare organization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000008> <http://purl.obolibrary.org/obo/OBI_0000245>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HOSO_0000006>))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000009> (healthcare worker)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000009> (healthcare provider)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000009> "A health worker who is a member of a healthcare organisation."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000009> "healthcare worker"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000009> <http:/purl.obolibrary.org/obo/HOSO_0000007>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000009> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http:/purl.obolibrary.org/obo/HOSO_0000008>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000009> "A health provider who is a member of a healthcare organisation."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000009> "healthcare provider"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000009> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HEPRO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/HOSO_0000008>)))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000010> (healthcare procedure)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000010> (healthcare procedure)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000010> "A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000010> "healthcare procedure"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000010> <http:/purl.obolibrary.org/obo/HEPRO_0000004>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000010> ObjectSomeValuesFrom(<http:/purl.obolibrary.org/obo/HOSO_0000001> <http:/purl.obolibrary.org/obo/HOSO_0000009>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000010> "A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000010> "healthcare procedure"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000010> <http://purl.obolibrary.org/obo/HEPRO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000010> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HOSO_0000001> <http://purl.obolibrary.org/obo/HOSO_0000009>))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000011> (healthcare organization service delivery)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000011> (healthcare organization service delivery)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000011> "A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organisation."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000011> "healthcare organization service delivery"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000011> <http:/purl.obolibrary.org/obo/NOYO_0000006>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http:/purl.obolibrary.org/obo/HOSO_0000006>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000011> "A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000011> "healthcare organization service delivery"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000011> <http://purl.obolibrary.org/obo/NOYO_0000006>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000011> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000055> <http://purl.obolibrary.org/obo/HOSO_0000006>))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000012> (healthcare service)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000012> (healthcare organization clinical visit)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000012> "A healthcare organisation service delivery that aims at providing a desired effect on the health status of individuals and their communities. It is usually composed of health procedures and possibly associated ancillary processes."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000012> "healthcare service"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000012> <http:/purl.obolibrary.org/obo/HOSO_0000011>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http:/purl.obolibrary.org/obo/HOSO_0000010>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000012> "A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000012> "healthcare organization clinical visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> <http://purl.obolibrary.org/obo/HOSO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000010>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/HOSO_0000002> <http://purl.obolibrary.org/obo/OBI_0100026>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/NOYO_0000008> <http://purl.obolibrary.org/obo/HOSO_0000003>))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000013> (ancillary care service delivery)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000013> (ancillary care service delivery)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000013> "A healthcare organisation service delivery that aims to support healthcare services without directly providing a desired effect on the health status of individuals or communities."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000013> "ancillary care service delivery"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000013> <http:/purl.obolibrary.org/obo/HOSO_0000011>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000013> "A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000013> "ancillary care service delivery"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000013> <http://purl.obolibrary.org/obo/NOYO_0000006>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000014> (custodial care service delivery)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000014> (custodial care service delivery)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000014> "A healthcare organisation service delivery that aims to provide for the activities of daily living of individuals or communities."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000014> "custodial care service delivery"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000014> <http:/purl.obolibrary.org/obo/HOSO_0000011>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000014> "A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000014> "custodial care service delivery"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000014> <http://purl.obolibrary.org/obo/NOYO_0000006>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000015> (individual healthcare service)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000016> (populational healthcare service)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000015> "A healthcare service where the targeted organism intended to have a desired effect of some health procedure is specified."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000015> "individual healthcare service"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000015> <http:/purl.obolibrary.org/obo/HOSO_0000012>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000015> ObjectSomeValuesFrom(<http:/purl.obolibrary.org/obo/NOYO_0000008> <http:/purl.obolibrary.org/obo/HOSO_0000003>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000016> "A healthcare service that aims at providing a desired effect on the health status of a community."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000016> "populational healthcare service"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000016> <http://purl.obolibrary.org/obo/HOSO_0000011>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000016> (populational healthcare service)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000017> (healthcare organization clinical encounter)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000016> "A healthcare service that aims at providing a desired effect on the health status of a community."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000016> "populational healthcare service"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000016> <http:/purl.obolibrary.org/obo/HOSO_0000012>)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000017> "A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000017> "healthcare organization clinical encounter"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000017> <http://purl.obolibrary.org/obo/HOSO_0000012>)
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000017> (healthcare encounter)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000018> (facility-supported healthcare encounter)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000017> "A temporally-connected individual healthcare service that aims to improve, maintain or restore the health of some participating organism."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000017> "healthcare encounter"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000017> <http:/purl.obolibrary.org/obo/HOSO_0000015>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000017> ObjectSomeValuesFrom(<http:/purl.obolibrary.org/obo/HOSO_0000002> <http://purl.obolibrary.org/obo/OBI_0100026>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000018> "A healthcare encounter during which the recipient is located in a healthcare facility at some time."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000018> "facility-supported healthcare encounter"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000018> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>)))
 
-# Class: <http:/purl.obolibrary.org/obo/HOSO_0000018> (facility-based healthcare encounter)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000019> (public provincial health identifier)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http:/purl.obolibrary.org/obo/HOSO_0000018> "A healthcare encounter during which the recipient is located in a healthcare facility at some time."@en)
-AnnotationAssertion(rdfs:label <http:/purl.obolibrary.org/obo/HOSO_0000018> "facility-based healthcare encounter"@en)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000018> <http:/purl.obolibrary.org/obo/HOSO_0000017>)
-SubClassOf(<http:/purl.obolibrary.org/obo/HOSO_0000018> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http:/purl.obolibrary.org/obo/HOSO_0000004>))
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000019> "An identifier that denotes a public provincial health insurance record."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000019> "public provincial health identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000019> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000019> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000060>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000020> (health provider identifier - HEPRO)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000020> "An individual identifier that denotes a health provider."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000020> "health provider identifier - HEPRO"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000020> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000020> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000009>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000021> (physician identifier - HEPRO)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000021> "A health provider identifier that is used to denote a person authorised to act as a physician."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000021> "physician identifier - HEPRO"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000021> <http://purl.obolibrary.org/obo/HOSO_0000020>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000022> (healthcare facility identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000022> "An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000022> "healthcare facility identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000022> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000023> (healthcare organization identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000023> "An identifier that denotes a healthcare organization."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000023> "healthcare organization identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000023> <http://purl.obolibrary.org/obo/IAO_0020000>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000023> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000008>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000026> (outpatient visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000026> "A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000026> "outpatient visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000026> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000028> (inpatient visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000028> "A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000028> "inpatient visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000014>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000028> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000029> (day inpatient visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000029> "An inpatient visit that does not extend overnight."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000029> "day inpatient visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000029> <http://purl.obolibrary.org/obo/HOSO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000030> (day inpatient surgery visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000030> "A day inpatient visit which includes a surgical procedure."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000030> "day inpatient surgery visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000030> <http://purl.obolibrary.org/obo/HOSO_0000029>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000030> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000014>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000031> (hospitalization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000031> "An inpatient visit located in a hospital facility requested by a physician, that may extends overnight."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000031> "hospitalization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000031> <http://purl.obolibrary.org/obo/HOSO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000032> (emergency department visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000032> "A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
+It is not necessarily an immediate inpatient subsequent visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000032> "emergency department visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000032> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000032> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000033> (emergency department inpatient visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000033> "An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000033> "emergency department inpatient visit"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000033> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000032>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000034> (emergency department outpatient visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000034> "An emergency department visit and an outpatient visit."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000034> "there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000034> "emergency department outpatient visit"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000034> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000026> <http://purl.obolibrary.org/obo/HOSO_0000032>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000034> <http://purl.obolibrary.org/obo/HOSO_0000012>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000035> (walk-in clinic visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000035> "an outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000035> "walk-in clinic visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000035> <http://purl.obolibrary.org/obo/HOSO_0000026>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000036> (outpatient surgery visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000036> "an outpatient visit which includes a surgical procedure"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000036> "outpatient surgery visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000036> <http://purl.obolibrary.org/obo/HOSO_0000026>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000014>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000037> (outpatient diagnostic visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000037> "an outpatient visit which includes a diagnostic procedure"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000037> "outpatient diagnostic visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000037> <http://purl.obolibrary.org/obo/HOSO_0000026>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000037> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HEPRO_0000013>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000038> (Immediate inpatient subsequent visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000038> "An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000038> "Immediate inpatient subsequent visit"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000038> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000028> <http://purl.obolibrary.org/obo/HOSO_0000069>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000039> (prior visit category to an inpatient visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000039> "An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000039> "prior visit category to an inpatient visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000039> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002090> <http://purl.obolibrary.org/obo/HOSO_0000038>))))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000040> (still born healthcare service)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000040> "A healthcare organisation visit where the main entity of interest is a still born."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000040> "still born healthcare service"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000040> <http://purl.obolibrary.org/obo/HOSO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000041> (healthcare birth visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000041> "A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000041> "In the case of human health the specified organism refers to the child born during the visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000041> "healthcare birth visit"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000041> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NOYO_0000050> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000137>)))))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000042> (inpatient visit from an external location)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/HOSO_0000042> "Patient hospitalized directly from home."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/HOSO_0000042> "Patient transferred from a healthcare organization emergency department to be hospitalized by a different healthcare organization."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000042> "an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000042> "inpatient visit from an external location"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000042> <http://purl.obolibrary.org/obo/HOSO_0000028>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000043> (ambulance initiated emergency department visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000043> "An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000043> "ambulance initiated emergency department visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000043> <http://purl.obolibrary.org/obo/HOSO_0000032>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000043> <http://purl.obolibrary.org/obo/HOSO_0000068>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000044> (cadaver service)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000044> "A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000044> "cadaver service"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000044> <http://purl.obolibrary.org/obo/HOSO_0000011>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000045> (healthcare visit of expiration)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000045> "A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000045> "A healthcare organization clinical visit during which the patient died."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000045> "healthcare visit of expiration"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000045> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NOYO_0000051> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000137>)))))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000046> (visit discharge specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000046> "A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000046> "visit discharge specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000046> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000046> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000047> (visit transfer specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000047> "A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000047> "visit transfer specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000047> <http://purl.obolibrary.org/obo/HOSO_0000046>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000047> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000008>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000048> (visit transfer specification category)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000048> "An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000048> "visit transfer specification category"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000048> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HOSO_0000047>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000049> (visit discharge specification for home)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000049> "A visit discharge specification for a given clinical visit that has no visit transfer specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000049> "visit discharge specification for home"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000049> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000046> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000047>))))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000050> (visit ended by the patient)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000050> "A healthcare organization clinical visit ended at the initiative of the patient without physician approval."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000050> "visit ended by the patient"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000050> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectComplementOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000125>))))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000051> (visit ended by the patient without notification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000051> "A visit ended by the patient without notifying the healthcare organization."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000051> "visit ended by the patient without notification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000051> <http://purl.obolibrary.org/obo/HOSO_0000050>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000052> (triage-only emergency department visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000052> "An emergency department visit with a triage encounter but no further encounter."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000052> "triage-only emergency department visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000052> <http://purl.obolibrary.org/obo/HOSO_0000032>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000053> (emergency department visit with partial treatment)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000053> "An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000053> "emergency department visit with partial treatment"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary.org/obo/HOSO_0000032>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000053> <http://purl.obolibrary.org/obo/HOSO_0000050>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000054> (visit diagnosis related group code)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000054> "An identifier that denotes a diagnosis related group."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/HOSO_0000054> "DRG code"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000054> "visit diagnosis related group code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000054> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000055> (Healthcare organization clinical visit start charaterisation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000055> "A temporal characterisation that is about the start of a healthcare organisation clinical visit"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000055> "Healthcare organization clinical visit start charaterisation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/NOYO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000056> (Healthcare organization clinical visit finish charaterisation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000056> "A temporal characterisation that is about the finish of a healthcare organisation clinical visit"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000056> "Healthcare organization clinical visit finish charaterisation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/NOYO_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000060> (public provincial health insurance record)
+
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/HOSO_0000060> "An information content entity that contains the information required to manage the insurance coverage of an insured individual."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000060> "public provincial health insurance record"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000060> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000060> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000062>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000061> (primary health insurance beneficiary human role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000061> "A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000061> "primary health insurance beneficiary human role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000061> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000062> (primary health insurance beneficiary human)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000062> "A human that has a role of primary health insurance benificiary role"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000062> "primary health insurance beneficiary human"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000062> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/HOSO_0000061>)))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000062> <http://purl.obolibrary.org/obo/NCBITaxon_9606>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000063> (public provincial health insurance primary residence statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000063> "A statement that indicates the postal address of the primary residence for a primary health insurance beneficiary of a public health provincial plan."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000063> "public provincial health insurance primary residence statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000063> <http://purl.obolibrary.org/obo/NOYO_0000013>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000063> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/HOSO_0000060>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000063> ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/NOYO_0000025>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000067> (provincial health insurance primary residence statement beginning)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000067> "provincial health insurance primary residence statement beginning"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000067> <http://purl.obolibrary.org/obo/NOYO_0000011>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000067> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000063>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000068> (immediate subsequent visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/HOSO_0000068> "A healthcare organisation clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000068> "immediate subsequent visit"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000068> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002087> <http://purl.obolibrary.org/obo/HOSO_0000012>)))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000069> (immediate subsequent visit in same organization)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000069> "An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000069> "immediate subsequent visit in same organization"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000069> <http://purl.obolibrary.org/obo/HOSO_0000068>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000125> (clinical visit ending determination)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000125> "A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000125> "clinical visit ending determination"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000125> <http://purl.obolibrary.org/obo/HOSO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000137> (human clinical visit specified patient)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000137> "human clinical visit specified patient"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000137> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/NOYO_0000008> <http://purl.obolibrary.org/obo/HOSO_0000003>)))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000138> (healthcare provider identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000138> "An identifier that denotes a healthcare provider."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000138> "healthcare provider identifier"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000138> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HEPRO_0000009> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/HOSO_0000009>)))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000139> (facility-supported clinical visit)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000139> "facility-supported clinical visit"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000139> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002479> <http://purl.obolibrary.org/obo/HOSO_0000004>)))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000140> (facility address)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000140> "A postal address that enables an agent to locate a facility."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000140> "facility address"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000140> <http://purl.obolibrary.org/obo/IAO_0000422>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000140> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OMRSE_00000062>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000142> (canadian facility address)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000142> "canadian facility address"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000142> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/HOSO_0000140> <http://purl.obolibrary.org/obo/NOYO_0000025>))
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000145> (diagnosis related group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/HOSO_0000145> "An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000118> <http://purl.obolibrary.org/obo/HOSO_0000145> "DRG"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000145> "diagnosis related group"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000145> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000145> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
 
 
 )
