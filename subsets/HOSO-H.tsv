@@ -1,0 +1,123 @@
+?x	?label
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid107	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid114	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid117	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid122	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid126	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid130	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid133	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid139	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid143	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid146	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid152	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid159	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid161	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid167	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid172	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid177	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid182	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid187	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid197	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid205	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid224	
+_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid97	
+<http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
+<http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
+<http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
+<http://purl.obolibrary.org/obo/BFO_0000004>	"independent continuant"
+<http://purl.obolibrary.org/obo/BFO_0000008>	"temporal region"
+<http://purl.obolibrary.org/obo/BFO_0000015>	"process"
+<http://purl.obolibrary.org/obo/BFO_0000016>	"disposition"
+<http://purl.obolibrary.org/obo/BFO_0000017>	"realizable entity"
+<http://purl.obolibrary.org/obo/BFO_0000020>	"specifically dependent continuant"
+<http://purl.obolibrary.org/obo/BFO_0000023>	"role"
+<http://purl.obolibrary.org/obo/BFO_0000031>	"generically dependent continuant"
+<http://purl.obolibrary.org/obo/BFO_0000034>	"function"
+<http://purl.obolibrary.org/obo/BFO_0000040>	"material entity"
+<http://purl.obolibrary.org/obo/HEPRO_0000001>	"health procedure request"
+<http://purl.obolibrary.org/obo/HEPRO_0000004>	"health procedure"
+<http://purl.obolibrary.org/obo/HEPRO_0000005>	"health activity"
+<http://purl.obolibrary.org/obo/HEPRO_0000009>	"health provider identifier"
+<http://purl.obolibrary.org/obo/HEPRO_0000011>	"health provider role"
+<http://purl.obolibrary.org/obo/HEPRO_0000012>	"health provider"
+<http://purl.obolibrary.org/obo/HEPRO_0000013>	"diagnostic health procedure"
+<http://purl.obolibrary.org/obo/HEPRO_0000014>	"surgical health procedure"
+<http://purl.obolibrary.org/obo/HOSO_0000003>	"healthcare service organism specification"
+<http://purl.obolibrary.org/obo/HOSO_0000004>	"healthcare facility"
+<http://purl.obolibrary.org/obo/HOSO_0000006>	"healthcare organization role"
+<http://purl.obolibrary.org/obo/HOSO_0000008>	"healthcare organization"
+<http://purl.obolibrary.org/obo/HOSO_0000009>	"healthcare provider"
+<http://purl.obolibrary.org/obo/HOSO_0000010>	"healthcare procedure"
+<http://purl.obolibrary.org/obo/HOSO_0000011>	"healthcare organization service delivery"
+<http://purl.obolibrary.org/obo/HOSO_0000012>	"healthcare organization clinical visit"
+<http://purl.obolibrary.org/obo/HOSO_0000013>	"ancillary care service delivery"
+<http://purl.obolibrary.org/obo/HOSO_0000014>	"custodial care service delivery"
+<http://purl.obolibrary.org/obo/HOSO_0000016>	"populational healthcare service"
+<http://purl.obolibrary.org/obo/HOSO_0000017>	"healthcare organization clinical encounter"
+<http://purl.obolibrary.org/obo/HOSO_0000018>	"facility-supported healthcare encounter"
+<http://purl.obolibrary.org/obo/HOSO_0000019>	"public provincial health identifier"
+<http://purl.obolibrary.org/obo/HOSO_0000026>	"outpatient visit"
+<http://purl.obolibrary.org/obo/HOSO_0000028>	"inpatient visit"
+<http://purl.obolibrary.org/obo/HOSO_0000029>	"day inpatient visit"
+<http://purl.obolibrary.org/obo/HOSO_0000030>	"day inpatient surgery visit"
+<http://purl.obolibrary.org/obo/HOSO_0000031>	"hospitalization"
+<http://purl.obolibrary.org/obo/HOSO_0000032>	"emergency department visit"
+<http://purl.obolibrary.org/obo/HOSO_0000033>	"emergency department inpatient visit"
+<http://purl.obolibrary.org/obo/HOSO_0000034>	"emergency department outpatient visit"
+<http://purl.obolibrary.org/obo/HOSO_0000035>	"walk-in clinic visit"
+<http://purl.obolibrary.org/obo/HOSO_0000036>	"outpatient surgery visit"
+<http://purl.obolibrary.org/obo/HOSO_0000037>	"outpatient diagnostic visit"
+<http://purl.obolibrary.org/obo/HOSO_0000038>	"immediate inpatient subsequent visit"
+<http://purl.obolibrary.org/obo/HOSO_0000039>	"prior visit category to an inpatient visit"
+<http://purl.obolibrary.org/obo/HOSO_0000040>	"still born healthcare service"
+<http://purl.obolibrary.org/obo/HOSO_0000041>	"healthcare birth visit"
+<http://purl.obolibrary.org/obo/HOSO_0000042>	"inpatient visit from an external location"
+<http://purl.obolibrary.org/obo/HOSO_0000043>	"ambulance initiated emergency department visit"
+<http://purl.obolibrary.org/obo/HOSO_0000044>	"cadaver service"
+<http://purl.obolibrary.org/obo/HOSO_0000045>	"healthcare visit of expiration"
+<http://purl.obolibrary.org/obo/HOSO_0000046>	"visit discharge specification"
+<http://purl.obolibrary.org/obo/HOSO_0000047>	"visit transfer specification"
+<http://purl.obolibrary.org/obo/HOSO_0000048>	"visit transfer specification category"
+<http://purl.obolibrary.org/obo/HOSO_0000049>	"visit discharge specification for home"
+<http://purl.obolibrary.org/obo/HOSO_0000050>	"visit ended by the patient"
+<http://purl.obolibrary.org/obo/HOSO_0000051>	"visit ended by the patient without notification"
+<http://purl.obolibrary.org/obo/HOSO_0000052>	"triage-only emergency department visit"
+<http://purl.obolibrary.org/obo/HOSO_0000053>	"emergency department visit with partial treatment"
+<http://purl.obolibrary.org/obo/HOSO_0000054>	"visit diagnosis related group code"
+<http://purl.obolibrary.org/obo/HOSO_0000055>	"healthcare organization clinical visit start charaterisation"
+<http://purl.obolibrary.org/obo/HOSO_0000056>	"healthcare organization clinical visit finish charaterisation"
+<http://purl.obolibrary.org/obo/HOSO_0000060>	"public provincial health insurance record"
+<http://purl.obolibrary.org/obo/HOSO_0000061>	"primary health insurance beneficiary human role"
+<http://purl.obolibrary.org/obo/HOSO_0000062>	"primary health insurance beneficiary human"
+<http://purl.obolibrary.org/obo/HOSO_0000068>	"immediate subsequent visit"
+<http://purl.obolibrary.org/obo/HOSO_0000069>	"immediate subsequent visit in same organization"
+<http://purl.obolibrary.org/obo/HOSO_0000137>	"human clinical visit specified patient"
+<http://purl.obolibrary.org/obo/HOSO_0000138>	"healthcare provider identifier"
+<http://purl.obolibrary.org/obo/HOSO_0000139>	"facility-supported clinical visit"
+<http://purl.obolibrary.org/obo/HOSO_0000145>	"diagnosis related group"
+<http://purl.obolibrary.org/obo/IAO_0000005>	"objective specification"
+<http://purl.obolibrary.org/obo/IAO_0000007>	"action specification"
+<http://purl.obolibrary.org/obo/IAO_0000030>	"information content entity"
+<http://purl.obolibrary.org/obo/IAO_0000033>	"directive information entity"
+<http://purl.obolibrary.org/obo/IAO_0000104>	"plan specification"
+<http://purl.obolibrary.org/obo/IAO_0020000>	"identifier"
+<http://purl.obolibrary.org/obo/IAO_0020010>	"identifier creating process"
+<http://purl.obolibrary.org/obo/IOIO_0000001>	"human birth statement"
+<http://purl.obolibrary.org/obo/IOIO_0000003>	"human death statement"
+<http://purl.obolibrary.org/obo/IOIO_0000005>	"human birth temporal characterization"
+<http://purl.obolibrary.org/obo/IOIO_0000006>	"human death temporal characterization"
+<http://purl.obolibrary.org/obo/IOIO_0000013>	"organism identifier"
+<http://purl.obolibrary.org/obo/IOIO_0000014>	"human identifier"
+<http://purl.obolibrary.org/obo/NCBITaxon_2759>	"Eukaryota"
+<http://purl.obolibrary.org/obo/NCBITaxon_9606>	"Homo sapiens"
+<http://purl.obolibrary.org/obo/OBI_0000011>	"planned process"
+<http://purl.obolibrary.org/obo/OBI_0000245>	"organization"
+<http://purl.obolibrary.org/obo/OBI_0100026>	"organism"
+<http://purl.obolibrary.org/obo/OMRSE_00000061>	"architectural structure"
+<http://purl.obolibrary.org/obo/OMRSE_00000062>	"facility"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000027>	"request"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>	"service agreement specification"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporal information"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>	"process temporal characterization"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>	"service delivery"
+<http://purl.obolibrary.org/obo/SEPIO_0000174>	"statement"
