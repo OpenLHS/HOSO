@@ -533,7 +533,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000125> <http://purl.obolibrary
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000137> (human clinical visit specified patient)
 
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000137> "human clinical visit specified patient"@en)
-EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000137> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000004> <http://purl.obolibrary.org/obo/HOSO_0000003>)))
+EquivalentClasses(<http://purl.obolibrary.org/obo/HOSO_0000137> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/NCBITaxon_9606> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000235> <http://purl.obolibrary.org/obo/HOSO_0000003>)))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000138> (healthcare provider identifier)
 
