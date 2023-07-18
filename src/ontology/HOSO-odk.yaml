@@ -15,7 +15,10 @@ import_group:
   products:
     - id: HEPRO
       module_type: mirror
-      mirror_from: "https://raw.githubusercontent.com/OpenLHS/HEPRO/main/HEPRO-full.owl"
+      mirror_from: "https://raw.githubusercontent.com/OpenLHS/HEPRO/main/HEPRO.owl"
+subset_group:
+  products:
+    - id: HOSO-H
 robot_report:
   custom_sparql_exports:
     - base-classes-report

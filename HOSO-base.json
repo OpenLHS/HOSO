@@ -28,9 +28,9 @@
         "val" : "Healthcare Organizations and Services ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-05-05"
+        "val" : "2023-07-18"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-05-05/HOSO-base.json"
+      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-07-18/HOSO-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000001",
@@ -111,7 +111,8 @@
       "meta" : {
         "definition" : {
           "val" : "A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000012",
@@ -120,7 +121,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000013",
@@ -129,7 +131,8 @@
       "meta" : {
         "definition" : {
           "val" : "A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000014",
@@ -138,7 +141,8 @@
       "meta" : {
         "definition" : {
           "val" : "A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000016",
@@ -147,7 +151,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare service that aims at providing a desired effect on the health status of a community."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO.owl#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000017",
@@ -156,7 +161,8 @@
       "meta" : {
         "definition" : {
           "val" : "A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000018",
@@ -165,7 +171,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare encounter during which the recipient is located in a healthcare facility at some time."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000019",
@@ -174,7 +181,8 @@
       "meta" : {
         "definition" : {
           "val" : "An identifier that denotes a public provincial health insurance record."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000022",
@@ -201,7 +209,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000028",
@@ -210,7 +219,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000029",
@@ -219,7 +229,8 @@
       "meta" : {
         "definition" : {
           "val" : "An inpatient visit that does not extend overnight."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000030",
@@ -228,7 +239,8 @@
       "meta" : {
         "definition" : {
           "val" : "A day inpatient visit which includes a surgical procedure."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000031",
@@ -237,7 +249,8 @@
       "meta" : {
         "definition" : {
           "val" : "An inpatient visit located in a hospital facility requested by a physician, that may extends overnight."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000032",
@@ -246,7 +259,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.\nIt is not necessarily an immediate inpatient subsequent visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000033",
@@ -255,7 +269,8 @@
       "meta" : {
         "definition" : {
           "val" : "An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000034",
@@ -265,6 +280,7 @@
         "definition" : {
           "val" : "An emergency department visit and an outpatient visit."
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
           "val" : "there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient"
@@ -277,7 +293,8 @@
       "meta" : {
         "definition" : {
           "val" : "an outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions"
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000036",
@@ -286,7 +303,8 @@
       "meta" : {
         "definition" : {
           "val" : "an outpatient visit which includes a surgical procedure"
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000037",
@@ -295,7 +313,8 @@
       "meta" : {
         "definition" : {
           "val" : "an outpatient visit which includes a diagnostic procedure"
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000038",
@@ -304,7 +323,8 @@
       "meta" : {
         "definition" : {
           "val" : "An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000039",
@@ -313,7 +333,8 @@
       "meta" : {
         "definition" : {
           "val" : "An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000040",
@@ -322,7 +343,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organisation visit where the main entity of interest is a still born."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000041",
@@ -332,6 +354,7 @@
         "definition" : {
           "val" : "A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary."
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
           "val" : "In the case of human health the specified organism refers to the child born during the visit."
@@ -345,6 +368,7 @@
         "definition" : {
           "val" : "an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit"
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "Patient hospitalized directly from home."
@@ -360,7 +384,8 @@
       "meta" : {
         "definition" : {
           "val" : "An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000044",
@@ -369,7 +394,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000045",
@@ -379,6 +405,7 @@
         "definition" : {
           "val" : "A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary."
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
           "val" : "A healthcare organization clinical visit during which the patient died."
@@ -391,7 +418,8 @@
       "meta" : {
         "definition" : {
           "val" : "A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000047",
@@ -400,7 +428,8 @@
       "meta" : {
         "definition" : {
           "val" : "A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000048",
@@ -409,7 +438,8 @@
       "meta" : {
         "definition" : {
           "val" : "An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000049",
@@ -418,7 +448,8 @@
       "meta" : {
         "definition" : {
           "val" : "A visit discharge specification for a given clinical visit that has no visit transfer specification."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000050",
@@ -427,7 +458,8 @@
       "meta" : {
         "definition" : {
           "val" : "A healthcare organization clinical visit ended at the initiative of the patient without physician approval."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000051",
@@ -436,7 +468,8 @@
       "meta" : {
         "definition" : {
           "val" : "A visit ended by the patient without notifying the healthcare organization."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000052",
@@ -445,7 +478,8 @@
       "meta" : {
         "definition" : {
           "val" : "An emergency department visit with a triage encounter but no further encounter."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000053",
@@ -454,7 +488,8 @@
       "meta" : {
         "definition" : {
           "val" : "An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000054",
@@ -464,6 +499,7 @@
         "definition" : {
           "val" : "An identifier that denotes a diagnosis related group."
         },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "DRG code"
@@ -476,7 +512,8 @@
       "meta" : {
         "definition" : {
           "val" : "A temporal characterisation that is about the start of a healthcare organisation clinical visit"
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000056",
@@ -485,14 +522,16 @@
       "meta" : {
         "definition" : {
           "val" : "A temporal characterisation that is about the finish of a healthcare organisation clinical visit"
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000060",
       "lbl" : "public provincial health insurance record",
       "type" : "CLASS",
       "meta" : {
-        "comments" : [ "An information content entity that contains the information required to manage the insurance coverage of an insured individual." ]
+        "comments" : [ "An information content entity that contains the information required to manage the insurance coverage of an insured individual." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000061",
@@ -531,6 +570,7 @@
       "lbl" : "immediate subsequent visit",
       "type" : "CLASS",
       "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
           "val" : "A healthcare organisation clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit."
@@ -543,7 +583,8 @@
       "meta" : {
         "definition" : {
           "val" : "An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000125",
@@ -565,12 +606,16 @@
       "meta" : {
         "definition" : {
           "val" : "An identifier that denotes a healthcare provider."
-        }
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000139",
       "lbl" : "facility-supported clinical visit",
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
+      }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000140",
       "lbl" : "facility address",
@@ -589,6 +634,7 @@
       "lbl" : "diagnosis related group",
       "type" : "CLASS",
       "meta" : {
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition."
@@ -596,6 +642,13 @@
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "DRG"
         } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO#HOSO-H",
+      "lbl" : "HOSO-H",
+      "type" : "PROPERTY",
+      "meta" : {
+        "comments" : [ "HOSO classes relevant to humans." ]
       }
     }, {
       "id" : "http://purl.org/dc/terms/description",
@@ -613,7 +666,7 @@
     "edges" : [ {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000003",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000003"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000003",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
@@ -645,7 +698,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000011",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000006"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000011",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000055",
@@ -665,11 +718,11 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000013",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000006"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000014",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000006"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000016",
       "pred" : "is_a",
@@ -833,7 +886,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000055",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000010"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000055",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
@@ -841,7 +894,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000056",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000010"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000056",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
@@ -861,7 +914,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000063",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000013"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000063",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
@@ -869,7 +922,7 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000067",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NOYO_0000011"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000067",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
@@ -954,7 +1007,7 @@
       "definedClassId" : "http://purl.obolibrary.org/obo/HOSO_0000137",
       "genusIds" : [ "http://purl.obolibrary.org/obo/NCBITaxon_9606" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/NOYO_0000008",
+        "propertyId" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000004",
         "fillerId" : "http://purl.obolibrary.org/obo/HOSO_0000003"
       } ]
     }, {
@@ -966,7 +1019,7 @@
       } ]
     }, {
       "definedClassId" : "http://purl.obolibrary.org/obo/HOSO_0000142",
-      "genusIds" : [ "http://purl.obolibrary.org/obo/HOSO_0000140", "http://purl.obolibrary.org/obo/NOYO_0000025" ]
+      "genusIds" : [ "http://purl.obolibrary.org/obo/HOSO_0000140", "http://purl.obolibrary.org/obo/OpenLHS-Core_0000020" ]
     } ]
   } ]
 }
