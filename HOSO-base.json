@@ -1007,7 +1007,7 @@
       "definedClassId" : "http://purl.obolibrary.org/obo/HOSO_0000137",
       "genusIds" : [ "http://purl.obolibrary.org/obo/NCBITaxon_9606" ],
       "restrictions" : [ {
-        "propertyId" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000004",
+        "propertyId" : "http://purl.obolibrary.org/obo/IAO_0000235",
         "fillerId" : "http://purl.obolibrary.org/obo/HOSO_0000003"
       } ]
     }, {

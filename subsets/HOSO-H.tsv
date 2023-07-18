@@ -1,26 +1,30 @@
 ?x	?label
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid107	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid114	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid117	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid122	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid126	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid130	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid133	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid139	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid143	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid146	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid152	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid159	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid161	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid167	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid172	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid177	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid182	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid187	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid197	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid205	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid224	
-_:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid97	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid104	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid114	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid121	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid124	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid129	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid133	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid137	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid140	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid146	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid150	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid153	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid159	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid166	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid168	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid174	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid179	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid184	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid189	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid194	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid204	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid212	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid225	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid230	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid239	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid255	
+_:Ba7985bbeX2D68d1X2D437aX2D9232X2D4ab36493e6bcgenid93	
 <http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
 <http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
 <http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
@@ -34,7 +38,6 @@ _:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid97
 <http://purl.obolibrary.org/obo/BFO_0000031>	"generically dependent continuant"
 <http://purl.obolibrary.org/obo/BFO_0000034>	"function"
 <http://purl.obolibrary.org/obo/BFO_0000040>	"material entity"
-<http://purl.obolibrary.org/obo/HEPRO_0000001>	"health procedure request"
 <http://purl.obolibrary.org/obo/HEPRO_0000004>	"health procedure"
 <http://purl.obolibrary.org/obo/HEPRO_0000005>	"health activity"
 <http://purl.obolibrary.org/obo/HEPRO_0000009>	"health provider identifier"
@@ -42,6 +45,7 @@ _:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid97
 <http://purl.obolibrary.org/obo/HEPRO_0000012>	"health provider"
 <http://purl.obolibrary.org/obo/HEPRO_0000013>	"diagnostic health procedure"
 <http://purl.obolibrary.org/obo/HEPRO_0000014>	"surgical health procedure"
+<http://purl.obolibrary.org/obo/HEPRO_0000030>	"health procedure specification"
 <http://purl.obolibrary.org/obo/HOSO_0000003>	"healthcare service organism specification"
 <http://purl.obolibrary.org/obo/HOSO_0000004>	"healthcare facility"
 <http://purl.obolibrary.org/obo/HOSO_0000006>	"healthcare organization role"
@@ -104,8 +108,8 @@ _:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid97
 <http://purl.obolibrary.org/obo/IAO_0020010>	"identifier creating process"
 <http://purl.obolibrary.org/obo/IOIO_0000001>	"human birth statement"
 <http://purl.obolibrary.org/obo/IOIO_0000003>	"human death statement"
-<http://purl.obolibrary.org/obo/IOIO_0000005>	"human birth temporal characterization"
-<http://purl.obolibrary.org/obo/IOIO_0000006>	"human death temporal characterization"
+<http://purl.obolibrary.org/obo/IOIO_0000005>	"human birth temporal information"
+<http://purl.obolibrary.org/obo/IOIO_0000006>	"human death temporal information"
 <http://purl.obolibrary.org/obo/IOIO_0000013>	"organism identifier"
 <http://purl.obolibrary.org/obo/IOIO_0000014>	"human identifier"
 <http://purl.obolibrary.org/obo/NCBITaxon_2759>	"Eukaryota"
@@ -117,7 +121,10 @@ _:B92f1e6adX2DdbaeX2D4238X2Dafa8X2Da960b9eb7556genid97
 <http://purl.obolibrary.org/obo/OMRSE_00000062>	"facility"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000027>	"request"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000028>	"service agreement specification"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporal information"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>	"process temporal characterization"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000029>	"service offer"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000030>	"temporally qualifying statement"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>	"process temporally qualifying statement"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000035>	"service agreement negotiation"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>	"service delivery"
+<http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>	"temporal information"
 <http://purl.obolibrary.org/obo/SEPIO_0000174>	"statement"
