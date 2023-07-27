@@ -759,11 +759,11 @@
       "lbl" : "diagnosis related group",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
-          "val" : "An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition."
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
           "val" : "DRG"
         } ]
