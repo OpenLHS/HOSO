@@ -1217,12 +1217,84 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">canadian healthcare facility postal code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">canadian healthcare organization postal code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">canadian healthcare facility forward sorting area code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">canadian healthcare organization forward sorting area code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000126"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">health organization clinical visit pathological condition impact statement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HOSO_0000125 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000125">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000010"/>
         <obo:IAO_0000115 xml:lang="en">A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">clinical visit ending determination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">pathological condition impact type on clinical visit</rdfs:label>
     </owl:Class>
     
 
@@ -1407,6 +1479,18 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
     
 
 

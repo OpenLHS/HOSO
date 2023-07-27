@@ -416,12 +416,6 @@
     
 
 
-    <!-- http://www.ontologyrepository.com/CommonCoreOntologies/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/definition"/>
-    
-
-
     <!-- http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology -->
 
     <owl:AnnotationProperty rdf:about="http://www.ontologyrepository.com/CommonCoreOntologies/is_curated_in_ontology"/>
@@ -3627,12 +3621,6 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000005"/>
             </owl:Restriction>
@@ -3646,7 +3634,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000112 xml:lang="en">Connor, John, born on 28/2/1985
 
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IAO_0000112>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporal characterization about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human birth statement</rdfs:label>
     </owl:Class>
@@ -3657,12 +3645,6 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
@@ -3676,7 +3658,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">Reese, Kyle died in 1984</obo:IAO_0000112>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporal characterization about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human death statement</rdfs:label>
     </owl:Class>
@@ -3939,7 +3921,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000061"/>
-        <rdfs:subClassOf rdf:nodeID="genid245"/>
+        <rdfs:subClassOf rdf:nodeID="genid243"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
@@ -3950,14 +3932,14 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">facility</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid245">
+    <owl:Restriction rdf:nodeID="genid243">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000062"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid245"/>
+        <owl:annotatedTarget rdf:nodeID="genid243"/>
         <owl:versionInfo>09/09/2017</owl:versionInfo>
     </owl:Axiom>
     
@@ -4199,10 +4181,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
     <rdf:Description rdf:about="urn:swrl#p">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#d">
+    <rdf:Description rdf:about="urn:swrl#e">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#e">
+    <rdf:Description rdf:about="urn:swrl#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -4267,9 +4249,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4277,10 +4260,9 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -4310,9 +4292,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4320,10 +4303,9 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -4353,9 +4335,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4363,10 +4346,9 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                                <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
