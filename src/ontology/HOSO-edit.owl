@@ -74,7 +74,13 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000069>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000100>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000102>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000103>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000120>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000121>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000122>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000123>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000124>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000125>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000126>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000137>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000138>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000139>))
@@ -547,11 +553,49 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http:
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000103> "healthcare organization service delivery ending temporal information"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000103> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>)
 
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000120> (canadian healthcare facility postal code)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000120> "A canadian postal code that denotes a geographical region where a canadian healthcare facility is located."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000120> "canadian healthcare facility postal code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000120> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000026>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000121> (canadian healthcare organization postal code)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000121> "A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000121> "canadian healthcare organization postal code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000121> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000026>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000122> (canadian healthcare facility forward sorting area code)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000122> "A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000122> "canadian healthcare facility forward sorting area code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000122> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000123> (canadian healthcare organization forward sorting area code)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000123> "A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000123> "canadian healthcare organization forward sorting area code"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000123> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000124> (health organization clinical visit pathological condition impact statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000124> "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000124> "health organization clinical visit pathological condition impact statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000010>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000124> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000126>))
+
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000125> (clinical visit ending determination)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000125> "A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000125> "clinical visit ending determination"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000125> <http://purl.obolibrary.org/obo/HOSO_0000010>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000126> (pathological condition impact type on clinical visit)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000126> "An information content entity that describes the type of impact of a pathological condition on a clinical visit."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000126> "pathological condition impact type on clinical visit"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000126> <http://purl.obolibrary.org/obo/IAO_0000030>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000137> (human clinical visit specified patient)
 

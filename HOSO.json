@@ -2569,6 +2569,56 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000120",
+      "lbl" : "canadian healthcare facility postal code",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A canadian postal code that denotes a geographical region where a canadian healthcare facility is located."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000121",
+      "lbl" : "canadian healthcare organization postal code",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000122",
+      "lbl" : "canadian healthcare facility forward sorting area code",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000123",
+      "lbl" : "canadian healthcare organization forward sorting area code",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000124",
+      "lbl" : "health organization clinical visit pathological condition impact statement",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000125",
       "lbl" : "clinical visit ending determination",
       "type" : "CLASS",
@@ -2576,6 +2626,16 @@
         "definition" : {
           "val" : "A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end."
         }
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000126",
+      "lbl" : "pathological condition impact type on clinical visit",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "An information content entity that describes the type of impact of a pathological condition on a clinical visit."
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000137",
@@ -6259,9 +6319,41 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000120",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000121",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000122",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000123",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000124",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000100"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000124",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000126"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000125",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HOSO_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000126",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000137",
       "pred" : "is_a",
