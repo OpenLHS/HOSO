@@ -19,8 +19,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/subsets/HOSO-H.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2023-07-18/subsets/HOSO-H.owl"/>
-        <owl:versionInfo>2023-07-18</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2023-07-27/subsets/HOSO-H.owl"/>
+        <owl:versionInfo>2023-07-27</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3151,16 +3151,22 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/HOSO_0000055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000033"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporal characterisation that is about the start of a healthcare organisation clinical visit</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000102"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
-        <rdfs:label xml:lang="en">healthcare organization clinical visit start charaterisation</rdfs:label>
+        <rdfs:label xml:lang="en">healthcare organization service delivery beginning statement</rdfs:label>
     </owl:Class>
     
 
@@ -3168,16 +3174,22 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/HOSO_0000056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000034"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporal characterisation that is about the finish of a healthcare organisation clinical visit</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000103"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
-        <rdfs:label xml:lang="en">healthcare organization clinical visit finish charaterisation</rdfs:label>
+        <rdfs:label xml:lang="en">healthcare organization service delivery ending statement</rdfs:label>
     </owl:Class>
     
 
@@ -3272,6 +3284,36 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">immediate subsequent visit in same organization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">healthcare organization service delivery identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">healthcare organization service delivery beginning temporal information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">healthcare organization service delivery ending temporal information</rdfs:label>
     </owl:Class>
     
 
@@ -3897,7 +3939,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000061"/>
-        <rdfs:subClassOf rdf:nodeID="genid243"/>
+        <rdfs:subClassOf rdf:nodeID="genid245"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
@@ -3908,14 +3950,14 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">facility</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid243">
+    <owl:Restriction rdf:nodeID="genid245">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000062"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid243"/>
+        <owl:annotatedTarget rdf:nodeID="genid245"/>
         <owl:versionInfo>09/09/2017</owl:versionInfo>
     </owl:Axiom>
     
@@ -4007,6 +4049,38 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">process temporally qualifying statement</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A process temporally qualifying statement qualifying temporally the beginning of a process.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">process beginning statement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
+        <owl:annotatedTarget xml:lang="en">A process temporally qualifying statement qualifying temporally the beginning of a process.</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">A process that is a mereological sum of temporally disconnected processes has only one process beginning.</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">A process temporally qualifying statement qualifying temporally the ending of a process.</obo:OpenLHS-Core_0000062>
+        <rdfs:label xml:lang="en">process ending statement</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
+        <owl:annotatedTarget xml:lang="en">A process temporally qualifying statement qualifying temporally the ending of a process.</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">A process that is a mereological sum of temporally disconnected processes has only one process ending.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -4125,10 +4199,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
     <rdf:Description rdf:about="urn:swrl#p">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#e">
+    <rdf:Description rdf:about="urn:swrl#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl#d">
+    <rdf:Description rdf:about="urn:swrl#e">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -4193,10 +4267,9 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4204,9 +4277,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -4236,10 +4310,9 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4247,9 +4320,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -4279,10 +4353,9 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                 <rdf:first>
                     <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                        <swrl:argument1 rdf:resource="urn:swrl#e"/>
-                        <swrl:argument2 rdf:resource="urn:swrl#d"/>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
+                        <swrl:argument1 rdf:resource="urn:swrl#d"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -4290,9 +4363,10 @@ The phrase &quot;the pink elephant&quot; describes an entity, but is not a &apos
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
                         <rdf:first>
                             <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://purl.obolibrary.org/obo/BFO_0000034"/>
-                                <swrl:argument1 rdf:resource="urn:swrl#d"/>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                                <swrl:argument1 rdf:resource="urn:swrl#e"/>
+                                <swrl:argument2 rdf:resource="urn:swrl#d"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>

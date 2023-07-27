@@ -71,6 +71,9 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000068>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000100>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000102>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000103>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000125>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000137>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HOSO_0000138>))
@@ -459,21 +462,23 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000054> "visit diagnosis related group code"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000054> <http://purl.obolibrary.org/obo/IAO_0020000>)
 
-# Class: <http://purl.obolibrary.org/obo/HOSO_0000055> (healthcare organization clinical visit start charaterisation)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000055> (healthcare organization service delivery beginning statement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000055> "A temporal characterisation that is about the start of a healthcare organisation clinical visit"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000055> "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000055> "healthcare organization clinical visit start charaterisation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000055> "healthcare organization service delivery beginning statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000055> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000102>))
 
-# Class: <http://purl.obolibrary.org/obo/HOSO_0000056> (healthcare organization clinical visit finish charaterisation)
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000056> (healthcare organization service delivery ending statement)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HOSO_0000056> "A temporal characterisation that is about the finish of a healthcare organisation clinical visit"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000056> "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."@en)
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000056> "healthcare organization clinical visit finish charaterisation"@en)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000031>)
-SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/HOSO_0000012>))
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000056> "healthcare organization service delivery ending statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000034>)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000100>))
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000056> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/HOSO_0000103>))
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000060> (public provincial health insurance record)
 
@@ -523,6 +528,24 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.ob
 AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <http://purl.obolibrary.org/obo/HOSO_0000069> <http://purl.obolibrary.org/obo/HOSO#HOSO-H>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000069> "immediate subsequent visit in same organization"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000069> <http://purl.obolibrary.org/obo/HOSO_0000068>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000100> (healthcare organization service delivery identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000100> "An identifier that denotes a healthcare organization service delivery."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000100> "healthcare organization service delivery identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000100> <http://purl.obolibrary.org/obo/IAO_0020000>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000102> (healthcare organization service delivery beginning temporal information)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000102> "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000102> "healthcare organization service delivery beginning temporal information"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000102> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>)
+
+# Class: <http://purl.obolibrary.org/obo/HOSO_0000103> (healthcare organization service delivery ending temporal information)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/OpenLHS-Core_0000062> <http://purl.obolibrary.org/obo/HOSO_0000103> "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HOSO_0000103> "healthcare organization service delivery ending temporal information"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HOSO_0000103> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>)
 
 # Class: <http://purl.obolibrary.org/obo/HOSO_0000125> (clinical visit ending determination)
 
