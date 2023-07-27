@@ -897,13 +897,16 @@
       "lbl" : "health procedure",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "- A planned process that is maximally directed by a health procedure specification.\n- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HEPRO#HEPRO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
           "val" : "A planned process that has some components that are planned processes, including at least one that is a health activity."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
-          "val" : "- A planned process that is maximally directed by a health procedure specification.\n\n - A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury."
+          "val" : "- A planned process that is maximally directed by a health procedure specification.\n- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury."
         } ]
       }
     }, {
@@ -911,6 +914,9 @@
       "lbl" : "health activity",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A planned process that aims to produce a truthful statement about the health status of an organism or modify it."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HEPRO#HEPRO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
@@ -976,6 +982,9 @@
       "lbl" : "health procedure specification",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A directive information entity that aims to direct a health procedure."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A directive information entity that aims to direct a health procedure."
@@ -1273,7 +1282,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A healthcare organisation visit where the main entity of interest is a still born."
+          "val" : "A healthcare organisation service delivery where the main entity of interest is a still born."
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
@@ -1441,6 +1450,9 @@
       "lbl" : "healthcare organization service delivery beginning statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
@@ -1452,6 +1464,9 @@
       "lbl" : "healthcare organization service delivery ending statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
@@ -1510,6 +1525,9 @@
       "lbl" : "healthcare organization service delivery identifier",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An identifier that denotes a healthcare organization service delivery."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "An identifier that denotes a healthcare organization service delivery."
@@ -1520,6 +1538,9 @@
       "lbl" : "healthcare organization service delivery beginning temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."
@@ -1530,6 +1551,9 @@
       "lbl" : "healthcare organization service delivery ending temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."
@@ -2050,6 +2074,9 @@
       "lbl" : "human birth statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/IOIO#IOIO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
@@ -2064,6 +2091,9 @@
       "lbl" : "human death statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/IOIO#IOIO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
@@ -2078,6 +2108,9 @@
       "lbl" : "human birth temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human."
@@ -2088,6 +2121,9 @@
       "lbl" : "human death temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human."
@@ -2098,6 +2134,9 @@
       "lbl" : "organism identifier",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An identifier that denotes a particular organism."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
           "val" : "'Goose' (the name of a cat)"
@@ -2111,6 +2150,9 @@
       "lbl" : "human identifier",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An organism identifier that denotes a particular human."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/IOIO#IOIO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
@@ -2451,6 +2493,9 @@
       "lbl" : "is directed by",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "The inverse relations of directs"
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "The inverse relations of directs"
@@ -2461,6 +2506,9 @@
       "lbl" : "is about an aspect of",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "A is about an aspect of B := A is about a specifically dependent continuant that inheres in B."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A is about an aspect of B := A is about a specifically dependent continuant that inheres in B."
@@ -2471,6 +2519,9 @@
       "lbl" : "directs",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "A directs B := A is a directive information entity that guides an agent in the execution of B."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
           "val" : "A directs B := A is a directive information entity that guides an agent in the execution of B."
@@ -2481,6 +2532,9 @@
       "lbl" : "is filled by",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "The inverse relation of fills"
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "The inverse relation of fills"
@@ -2491,10 +2545,13 @@
       "lbl" : "request",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party."
+        },
         "comments" : [ "It is an open question whether the mereological sum of a request with any other ICE is also a request" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
-          "val" : "An information content entity representing the will of a person to have something done and that includes specifications for the latter."
+          "val" : "An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party."
         } ]
       }
     }, {
@@ -2502,6 +2559,9 @@
       "lbl" : "service agreement specification",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
           "val" : "An information content entity that is the output of a service agreement negociation."
@@ -2515,6 +2575,9 @@
       "lbl" : "service offer",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An information content entity describing the processes a person or an organization is willing to perform for a third-party."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
           "val" : "An information content entity describing the processes a person or an organization is willing to perform for a third-party."
@@ -2525,6 +2588,9 @@
       "lbl" : "temporally qualifying statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A statement that states that an entity existed, exists or will exist at some point during a specified temporal region."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A statement that states that an entity existed, exists or will exist at some point during a specified temporal region."
@@ -2535,6 +2601,9 @@
       "lbl" : "process temporally qualifying statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur."
@@ -2545,6 +2614,9 @@
       "lbl" : "process beginning statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process temporally qualifying statement qualifying temporally the beginning of a process."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A process temporally qualifying statement qualifying temporally the beginning of a process."
@@ -2555,6 +2627,9 @@
       "lbl" : "process ending statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process temporally qualifying statement qualifying temporally the ending of a process."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A process temporally qualifying statement qualifying temporally the ending of a process."
@@ -2565,6 +2640,9 @@
       "lbl" : "service agreement negotiation",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
           "val" : "A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement."
@@ -2575,16 +2653,22 @@
       "lbl" : "service delivery",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "- A planned process that aims at fulfilling the commitments of a service agreement.\n\n- A planned process that is maximally directed by a service agreement specification."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
-          "val" : "A planned process that aims at fulfilling the commitments of a service agreement."
+          "val" : "- A planned process that aims at fulfilling the commitments of a service agreement.\n\n- A planned process that is maximally directed by a service agreement specification."
         } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
-      "lbl" : "definitional necessary condition",
+      "lbl" : "definitional necessary conditions",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "Necessary condition that is definitional, that is the notion to be defined does not appear in the condition."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "Necessary condition that is definitional, that is the notion to be defined does not appear in the condition."
@@ -2592,9 +2676,12 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
-      "lbl" : "definitional necessary and sufficient condition",
+      "lbl" : "definitional necessary and sufficient conditions",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition."
@@ -2613,12 +2700,12 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000064",
-      "lbl" : "necessary and sufficient condition",
+      "lbl" : "necessary and sufficient conditions",
       "type" : "PROPERTY",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/IAO_0000600",
-          "val" : "Human-readable necessary and sufficient membership condition of a class or a property."
+          "val" : "Human-readable necessary and sufficient membership conditions of a class or a property."
         } ]
       }
     }, {
@@ -2626,6 +2713,9 @@
       "lbl" : "temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An information content entity that denotes a one-dimension temporal region."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "An information content entity that denotes a one-dimension temporal region."
@@ -2636,6 +2726,9 @@
       "lbl" : "maximally directs",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "A maximally directs B := A directs B, and B is compliant to A."
+        },
         "comments" : [ "Discussed in: Adrien Barton, Laure Vieu, Jean-François Ethier. Directing Actions. Workshop on Foundational Ontology (FOUST III), Joint Ontology Workshops (JOWO 2019), Sep 2019, Graz, Austria." ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
@@ -2647,6 +2740,9 @@
       "lbl" : "is maximally directed by",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "The inverse relation of maximally directs."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "The inverse relation of maximally directs."
@@ -2657,6 +2753,9 @@
       "lbl" : "component of",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "The inverse relation of has component."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "The inverse relation of has component."
@@ -2667,6 +2766,9 @@
       "lbl" : "component process of",
       "type" : "PROPERTY",
       "meta" : {
+        "definition" : {
+          "val" : "The inverse relation of has component process."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "The inverse relation of has component process."
@@ -4123,6 +4225,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000027",
+      "pred" : "http://purl.obolibrary.org/obo/BFO_0000051",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000033"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000028",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
@@ -4176,7 +4282,7 @@
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000036",
-      "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000004",
+      "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000067",
       "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000065",
@@ -4618,6 +4724,13 @@
       "restrictions" : [ {
         "propertyId" : "http://purl.obolibrary.org/obo/RO_0000053",
         "fillerId" : "http://purl.obolibrary.org/obo/BFO_0000034"
+      } ]
+    }, {
+      "definedClassId" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000036",
+      "genusIds" : [ "http://purl.obolibrary.org/obo/OBI_0000011" ],
+      "restrictions" : [ {
+        "propertyId" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000067",
+        "fillerId" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"
       } ]
     } ],
     "domainRangeAxioms" : [ {

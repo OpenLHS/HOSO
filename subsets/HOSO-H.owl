@@ -191,14 +191,15 @@
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000061 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000061">
+        <obo:IAO_0000115 xml:lang="en">Necessary condition that is definitional, that is the notion to be defined does not appear in the condition.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">Necessary condition that is definitional, that is the notion to be defined does not appear in the condition.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">definitional necessary condition</rdfs:label>
+        <rdfs:label xml:lang="en">definitional necessary conditions</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000061"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
         <owl:annotatedTarget xml:lang="en">Necessary condition that is definitional, that is the notion to be defined does not appear in the condition.</owl:annotatedTarget>
-        <rdfs:comment xml:lang="en">If we know several necessary conditions associated with an entity, we write as definitional necessary condition the conjunction of them.</rdfs:comment>
+        <rdfs:comment xml:lang="en">If we know several definitional necessary conditions associated with an entity, we write as definitional necessary condition the conjunction of them.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -206,14 +207,15 @@
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000062 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062">
+        <obo:IAO_0000115 xml:lang="en">A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">definitional necessary and sufficient condition</rdfs:label>
+        <rdfs:label xml:lang="en">definitional necessary and sufficient conditions</rdfs:label>
     </owl:AnnotationProperty>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
         <owl:annotatedTarget xml:lang="en">A necessary and sufficient condition that is definitional, that is the notion to be defined does not appear in the condition.</owl:annotatedTarget>
-        <rdfs:comment xml:lang="en">If we know several necessary and sufficient conditions associated with an entity, we write as definitional necessary and sufficient condition the disjunction of them, and as definitional necessary condition the conjunction of them.</rdfs:comment>
+        <rdfs:comment xml:lang="en">If we know several definitional necessary and sufficient conditions associated with an entity, we regroup them in the same annotation.</rdfs:comment>
     </owl:Axiom>
     
 
@@ -231,8 +233,8 @@
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000064 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000064">
-        <obo:IAO_0000600 xml:lang="en">Human-readable necessary and sufficient membership condition of a class or a property.</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">necessary and sufficient condition</rdfs:label>
+        <obo:IAO_0000600 xml:lang="en">Human-readable necessary and sufficient membership conditions of a class or a property.</obo:IAO_0000600>
+        <rdfs:label xml:lang="en">necessary and sufficient conditions</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -864,6 +866,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000007"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse relations of directs</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relations of directs</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">is directed by</rdfs:label>
     </owl:ObjectProperty>
@@ -875,6 +878,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000005">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A is about an aspect of B := A is about a specifically dependent continuant that inheres in B.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A is about an aspect of B := A is about a specifically dependent continuant that inheres in B.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">is about an aspect of</rdfs:label>
     </owl:ObjectProperty>
@@ -886,6 +890,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000007">
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A directs B := A is a directive information entity that guides an agent in the execution of B.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A directs B := A is a directive information entity that guides an agent in the execution of B.</obo:OpenLHS-Core_0000061>
         <rdfs:label xml:lang="en">directs</rdfs:label>
     </owl:ObjectProperty>
@@ -903,6 +908,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000008">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse relation of fills</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relation of fills</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">is filled by</rdfs:label>
     </owl:ObjectProperty>
@@ -915,6 +921,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000007"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">A maximally directs B := A directs B, and B is compliant to A.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A maximally directs B := A directs B, and B is compliant to A.</obo:OpenLHS-Core_0000061>
         <rdfs:comment xml:lang="en">Discussed in: Adrien Barton, Laure Vieu, Jean-François Ethier. Directing Actions. Workshop on Foundational Ontology (FOUST III), Joint Ontology Workshops (JOWO 2019), Sep 2019, Graz, Austria.</rdfs:comment>
         <rdfs:label xml:lang="en">maximally directs</rdfs:label>
@@ -928,6 +935,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse relation of maximally directs.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relation of maximally directs.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">is maximally directed by</rdfs:label>
     </owl:ObjectProperty>
@@ -939,6 +947,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse relation of has component.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relation of has component.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">component of</rdfs:label>
     </owl:ObjectProperty>
@@ -952,6 +961,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 xml:lang="en">The inverse relation of has component process.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">The inverse relation of has component process.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">component process of</rdfs:label>
     </owl:ObjectProperty>
@@ -2314,10 +2324,11 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">- A planned process that is maximally directed by a health procedure specification.
+- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A planned process that has some components that are planned processes, including at least one that is a health activity.</obo:OpenLHS-Core_0000061>
         <obo:OpenLHS-Core_0000062 xml:lang="en">- A planned process that is maximally directed by a health procedure specification.
-
- - A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury.</obo:OpenLHS-Core_0000062>
+- A planned process that is guided by the objective of contributing to a desired effect on the health status of an organism or several organisms achieved through the treatment, diagnosis, or prevention of disease or injury.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HEPRO#HEPRO-H"/>
         <rdfs:label xml:lang="en">health procedure</rdfs:label>
     </owl:Class>
@@ -2328,6 +2339,7 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A planned process that aims to produce a truthful statement about the health status of an organism or modify it.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A planned process that aims to produce a truthful statement about the health status of an organism or modify it.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HEPRO#HEPRO-H"/>
         <rdfs:label xml:lang="en">health activity</rdfs:label>
@@ -2415,6 +2427,7 @@ It could also includes non professionals like patient attendant but it would exc
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+        <obo:IAO_0000115 xml:lang="en">A directive information entity that aims to direct a health procedure.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A directive information entity that aims to direct a health procedure.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">health procedure specification</rdfs:label>
     </owl:Class>
@@ -2863,7 +2876,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation visit where the main entity of interest is a still born.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery where the main entity of interest is a still born.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">still born healthcare service</rdfs:label>
     </owl:Class>
@@ -3158,6 +3171,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">healthcare organization service delivery beginning statement</rdfs:label>
@@ -3181,6 +3195,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">healthcare organization service delivery ending statement</rdfs:label>
@@ -3286,6 +3301,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">healthcare organization service delivery identifier</rdfs:label>
     </owl:Class>
@@ -3296,6 +3312,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">healthcare organization service delivery beginning temporal information</rdfs:label>
     </owl:Class>
@@ -3306,6 +3323,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">healthcare organization service delivery ending temporal information</rdfs:label>
     </owl:Class>
@@ -3634,6 +3652,7 @@ Request that IAO either clarify these or change definitions not to use them</rdf
         <obo:IAO_0000112 xml:lang="en">Connor, John, born on 28/2/1985
 
 Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the birth of a human including an identifier and a temporal information of the birth of this human.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human birth statement</rdfs:label>
@@ -3658,6 +3677,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">Reese, Kyle died in 1984</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A process temporally qualifying statement about the death of a human including an identifier and a temporal information of the death of this human.</obo:OpenLHS-Core_0000061>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human death statement</rdfs:label>
@@ -3675,6 +3695,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a human birth statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the birth of this human.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">human birth temporal information</rdfs:label>
     </owl:Class>
@@ -3691,6 +3712,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a human death statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the death of this human.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">human death temporal information</rdfs:label>
     </owl:Class>
@@ -3720,6 +3742,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">&apos;Goose&apos; (the name of a cat)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a particular organism.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a particular organism.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">organism identifier</rdfs:label>
     </owl:Class>
@@ -3748,6 +3771,7 @@ Connor, John, born on 28/2/1985, son of Connor, Sarah born on 13/11/1965</obo:IA
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An organism identifier that denotes a particular human.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An organism identifier that denotes a particular human.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/IOIO#IOIO-H"/>
         <rdfs:label xml:lang="en">human identifier</rdfs:label>
@@ -3949,7 +3973,14 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity representing the will of a person to have something done and that includes specifications for the latter.</obo:OpenLHS-Core_0000061>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party.</obo:IAO_0000115>
+        <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity specifiying one or several types of processes that a party, whether a person or an organization, wants to see instantiated for the benefit of itself or another party.</obo:OpenLHS-Core_0000061>
         <rdfs:comment xml:lang="en">It is an open question whether the mereological sum of a request with any other ICE is also a request</rdfs:comment>
         <rdfs:label xml:lang="en">request</rdfs:label>
     </owl:Class>
@@ -3972,6 +4003,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity that is the output of a service agreement negociation.</obo:OpenLHS-Core_0000061>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that specifies a service agreement made between a request party and a service offer party, and aim to direct some processes that correspond to what has been agreed between the parties.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">service agreement specification</rdfs:label>
@@ -3983,6 +4015,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity describing the processes a person or an organization is willing to perform for a third-party.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity describing the processes a person or an organization is willing to perform for a third-party.</obo:OpenLHS-Core_0000061>
         <rdfs:label xml:lang="en">service offer</rdfs:label>
     </owl:Class>
@@ -4006,6 +4039,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A statement that states that an entity existed, exists or will exist at some point during a specified temporal region.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A statement that states that an entity existed, exists or will exist at some point during a specified temporal region.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">temporally qualifying statement</rdfs:label>
     </owl:Class>
@@ -4028,6 +4062,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporally qualifying statement stating that a temporal region overlaps with a temporal region during which some process occurred, occurs or will occur.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">process temporally qualifying statement</rdfs:label>
     </owl:Class>
@@ -4038,6 +4073,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement qualifying temporally the beginning of a process.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A process temporally qualifying statement qualifying temporally the beginning of a process.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">process beginning statement</rdfs:label>
     </owl:Class>
@@ -4054,6 +4090,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">A process temporally qualifying statement qualifying temporally the ending of a process.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A process temporally qualifying statement qualifying temporally the ending of a process.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">process ending statement</rdfs:label>
     </owl:Class>
@@ -4082,6 +4119,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000061 xml:lang="en">A planned process of interaction between a request party and a service offer party having as specified input some request and some service offer and that aims to generate as output a service agreement.</obo:OpenLHS-Core_0000061>
         <rdfs:label xml:lang="en">service agreement negotiation</rdfs:label>
     </owl:Class>
@@ -4091,16 +4129,40 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000036">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000067"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000067"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A planned process that aims at fulfilling the commitments of a service agreement.</obo:OpenLHS-Core_0000062>
+        <obo:IAO_0000115 xml:lang="en">- A planned process that aims at fulfilling the commitments of a service agreement.
+
+- A planned process that is maximally directed by a service agreement specification.</obo:IAO_0000115>
+        <obo:OpenLHS-Core_0000062 xml:lang="en">- A planned process that aims at fulfilling the commitments of a service agreement.
+
+- A planned process that is maximally directed by a service agreement specification.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">service delivery</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000062"/>
+        <owl:annotatedTarget xml:lang="en">- A planned process that aims at fulfilling the commitments of a service agreement.
+
+- A planned process that is maximally directed by a service agreement specification.</owl:annotatedTarget>
+        <rdfs:comment xml:lang="en">All service deliveries are directed by a service agreement specification, even if this specification is concretized only mentally.</rdfs:comment>
+    </owl:Axiom>
     
 
 
@@ -4126,6 +4188,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that denotes a one-dimension temporal region.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that denotes a one-dimension temporal region.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">temporal information</rdfs:label>
     </owl:Class>
