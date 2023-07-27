@@ -25,9 +25,9 @@
         "val" : "Healthcare Organizations and Services ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-18"
+        "val" : "2023-07-27"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-07-18/HOSO.json"
+      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-07-27/HOSO.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -2457,23 +2457,25 @@
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000055",
-      "lbl" : "healthcare organization clinical visit start charaterisation",
+      "lbl" : "healthcare organization service delivery beginning statement",
       "type" : "CLASS",
       "meta" : {
-        "definition" : {
-          "val" : "A temporal characterisation that is about the start of a healthcare organisation clinical visit"
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000056",
-      "lbl" : "healthcare organization clinical visit finish charaterisation",
+      "lbl" : "healthcare organization service delivery ending statement",
       "type" : "CLASS",
       "meta" : {
-        "definition" : {
-          "val" : "A temporal characterisation that is about the finish of a healthcare organisation clinical visit"
-        },
-        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
+        "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000060",
@@ -2535,6 +2537,36 @@
           "val" : "An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation."
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000100",
+      "lbl" : "healthcare organization service delivery identifier",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "An identifier that denotes a healthcare organization service delivery."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000102",
+      "lbl" : "healthcare organization service delivery beginning temporal information",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HOSO_0000103",
+      "lbl" : "healthcare organization service delivery ending temporal information",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."
+        } ]
       }
     }, {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000125",
@@ -6149,19 +6181,27 @@
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000055",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000033"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000055",
-      "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
-      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000012"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000100"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000055",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000102"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000056",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000031"
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000034"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000056",
-      "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
-      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000012"
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000100"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000056",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/HOSO_0000103"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000060",
       "pred" : "is_a",
@@ -6206,6 +6246,18 @@
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000069",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HOSO_0000068"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000100",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0020000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000102",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000103",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000125",
       "pred" : "is_a",
