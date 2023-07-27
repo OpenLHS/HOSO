@@ -342,7 +342,7 @@
       "type" : "CLASS",
       "meta" : {
         "definition" : {
-          "val" : "A healthcare organisation visit where the main entity of interest is a still born."
+          "val" : "A healthcare organisation service delivery where the main entity of interest is a still born."
         },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ]
       }
@@ -510,6 +510,9 @@
       "lbl" : "healthcare organization service delivery beginning statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
@@ -521,6 +524,9 @@
       "lbl" : "healthcare organization service delivery ending statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."
+        },
         "subsets" : [ "http://purl.obolibrary.org/obo/HOSO#HOSO-H" ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
@@ -593,6 +599,9 @@
       "lbl" : "healthcare organization service delivery identifier",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An identifier that denotes a healthcare organization service delivery."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "An identifier that denotes a healthcare organization service delivery."
@@ -603,6 +612,9 @@
       "lbl" : "healthcare organization service delivery beginning temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."
@@ -613,6 +625,9 @@
       "lbl" : "healthcare organization service delivery ending temporal information",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."
@@ -623,6 +638,9 @@
       "lbl" : "canadian healthcare facility postal code",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A canadian postal code that denotes a geographical region where a canadian healthcare facility is located."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A canadian postal code that denotes a geographical region where a canadian healthcare facility is located."
@@ -633,6 +651,9 @@
       "lbl" : "canadian healthcare organization postal code",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."
@@ -643,6 +664,9 @@
       "lbl" : "canadian healthcare facility forward sorting area code",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located."
@@ -653,6 +677,9 @@
       "lbl" : "canadian healthcare organization forward sorting area code",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."
@@ -663,6 +690,9 @@
       "lbl" : "health organization clinical visit pathological condition impact statement",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."
@@ -682,6 +712,9 @@
       "lbl" : "pathological condition impact type on clinical visit",
       "type" : "CLASS",
       "meta" : {
+        "definition" : {
+          "val" : "An information content entity that describes the type of impact of a pathological condition on a clinical visit."
+        },
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
           "val" : "An information content entity that describes the type of impact of a pathological condition on a clinical visit."

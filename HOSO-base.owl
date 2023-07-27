@@ -1,26 +1,31 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/HOSO/HOSO-base.owl#"
      xml:base="http://purl.obolibrary.org/obo/HOSO/HOSO-base.owl"
-     xmlns:dce="http://purl.org/dc/elements/1.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:HOSO="http://purl.obolibrary.org/obo/HOSO#"
+     xmlns:IOIO="http://purl.obolibrary.org/obo/IOIO#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dcterms="http://purl.org/dc/terms/"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:HEPRO="http://purl.obolibrary.org/obo/HEPRO#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/HOSO-base.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2023-07-27/HOSO-base.owl"/>
-        <dce:contributor xml:lang="en">Adrien Barton</dce:contributor>
-        <dce:contributor xml:lang="en">Jean-François Ethier</dce:contributor>
-        <dce:contributor xml:lang="en">Mark McGilchrist</dce:contributor>
-        <dce:contributor xml:lang="en">Paul Fabry</dce:contributor>
-        <dce:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
-        <dcterms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</dcterms:description>
-        <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:title>Healthcare Organizations and Services ontology</dcterms:title>
+        <dc:contributor xml:lang="en">Adrien Barton</dc:contributor>
+        <dc:contributor xml:lang="en">Jean-François Ethier</dc:contributor>
+        <dc:contributor xml:lang="en">Mark McGilchrist</dc:contributor>
+        <dc:contributor xml:lang="en">Paul Fabry</dc:contributor>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
+        <terms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</terms:description>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title>Healthcare Organizations and Services ontology</terms:title>
         <owl:versionInfo>2023-07-27</owl:versionInfo>
     </owl:Ontology>
     
@@ -766,7 +771,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation visit where the main entity of interest is a still born.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery where the main entity of interest is a still born.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">still born healthcare service</rdfs:label>
     </owl:Class>
@@ -1038,6 +1043,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000102"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">healthcare organization service delivery beginning statement</rdfs:label>
@@ -1061,6 +1067,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000103"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/HOSO#HOSO-H"/>
         <rdfs:label xml:lang="en">healthcare organization service delivery ending statement</rdfs:label>
@@ -1191,6 +1198,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">healthcare organization service delivery identifier</rdfs:label>
     </owl:Class>
@@ -1201,6 +1209,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000102">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">healthcare organization service delivery beginning temporal information</rdfs:label>
     </owl:Class>
@@ -1211,6 +1220,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
+        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">healthcare organization service delivery ending temporal information</rdfs:label>
     </owl:Class>
@@ -1221,6 +1231,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
+        <obo:IAO_0000115 xml:lang="en">A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">canadian healthcare facility postal code</rdfs:label>
     </owl:Class>
@@ -1231,6 +1242,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
+        <obo:IAO_0000115 xml:lang="en">A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">canadian healthcare organization postal code</rdfs:label>
     </owl:Class>
@@ -1241,6 +1253,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">canadian healthcare facility forward sorting area code</rdfs:label>
     </owl:Class>
@@ -1251,6 +1264,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000123">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">canadian healthcare organization forward sorting area code</rdfs:label>
     </owl:Class>
@@ -1273,6 +1287,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000126"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">health organization clinical visit pathological condition impact statement</rdfs:label>
     </owl:Class>
@@ -1293,6 +1308,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">pathological condition impact type on clinical visit</rdfs:label>
     </owl:Class>
