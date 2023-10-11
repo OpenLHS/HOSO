@@ -28,9 +28,9 @@
         "val" : "Healthcare Organizations and Services ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-27"
+        "val" : "2023-10-11"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-07-27/HOSO-base.json"
+      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-10-11/HOSO-base.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/HOSO_0000001",
