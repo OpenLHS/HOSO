@@ -25,9 +25,9 @@
         "val" : "Healthcare Organizations and Services ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-07-27"
+        "val" : "2023-10-11"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-07-27/HOSO.json"
+      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-10-11/HOSO.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -3891,6 +3891,19 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/IOIO_0000015",
+      "lbl" : "human biological sex statement",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A statement stating the biological sex of a human."
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000062",
+          "val" : "A statement stating the biological sex of a human."
+        } ]
+      }
+    }, {
       "id" : "http://purl.obolibrary.org/obo/IOIO_0000020",
       "lbl" : "human birth date",
       "type" : "CLASS",
@@ -7033,6 +7046,18 @@
       "sub" : "http://purl.obolibrary.org/obo/IOIO_0000014",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000219",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IOIO_0000015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SEPIO_0000174"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IOIO_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/IOIO_0000011"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/IOIO_0000015",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002180",
+      "obj" : "http://purl.obolibrary.org/obo/IOIO_0000014"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IOIO_0000020",
       "pred" : "is_a",
