@@ -4,9 +4,9 @@
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2023-10-11"
+        "val" : "2023-10-17"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-10-11/subsets/HOSO-H.owl"
+      "version" : "http://purl.obolibrary.org/obo/HOSO/releases/2023-10-17/subsets/HOSO-H.owl"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/BFO_0000001",
@@ -2663,6 +2663,27 @@
         } ]
       }
     }, {
+      "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000054",
+      "lbl" : "specified value",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000112",
+          "val" : "4 Km"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
+          "val" : "An information content entity whose structure and content are specified and includes a litteral value."
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000058",
+      "lbl" : "has textual representation",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000059",
+      "lbl" : "has value",
+      "type" : "PROPERTY"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000061",
       "lbl" : "definitional necessary conditions",
       "type" : "PROPERTY",
@@ -2775,6 +2796,18 @@
           "val" : "The inverse relation of has component process."
         } ]
       }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000072",
+      "lbl" : "has numerical value",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000073",
+      "lbl" : "has temporal value",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000074",
+      "lbl" : "has text value",
+      "type" : "PROPERTY"
     }, {
       "id" : "http://purl.obolibrary.org/obo/RO_0000052",
       "lbl" : "characteristic of",
@@ -3809,6 +3842,10 @@
       "obj" : "http://purl.obolibrary.org/obo/IAO_0020000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HOSO_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HOSO_0000019",
       "pred" : "http://purl.obolibrary.org/obo/IAO_0000136",
       "obj" : "http://purl.obolibrary.org/obo/HOSO_0000060"
     }, {
@@ -4285,6 +4322,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000036",
       "pred" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000067",
       "obj" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/IAO_0000030"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OpenLHS-Core_0000065",
       "pred" : "is_a",
