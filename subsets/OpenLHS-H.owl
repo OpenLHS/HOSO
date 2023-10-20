@@ -2720,6 +2720,17 @@ It could also includes non professionals like patient attendant but it would exc
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A healthcare service that aims at providing a desired effect on the health status of a community.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
+        <rdfs:label xml:lang="en">populational healthcare service</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HOSO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000017">
