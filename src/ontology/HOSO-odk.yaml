@@ -10,7 +10,6 @@ release_artefacts:
 primary_release: full
 export_formats:
   - owl
-  - json
 import_group:
   products:
     - id: HEPRO
@@ -18,7 +17,7 @@ import_group:
       mirror_from: "https://raw.githubusercontent.com/OpenLHS/HEPRO/main/HEPRO.owl"
 subset_group:
   products:
-    - id: HOSO-H
+    - id: OpenLHS-H
 robot_report:
   custom_sparql_exports:
     - base-classes-report
