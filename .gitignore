@@ -11,7 +11,7 @@ bin/
 
 src/ontology/mirror
 src/ontology/mirror/*
-src/ontology/reports/*
+#src/ontology/reports/*
 src/ontology/HOSO.owl
 src/ontology/HOSO.obo
 src/ontology/HOSO.json

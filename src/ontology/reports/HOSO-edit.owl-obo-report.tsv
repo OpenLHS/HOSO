@@ -1,0 +1,27 @@
+Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_definition	has participating performer	IAO:0000115	TBD@en
+ERROR	duplicate_definition	has participating recipient	IAO:0000115	TBD@en
+WARN	missing_definition	provincial health insurance primary residence statement beginning	IAO:0000115	
+WARN	missing_definition	human clinical visit specified patient	IAO:0000115	
+WARN	missing_definition	facility-supported clinical visit	IAO:0000115	
+WARN	missing_definition	canadian facility address	IAO:0000115	
+WARN	missing_definition	description	IAO:0000115	
+WARN	missing_definition	license	IAO:0000115	
+WARN	missing_definition	title	IAO:0000115	
+WARN	missing_subset_declaration	obo:OpenLHS-Core#OpenLHS-H	rdfs:subPropertyOf	
+INFO	lowercase_definition	inpatient visit from an external location	IAO:0000115	an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit@en
+INFO	missing_superclass	healthcare provider	rdfs:subClassOf	
+INFO	missing_superclass	facility-supported healthcare encounter	rdfs:subClassOf	
+INFO	missing_superclass	emergency department inpatient visit	rdfs:subClassOf	
+INFO	missing_superclass	immediate inpatient subsequent visit	rdfs:subClassOf	
+INFO	missing_superclass	healthcare birth visit	rdfs:subClassOf	
+INFO	missing_superclass	ambulance initiated emergency department visit	rdfs:subClassOf	
+INFO	missing_superclass	healthcare visit of expiration	rdfs:subClassOf	
+INFO	missing_superclass	visit discharge specification for home	rdfs:subClassOf	
+INFO	missing_superclass	visit ended by the patient	rdfs:subClassOf	
+INFO	missing_superclass	immediate subsequent visit	rdfs:subClassOf	
+INFO	missing_superclass	direct ambulance initiated hospitalization	rdfs:subClassOf	
+INFO	missing_superclass	human clinical visit specified patient	rdfs:subClassOf	
+INFO	missing_superclass	healthcare provider identifier	rdfs:subClassOf	
+INFO	missing_superclass	facility-supported clinical visit	rdfs:subClassOf	
+INFO	missing_superclass	canadian facility address	rdfs:subClassOf	
