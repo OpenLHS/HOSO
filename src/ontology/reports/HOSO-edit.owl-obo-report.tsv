@@ -21,6 +21,7 @@ INFO	missing_superclass	visit discharge specification for home	rdfs:subClassOf
 INFO	missing_superclass	visit ended by the patient	rdfs:subClassOf	
 INFO	missing_superclass	immediate subsequent visit	rdfs:subClassOf	
 INFO	missing_superclass	direct ambulance initiated hospitalization	rdfs:subClassOf	
+INFO	missing_superclass	human patient	rdfs:subClassOf	
 INFO	missing_superclass	human clinical visit specified patient	rdfs:subClassOf	
 INFO	missing_superclass	healthcare provider identifier	rdfs:subClassOf	
 INFO	missing_superclass	facility-supported clinical visit	rdfs:subClassOf	
