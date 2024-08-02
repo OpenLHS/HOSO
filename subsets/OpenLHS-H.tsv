@@ -1,23 +1,23 @@
 ?x	?label
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid101	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid111	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid121	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid124	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid129	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid133	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid140	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid142	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid150	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid156	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid160	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid173	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid177	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid183	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid191	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid207	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid214	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid219	
-_:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid87	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid101	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid111	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid121	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid124	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid129	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid133	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid140	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid142	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid150	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid158	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid162	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid175	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid179	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid185	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid193	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid209	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid216	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid221	
+_:B53aa945eX2Dacf9X2D4c24X2D8f9bX2D4955f8ad07a5genid87	
 <http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
 <http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
 <http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
@@ -93,6 +93,8 @@ _:B91516796X2Dfb98X2D4d63X2Db077X2Deda44f4da4bdgenid87
 <http://purl.obolibrary.org/obo/HOSO_0000068>	"immediate subsequent visit"
 <http://purl.obolibrary.org/obo/HOSO_0000069>	"immediate subsequent visit in same organization"
 <http://purl.obolibrary.org/obo/HOSO_0000074>	"clinical visit agreement specification"
+<http://purl.obolibrary.org/obo/HOSO_0000081>	"patient"
+<http://purl.obolibrary.org/obo/HOSO_0000082>	"patient role"
 <http://purl.obolibrary.org/obo/HOSO_0000100>	"healthcare organization service delivery identifier"
 <http://purl.obolibrary.org/obo/HOSO_0000102>	"healthcare organization service delivery beginning temporal information"
 <http://purl.obolibrary.org/obo/HOSO_0000103>	"healthcare organization service delivery ending temporal information"
