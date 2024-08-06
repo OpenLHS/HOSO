@@ -75,7 +75,7 @@ HOSO_0000120,canadian healthcare facility postal code,A canadian postal code tha
 HOSO_0000121,canadian healthcare organization postal code,A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.
 HOSO_0000122,canadian healthcare facility forward sorting area code,A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.
 HOSO_0000123,canadian healthcare organization forward sorting area code,A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.
-HOSO_0000124,health organization clinical visit pathological condition impact statement,A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.
+HOSO_0000124,healthcare organization clinical visit pathological condition impact statement,A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.
 HOSO_0000125,clinical visit ending determination,A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.
 HOSO_0000126,pathological condition impact type on clinical visit,An information content entity that describes the type of impact of a pathological condition on a clinical visit.
 HOSO_0000137,human clinical visit specified patient,
