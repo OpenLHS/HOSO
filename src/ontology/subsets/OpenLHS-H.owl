@@ -17,8 +17,8 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/subsets/OpenLHS-H.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2024-08-06/subsets/OpenLHS-H.owl"/>
-        <owl:versionInfo>2024-08-06</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2024-08-07/subsets/OpenLHS-H.owl"/>
+        <owl:versionInfo>2024-08-07</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -233,19 +233,6 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000064">
         <obo:IAO_0000600 xml:lang="en">Human-readable necessary and sufficient membership conditions of a class or a property.</obo:IAO_0000600>
         <rdfs:label xml:lang="en">necessary and sufficient conditions</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000100 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000100">
-        <obo:IAO_0000115 xml:lang="en">An annotation property used to tag relevant classes for ontorel generation</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">Three values for this annotation (WIP) :
- - interest: means that the annotated class instances or associated data properties are of interest for a request.
- - joint: means that the annotated clas or property is necessary for a jointure in the request.
- - pivot: means that the annotated class is the pivot of the request.</rdfs:comment>
-        <rdfs:label xml:lang="en">ontorel specification</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -1647,62 +1634,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
-    // Data properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000058 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000058">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label xml:lang="en">has textual representation</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000059 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:label xml:lang="en">has value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000072 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000072">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-        <rdfs:label xml:lang="en">has numerical value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000073 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000073">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-        <rdfs:label xml:lang="en">has temporal value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000074 -->
-
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000074">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-        <rdfs:label xml:lang="en">has text value</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -2498,23 +2429,6 @@ It could also includes non professionals like patient attendant but it would exc
         <obo:IAO_0000115 xml:lang="en">A health procedure that includes a surgical procedure - TBD.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">surgical health procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HEPRO_0000017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a sub-group of pathological conditions.</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">We suppose that if an ICE is about a group of particular entities, it is also about each of these entities.</rdfs:comment>
-        <rdfs:label xml:lang="en">pathological condition sub-group name</rdfs:label>
     </owl:Class>
     
 
@@ -3380,46 +3294,6 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000124 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000017"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000126"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">healthcare organization clinical visit pathological condition impact statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000126 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">pathological condition impact type on clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HOSO_0000138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000138">
@@ -3488,12 +3362,6 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000124"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111 xml:lang="en">information content entity</obo:IAO_0000111>
@@ -3925,7 +3793,7 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000061"/>
-        <rdfs:subClassOf rdf:nodeID="genid195"/>
+        <rdfs:subClassOf rdf:nodeID="genid190"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
@@ -3936,14 +3804,14 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">facility</rdfs:label>
     </owl:Class>
-    <owl:Restriction rdf:nodeID="genid195">
+    <owl:Restriction rdf:nodeID="genid190">
         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000068"/>
         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
     </owl:Restriction>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000062"/>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget rdf:nodeID="genid195"/>
+        <owl:annotatedTarget rdf:nodeID="genid190"/>
         <owl:versionInfo>09/09/2017</owl:versionInfo>
     </owl:Axiom>
     
@@ -4209,26 +4077,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000059"/>
-                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000112 xml:lang="en">4 Km</obo:IAO_0000112>
         <obo:OpenLHS-Core_0000061 xml:lang="en">An information content entity whose structure and content follow a template.</obo:OpenLHS-Core_0000061>
         <rdfs:label xml:lang="en">specified value</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">An entity that is a disorder, a disease or a pathological bodily process</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An entity that is a disorder, a disease or a pathological bodily process</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">pathological condition</rdfs:label>
     </owl:Class>
     
 
