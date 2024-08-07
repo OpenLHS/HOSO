@@ -1,23 +1,23 @@
 ?x	?label
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid102	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid112	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid122	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid125	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid130	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid134	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid141	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid143	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid151	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid163	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid167	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid181	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid185	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid191	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid199	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid215	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid222	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid227	
-_:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid87	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid101	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid111	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid121	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid124	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid129	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid133	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid140	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid142	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid150	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid159	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid163	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid176	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid180	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid186	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid194	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid210	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid217	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid221	
+_:Be20da15fX2D3bf2X2D437aX2Db358X2Dd40a44de4d47genid87	
 <http://purl.obolibrary.org/obo/BFO_0000001>	"entity"
 <http://purl.obolibrary.org/obo/BFO_0000002>	"continuant"
 <http://purl.obolibrary.org/obo/BFO_0000003>	"occurrent"
@@ -43,7 +43,6 @@ _:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid87
 <http://purl.obolibrary.org/obo/HEPRO_0000012>	"health provider"
 <http://purl.obolibrary.org/obo/HEPRO_0000013>	"diagnostic health procedure"
 <http://purl.obolibrary.org/obo/HEPRO_0000014>	"surgical health procedure"
-<http://purl.obolibrary.org/obo/HEPRO_0000017>	"pathological condition sub-group name"
 <http://purl.obolibrary.org/obo/HEPRO_0000030>	"health procedure specification"
 <http://purl.obolibrary.org/obo/HOSO_0000003>	"healthcare service organism specification"
 <http://purl.obolibrary.org/obo/HOSO_0000004>	"healthcare facility"
@@ -99,8 +98,6 @@ _:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid87
 <http://purl.obolibrary.org/obo/HOSO_0000100>	"healthcare organization service delivery identifier"
 <http://purl.obolibrary.org/obo/HOSO_0000102>	"healthcare organization service delivery beginning temporal information"
 <http://purl.obolibrary.org/obo/HOSO_0000103>	"healthcare organization service delivery ending temporal information"
-<http://purl.obolibrary.org/obo/HOSO_0000124>	"healthcare organization clinical visit pathological condition impact statement"
-<http://purl.obolibrary.org/obo/HOSO_0000126>	"pathological condition impact type on clinical visit"
 <http://purl.obolibrary.org/obo/HOSO_0000138>	"healthcare provider identifier"
 <http://purl.obolibrary.org/obo/HOSO_0000139>	"facility-supported clinical visit"
 <http://purl.obolibrary.org/obo/HOSO_0000145>	"diagnosis related group"
@@ -139,7 +136,6 @@ _:B54282b80X2D2a6aX2D4750X2D808cX2D40a1c958bf72genid87
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000036>	"service delivery"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000043>	"agent plan to act as if some statement was true"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000054>	"specified value"
-<http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>	"pathological condition"
 <http://purl.obolibrary.org/obo/OpenLHS-Core_0000065>	"temporal information"
 <http://purl.obolibrary.org/obo/SEPIO_0000174>	"statement"
 <http://www.ontologyrepository.com/CommonCoreOntologies/Agent>	"Agent"

@@ -1,12 +1,10 @@
 Level	Rule Name	Subject	Property	Value
 ERROR	duplicate_definition	has participating performer	IAO:0000115	TBD@en
 ERROR	duplicate_definition	has participating recipient	IAO:0000115	TBD@en
-ERROR	missing_label	IAO:0000030	rdfs:label	
 WARN	missing_definition	provincial health insurance primary residence statement beginning	IAO:0000115	
 WARN	missing_definition	human clinical visit specified patient	IAO:0000115	
 WARN	missing_definition	facility-supported clinical visit	IAO:0000115	
 WARN	missing_definition	canadian facility address	IAO:0000115	
-WARN	missing_definition	IAO:0000030	IAO:0000115	
 WARN	missing_definition	description	IAO:0000115	
 WARN	missing_definition	license	IAO:0000115	
 WARN	missing_definition	title	IAO:0000115	
