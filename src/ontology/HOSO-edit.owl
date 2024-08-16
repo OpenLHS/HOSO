@@ -1243,6 +1243,27 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000085">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000073"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000031"/>
+        <obo:IAO_0000115 xml:lang="en">An hospitalization for a given patient that starts with a stay in an intensive care unit.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">hospitalization starting with ICU stay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HOSO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000100">

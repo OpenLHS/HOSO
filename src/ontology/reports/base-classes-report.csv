@@ -68,6 +68,7 @@ HOSO_0000081,patient,An eukaryote that is the bearer of a patient role.
 HOSO_0000082,patient role,A role born by an organism which is the primary recipient in a healthcare organization clinical visit.
 HOSO_0000083,human patient,A patient that is a Homo sapiens.
 HOSO_0000084,healthcare physician service identifier,A healthcare organization identifier that denotes a physician service.
+HOSO_0000085,hospitalization starting with ICU stay,An hospitalization for a given patient that starts with a stay in an intensive care unit.
 HOSO_0000100,healthcare organization service delivery identifier,An identifier that denotes a healthcare organization service delivery.
 HOSO_0000102,healthcare organization service delivery beginning temporal information,A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.
 HOSO_0000103,healthcare organization service delivery ending temporal information,A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.
