@@ -18,7 +18,7 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/HOSO-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2024-08-16/HOSO-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-08-02/HOSO-base.owl"/>
         <dc:contributor xml:lang="en">Adrien Barton</dc:contributor>
         <dc:contributor xml:lang="en">Jean-François Ethier</dc:contributor>
         <dc:contributor xml:lang="en">Mark McGilchrist</dc:contributor>
@@ -27,7 +27,7 @@
         <terms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Healthcare Organizations and Services ontology</terms:title>
-        <owl:versionInfo>2024-08-16</owl:versionInfo>
+        <owl:versionInfo>2025-08-02</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -1815,6 +1815,38 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">A human age at a specified temporal region where the temporal region is denoted by a healthcare organization service delivery beginning temporal information, and expressed according to ISO8601 standard.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">human age at beginning of the healthcare organization service delivery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000031"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000150"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">human age at the beginning of the healthcare organization service delivery statement</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
@@ -1860,6 +1892,18 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/IOIO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000023"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IOIO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000030"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IOIO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IOIO_0000031"/>
     
 
 
