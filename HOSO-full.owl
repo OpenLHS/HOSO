@@ -20,7 +20,7 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/HOSO-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-08-02/HOSO-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-08-14/HOSO-full.owl"/>
         <dc:contributor xml:lang="en">Adrien Barton</dc:contributor>
         <dc:contributor xml:lang="en">Jean-François Ethier</dc:contributor>
         <dc:contributor xml:lang="en">Mark McGilchrist</dc:contributor>
@@ -28,7 +28,7 @@
         <terms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Healthcare Organizations and Services ontology</terms:title>
-        <owl:versionInfo>2025-08-02</owl:versionInfo>
+        <owl:versionInfo>2025-08-14</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3389,6 +3389,26 @@ It could also includes non professionals like patient attendant but it would exc
         <obo:IAO_0000115 xml:lang="en">An information content entity that is about a sub-group of pathological conditions.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">We suppose that if an ICE is about a group of particular entities, it is also about each of these entities.</rdfs:comment>
         <rdfs:label xml:lang="en">pathological condition sub-group name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HEPRO_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">A pathological condition sub-group name that is recorded in free-text.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">free-text pathological condition sub-group name</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HEPRO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">A pathological condition sub-group name that is recorded in a structured manner.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">structured pathological condition sub-group name</rdfs:label>
     </owl:Class>
     
 
