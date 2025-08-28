@@ -17,13 +17,8 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/subsets/OpenLHS-H.owl">
-<<<<<<< HEAD
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-08-28/subsets/OpenLHS-H.owl"/>
         <owl:versionInfo>2025-08-28</owl:versionInfo>
-=======
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-08-14/subsets/OpenLHS-H.owl"/>
-        <owl:versionInfo>2025-08-14</owl:versionInfo>
->>>>>>> origin/pfabry
     </owl:Ontology>
     
 
