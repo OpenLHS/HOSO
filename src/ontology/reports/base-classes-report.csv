@@ -10,7 +10,7 @@ HOSO_0000012,healthcare organization clinical visit,A healthcare organisation se
 HOSO_0000013,ancillary care service delivery,A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.
 HOSO_0000014,custodial care service delivery,A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.
 HOSO_0000016,populational healthcare service,A healthcare service that aims at providing a desired effect on the health status of a community.
-HOSO_0000017,healthcare organization clinical encounter,"A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism."
+HOSO_0000017,healthcare organization clinical encounter,"A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism. It may have several healthcare organization clinical visits as components."
 HOSO_0000018,facility-supported healthcare encounter,A healthcare encounter during which the recipient is located in a healthcare facility at some time.
 HOSO_0000019,public provincial health identifier,An identifier that denotes a public provincial health insurance record.
 HOSO_0000022,healthcare facility identifier,An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.
@@ -19,7 +19,7 @@ HOSO_0000026,outpatient visit,"A healthcare organisation clinical visit where th
 HOSO_0000028,inpatient visit,A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.
 HOSO_0000029,day inpatient visit,An inpatient visit that does not extend overnight.
 HOSO_0000030,day inpatient surgery visit,A day inpatient visit which includes a surgical procedure.
-HOSO_0000031,hospitalization,"An inpatient visit located in a hospital facility requested by a physician, that may extends overnight."
+HOSO_0000031,hospitalization,"An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight."
 HOSO_0000032,emergency department visit,"A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
 It is not necessarily an immediate inpatient subsequent visit."
 HOSO_0000033,emergency department inpatient visit,"An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit."
@@ -69,6 +69,7 @@ HOSO_0000082,patient role,A role born by an organism which is the primary recipi
 HOSO_0000083,human patient,A patient that is a Homo sapiens.
 HOSO_0000084,healthcare physician service identifier,A healthcare organization identifier that denotes a physician service.
 HOSO_0000085,hospitalization starting with ICU stay,An hospitalization for a given patient that starts with a stay in an intensive care unit.
+HOSO_0000086,clinical visit admission diagnosis,A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)
 HOSO_0000100,healthcare organization service delivery identifier,An identifier that denotes a healthcare organization service delivery.
 HOSO_0000102,healthcare organization service delivery beginning temporal information,A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.
 HOSO_0000103,healthcare organization service delivery ending temporal information,A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.
