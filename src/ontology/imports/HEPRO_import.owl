@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/HOSO/imports/HEPRO_import.owl>
-<http://purl.obolibrary.org/obo/HOSO/releases/2024-08-07/imports/HEPRO_import.owl>
-Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/HEPRO/releases/2024-08-07/HEPRO.owl>)
-Annotation(owl:versionInfo "2024-08-07")
+<http://purl.obolibrary.org/obo/HOSO/releases/2025-08-14/imports/HEPRO_import.owl>
+Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/HEPRO/releases/2025-08-14/HEPRO.owl>)
+Annotation(owl:versionInfo "2025-08-14")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BFO_0000002>))
@@ -62,6 +62,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000014>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000015>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000019>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/HEPRO_0000022>))
@@ -113,6 +115,8 @@ Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000020>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000021>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000022>))
 Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/IOIO_0000031>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_10239>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCBITaxon_2157>))
@@ -2010,6 +2014,18 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000017> "p
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000017> <http://purl.obolibrary.org/obo/IAO_0000030>)
 SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000017> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/IAO_0000136> <http://purl.obolibrary.org/obo/OpenLHS-Core_0000060>))
 
+# Class: <http://purl.obolibrary.org/obo/HEPRO_0000018> (free-text pathological condition sub-group name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000018> "A pathological condition sub-group name that is recorded in free-text."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000018> "free-text pathological condition sub-group name"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000018> <http://purl.obolibrary.org/obo/HEPRO_0000017>)
+
+# Class: <http://purl.obolibrary.org/obo/HEPRO_0000019> (structured pathological condition sub-group name)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000019> "A pathological condition sub-group name that is recorded in a structured manner."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/HEPRO_0000019> "structured pathological condition sub-group name"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/HEPRO_0000019> <http://purl.obolibrary.org/obo/HEPRO_0000017>)
+
 # Class: <http://purl.obolibrary.org/obo/HEPRO_0000020> (health procedure beginning statement)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/HEPRO_0000020> "A process beginning statement that temporally qualifies the beginning of a health procedure."@en)
@@ -2558,6 +2574,20 @@ SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000022> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000023> "An information content entity that aims at representing a type of living environment applicable to a primary residence."@en)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000023> "living environment type"@en)
 SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000023> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IOIO_0000030> (human age at a specified temporal region)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000030> "An information content entity that is about the size of the 1-D temporal region that overlaps with both the temporal region denoted by a human birth temporal information and the specified temporal region."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000030> "human age at a specified temporal region"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000030> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/IOIO_0000031> (human age at a specified temporal region statement)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/IOIO_0000031> "A  statement that includes an human identifier and the human age at a specified temporal region of the human denoted by the human identifier."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/IOIO_0000031> "human age at a specified temporal region statement"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000031> <http://purl.obolibrary.org/obo/SEPIO_0000174>)
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000014>))
+SubClassOf(<http://purl.obolibrary.org/obo/IOIO_0000031> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002180> <http://purl.obolibrary.org/obo/IOIO_0000030>))
 
 # Class: <http://purl.obolibrary.org/obo/NCBITaxon_10239> (Viruses)
 

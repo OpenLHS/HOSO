@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 IRI,value,def
 HOSO_0000003,healthcare service organism specification,A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.
 HOSO_0000004,healthcare facility,A facility that bears a healthcare function - WiP.
@@ -86,3 +87,94 @@ HOSO_0000139,facility-supported clinical visit,
 HOSO_0000140,facility address,A postal address that enables an agent to locate a facility.
 HOSO_0000142,canadian facility address,
 HOSO_0000145,diagnosis related group,An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition.
+=======
+IRI,value,def
+HOSO_0000003,healthcare service organism specification,A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.
+HOSO_0000004,healthcare facility,A facility that bears a healthcare function - WiP.
+HOSO_0000006,healthcare organization role,A role that inheres in an organisation and is realized by providing some healthcare service delivery.
+HOSO_0000008,healthcare organization,An organisation that bears a healthcare organisation role.
+HOSO_0000009,healthcare provider,A health provider who is a member of a healthcare organisation.
+HOSO_0000010,healthcare procedure,A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.
+HOSO_0000011,healthcare organization service delivery,A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.
+HOSO_0000012,healthcare organization clinical visit,A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.
+HOSO_0000013,ancillary care service delivery,A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.
+HOSO_0000014,custodial care service delivery,A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.
+HOSO_0000016,populational healthcare service,A healthcare service that aims at providing a desired effect on the health status of a community.
+HOSO_0000017,healthcare organization clinical encounter,"A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism."
+HOSO_0000018,facility-supported healthcare encounter,A healthcare encounter during which the recipient is located in a healthcare facility at some time.
+HOSO_0000019,public provincial health identifier,An identifier that denotes a public provincial health insurance record.
+HOSO_0000022,healthcare facility identifier,An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.
+HOSO_0000023,healthcare organization identifier,An identifier that denotes a healthcare organization.
+HOSO_0000026,outpatient visit,"A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient."
+HOSO_0000028,inpatient visit,A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.
+HOSO_0000029,day inpatient visit,An inpatient visit that does not extend overnight.
+HOSO_0000030,day inpatient surgery visit,A day inpatient visit which includes a surgical procedure.
+HOSO_0000031,hospitalization,"An inpatient visit located in a hospital facility requested by a physician, that may extends overnight."
+HOSO_0000032,emergency department visit,"A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
+It is not necessarily an immediate inpatient subsequent visit."
+HOSO_0000033,emergency department inpatient visit,"An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit."
+HOSO_0000034,emergency department outpatient visit,An emergency department visit and an outpatient visit.
+HOSO_0000035,walk-in clinic visit,"An outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions."
+HOSO_0000036,outpatient surgery visit,An outpatient visit which includes a surgical procedure.
+HOSO_0000037,outpatient diagnostic visit,An outpatient visit which includes a diagnostic procedure.
+HOSO_0000038,immediate inpatient subsequent visit,An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.
+HOSO_0000039,prior visit category to an inpatient visit,An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit.
+HOSO_0000040,still born healthcare service,A healthcare organisation service delivery where the main entity of interest is a still born.
+HOSO_0000041,healthcare birth visit,A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary.
+HOSO_0000042,inpatient visit from an external location,"an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit"
+HOSO_0000043,ambulance initiated emergency department visit,An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.
+HOSO_0000044,cadaver service,A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service.
+HOSO_0000045,healthcare visit of expiration,A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary.
+HOSO_0000046,visit discharge specification,A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit.
+HOSO_0000047,visit transfer specification,A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.
+HOSO_0000048,visit transfer specification category,An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified.
+HOSO_0000049,visit discharge specification for home,A visit discharge specification for a given clinical visit that has no visit transfer specification.
+HOSO_0000050,visit ended by the patient,A healthcare organization clinical visit ended at the initiative of the patient without physician approval.
+HOSO_0000051,visit ended by the patient without notification,A visit ended by the patient without notifying the healthcare organization.
+HOSO_0000052,triage-only emergency department visit,An emergency department visit with a triage encounter but no further encounter.
+HOSO_0000053,emergency department visit with partial treatment,An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided.
+HOSO_0000054,visit diagnosis related group code,An identifier that denotes a diagnosis related group.
+HOSO_0000055,healthcare organization service delivery beginning statement,A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.
+HOSO_0000056,healthcare organization service delivery ending statement,A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.
+HOSO_0000060,public provincial health insurance record,An information content entity that contains the information required to manage the insurance coverage of an insured individual.
+HOSO_0000061,primary health insurance beneficiary human role,A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.
+HOSO_0000062,primary health insurance beneficiary human,A human that has a role of primary health insurance benificiary role
+HOSO_0000063,public provincial health insurance primary residence statement,
+HOSO_0000067,provincial health insurance primary residence statement beginning,
+HOSO_0000068,immediate subsequent visit,A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit.
+HOSO_0000069,immediate subsequent visit in same organization,An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.
+HOSO_0000070,direct ambulance initiated hospitalization,An hospitalization for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.
+HOSO_0000071,ambulance paramedics visit,A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider.
+HOSO_0000072,ED by ambulance initiated hospitalization,An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit.
+HOSO_0000073,ICU admission specification,A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit.
+HOSO_0000074,clinical visit agreement specification,A service agreement specification for a clinical visit admission.
+HOSO_0000075,clinical visit urgency level specification,A clinical visit agreement specification mandating the urgency level of the clinical visit.
+HOSO_0000076,hospitalization admission urgency level specification,A clinical visit urgency level specification mandating the urgency level of the hospitalization admission.
+HOSO_0000077,clinical visit unit type specification,A clinical visit agreement specification mandating the type of unit required for a clinical visit.
+HOSO_0000078,hospitalization admitting physician specification,A clinical visit agreement specification mandating the admitting physician.
+HOSO_0000079,healthcare physician service,A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members
+HOSO_0000080,living environment type prior to clinical visit statement,A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit.
+HOSO_0000081,patient,An eukaryote that is the bearer of a patient role.
+HOSO_0000082,patient role,A role born by an organism which is the primary recipient in a healthcare organization clinical visit.
+HOSO_0000083,human patient,A patient that is a Homo sapiens.
+HOSO_0000084,healthcare physician service identifier,A healthcare organization identifier that denotes a physician service.
+HOSO_0000085,hospitalization starting with ICU stay,An hospitalization for a given patient that starts with a stay in an intensive care unit.
+HOSO_0000100,healthcare organization service delivery identifier,An identifier that denotes a healthcare organization service delivery.
+HOSO_0000102,healthcare organization service delivery beginning temporal information,A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.
+HOSO_0000103,healthcare organization service delivery ending temporal information,A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.
+HOSO_0000120,canadian healthcare facility postal code,A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.
+HOSO_0000121,canadian healthcare organization postal code,A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.
+HOSO_0000122,canadian healthcare facility forward sorting area code,A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.
+HOSO_0000123,canadian healthcare organization forward sorting area code,A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.
+HOSO_0000124,healthcare organization clinical visit pathological condition impact statement,A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.
+HOSO_0000125,clinical visit ending determination,A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.
+HOSO_0000126,pathological condition impact type on clinical visit,An information content entity that describes the type of impact of a pathological condition on a clinical visit.
+HOSO_0000137,human clinical visit specified patient,
+HOSO_0000138,healthcare provider identifier,An identifier that denotes a healthcare provider.
+HOSO_0000139,facility-supported clinical visit,
+HOSO_0000140,facility address,A postal address that enables an agent to locate a facility.
+HOSO_0000142,canadian facility address,
+HOSO_0000145,diagnosis related group,An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition.
+HOSO_0000150,human age at beginning of the healthcare organization service delivery,"A human age at a specified temporal region where the temporal region is denoted by a healthcare organization service delivery beginning temporal information, and expressed according to ISO8601 standard."
+HOSO_0000151,human age at the beginning of the healthcare organization service delivery statement,"A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier."
+>>>>>>> origin/pfabry
