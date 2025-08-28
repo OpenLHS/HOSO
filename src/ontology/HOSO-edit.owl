@@ -285,7 +285,13 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism.</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism. It may have several healthcare organization clinical visits as components.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">healthcare organization clinical encounter</rdfs:label>
     </owl:Class>
@@ -430,7 +436,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">An inpatient visit located in a hospital facility requested by a physician, that may extends overnight.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">hospitalization</rdfs:label>
     </owl:Class>
@@ -1264,6 +1270,17 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
+        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)</obo:IAO_0000115>
+        <rdfs:comment>Voir si on sous-classe sous &apos;pathological condition presence statement&apos;</rdfs:comment>
+        <rdfs:label xml:lang="en">clinical visit admission diagnosis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HOSO_0000100 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000100">
@@ -1402,6 +1419,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000126">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000112 xml:lang="en">&apos;primary diagnosis&apos; or &apos;secondary diagnosis&apos; associated with a diagnosis code.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
         <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
         <rdfs:label xml:lang="en">pathological condition impact type on clinical visit</rdfs:label>
