@@ -5,6 +5,7 @@ WARN	missing_definition	provincial health insurance primary residence statement 
 WARN	missing_definition	human clinical visit specified patient	IAO:0000115	
 WARN	missing_definition	facility-supported clinical visit	IAO:0000115	
 WARN	missing_definition	canadian facility address	IAO:0000115	
+WARN	missing_definition	human age at the beginning of the clinical visit statement	IAO:0000115	
 WARN	missing_definition	description	IAO:0000115	
 WARN	missing_definition	license	IAO:0000115	
 WARN	missing_definition	title	IAO:0000115	
