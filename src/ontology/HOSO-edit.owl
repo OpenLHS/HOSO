@@ -1,1575 +1,817 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/HOSO.owl#"
-     xml:base="http://purl.obolibrary.org/obo/HOSO.owl"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:HOSO="http://purl.obolibrary.org/obo/HOSO#"
-     xmlns:IOIO="http://purl.obolibrary.org/obo/IOIO#"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:HEPRO="http://purl.obolibrary.org/obo/HEPRO#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
-     xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/HOSO/imports/HEPRO_import.owl"/>
-        <dc:contributor xml:lang="en">Adrien Barton</dc:contributor>
-        <dc:contributor xml:lang="en">Jean-François Ethier</dc:contributor>
-        <dc:contributor xml:lang="en">Mark McGilchrist</dc:contributor>
-        <dc:contributor xml:lang="en">Paul Fabry</dc:contributor>
-        <terms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</terms:description>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <terms:title>Healthcare Organizations and Services ontology</terms:title>
-    </owl:Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.org/dc/terms/description -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description">
-        <rdfs:label>description</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/license -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license">
-        <rdfs:label>license</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.org/dc/terms/title -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
-        <rdfs:label>title</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000001 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HOSO_0000001">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <obo:IAO_0000115 xml:lang="en">TBD</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">has participating performer</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000002 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HOSO_0000002">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
-        <obo:IAO_0000115 xml:lang="en">TBD</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">has participating recipient</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare service organism specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000004 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000062"/>
-        <obo:IAO_0000115 xml:lang="en">A facility that bears a healthcare function - WiP.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare facility</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000006 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that inheres in an organisation and is realized by providing some healthcare service delivery.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare organization role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000245"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An organisation that bears a healthcare organisation role.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare organization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000009">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000008"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A health provider who is a member of a healthcare organisation.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare provider</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000004"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000001"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000009"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare procedure</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000006"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare organization service delivery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000012 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000081"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare organization clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000013 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"/>
-        <obo:IAO_0000115 xml:lang="en">A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">ancillary care service delivery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000036"/>
-        <obo:IAO_0000115 xml:lang="en">A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">custodial care service delivery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000016 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare service that aims at providing a desired effect on the health status of a community.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">populational healthcare service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000017 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002018"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism. It may have several healthcare organization clinical visits as components.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare organization clinical encounter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000018">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000017"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002479"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A healthcare encounter during which the recipient is located in a healthcare facility at some time.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">facility-supported healthcare encounter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000054"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a public provincial health insurance record.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">public provincial health identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000022 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare facility identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000023 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a healthcare organization.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare organization identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002479"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">outpatient visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002479"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">inpatient visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000029 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">An inpatient visit that does not extend overnight.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">day inpatient visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000029"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A day inpatient visit which includes a surgical procedure.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">day inpatient surgery visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">hospitalization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002479"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000004"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
-It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">emergency department visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000033">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000028"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000032"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">emergency department inpatient visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000034 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000034">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000026"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000032"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency department visit and an outpatient visit.</obo:IAO_0000115>
-        <obo:IAO_0000600 xml:lang="en">There is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient</obo:IAO_0000600>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">emergency department outpatient visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000035 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000026"/>
-        <obo:IAO_0000115 xml:lang="en">An outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">walk-in clinic visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000036 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000026"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An outpatient visit which includes a surgical procedure.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">outpatient surgery visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000037 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000026"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000013"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An outpatient visit which includes a diagnostic procedure.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">outpatient diagnostic visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000038 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000038">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000028"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000069"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">immediate inpatient subsequent visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002090"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000038"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">prior visit category to an inpatient visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organisation service delivery where the main entity of interest is a still born.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">still born healthcare service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000041 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000041">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IOIO_0000001"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000137"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary.</obo:IAO_0000115>
-        <obo:IAO_0000600 xml:lang="en">In the case of human health the specified organism refers to the child born during the visit.</obo:IAO_0000600>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare birth visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000028"/>
-        <obo:IAO_0000112 xml:lang="en">Patient hospitalized directly from home.</obo:IAO_0000112>
-        <obo:IAO_0000112 xml:lang="en">Patient transferred from a healthcare organization emergency department to be hospitalized by a different healthcare organization.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">inpatient visit from an external location</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000043 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000043">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000032"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000071"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.</obo:IAO_0000115>
-        <obo:IAO_0000116>Considérer axomatisation séquentielle</obo:IAO_0000116>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">ambulance initiated emergency department visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">cadaver service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000045">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                        <owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IOIO_0000003"/>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000137"/>
-                                    </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary.</obo:IAO_0000115>
-        <obo:IAO_0000600 xml:lang="en">A healthcare organization clinical visit during which the patient died.</obo:IAO_0000600>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare visit of expiration</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000046 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000033"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit discharge specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000046"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit transfer specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000048 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000047"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit transfer specification category</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000049 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000049">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000046"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000047"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A visit discharge specification for a given clinical visit that has no visit transfer specification.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit discharge specification for home</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000050 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000050">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000125"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization clinical visit ended at the initiative of the patient without physician approval.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit ended by the patient</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000051 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000050"/>
-        <obo:IAO_0000115 xml:lang="en">A visit ended by the patient without notifying the healthcare organization.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit ended by the patient without notification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000052 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000032"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency department visit with a triage encounter but no further encounter.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">triage-only emergency department visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000032"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000050"/>
-        <obo:IAO_0000115 xml:lang="en">An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">emergency department visit with partial treatment</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000054 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a diagnosis related group.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">DRG code</obo:IAO_0000118>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">visit diagnosis related group code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000055 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000033"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000102"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare organization service delivery beginning statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000034"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000103"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery.</obo:OpenLHS-Core_0000062>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare organization service delivery ending statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000060 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000062"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that contains the information required to manage the insurance coverage of an insured individual.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">public provincial health insurance record</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000061 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">primary health insurance beneficiary human role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000062 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000062">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000061"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <obo:IAO_0000115 xml:lang="en">A human that has a role of primary health insurance benificiary role</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">primary health insurance beneficiary human</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000063 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000060"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000020"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000600 xml:lang="en">A statement that indicates the postal address of the primary residence for a primary health insurance beneficiary of a public health provincial plan.</obo:IAO_0000600>
-        <rdfs:label xml:lang="en">public provincial health insurance primary residence statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000067 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000033"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000063"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:label xml:lang="en">provincial health insurance primary residence statement beginning</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000068 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000068">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">immediate subsequent visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000069 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000068"/>
-        <obo:IAO_0000115 xml:lang="en">An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">immediate subsequent visit in same organization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000070">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000071"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An hospitalization for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">direct ambulance initiated hospitalization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000071 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ambulance paramedics visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000072 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000072">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002087"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000043"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000031"/>
-        <obo:IAO_0000115 xml:lang="en">An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ED by ambulance initiated hospitalization</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000073 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000073">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000077"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ICU admission specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000074 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">A service agreement specification for a clinical visit admission.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">clinical visit agreement specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000075 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification mandating the urgency level of the clinical visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">clinical visit urgency level specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000076 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000075"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit urgency level specification mandating the urgency level of the hospitalization admission.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">hospitalization admission urgency level specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification mandating the type of unit required for a clinical visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">clinical visit unit type specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000078 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000138"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification mandating the admitting physician.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">hospitalization admitting physician specification</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000079 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000008"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members</obo:IAO_0000115>
-        <rdfs:comment xml:lang="en">It is often a sub-organization of a department. Ex: General internal medicine service is under the medicine department.</rdfs:comment>
-        <rdfs:comment xml:lang="en">It is often based on the specialty of its members (e.g. respirology), but not always (e.g. vascular service, which may include general internal medicine physician as well as vascular surgeon).</rdfs:comment>
-        <rdfs:label xml:lang="en">healthcare physician service</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000080 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000022"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">living environment type prior to clinical visit statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000081 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2759"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000082"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An eukaryote that is the bearer of a patient role.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">patient</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000082 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A role born by an organism which is the primary recipient in a healthcare organization clinical visit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">patient role</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000083 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000083">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000081"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">A patient that is a Homo sapiens.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">human patient</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000084 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000023"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000079"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A healthcare organization identifier that denotes a physician service.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">healthcare physician service identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000085 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000085">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000073"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000031"/>
-        <obo:IAO_0000115 xml:lang="en">An hospitalization for a given patient that starts with a stay in an intensive care unit.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">hospitalization starting with ICU stay</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000086 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)</obo:IAO_0000115>
-        <rdfs:comment>Voir si on sous-classe sous &apos;pathological condition presence statement&apos;</rdfs:comment>
-        <rdfs:label xml:lang="en">clinical visit admission diagnosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000100 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000100">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000011"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An identifier that denotes a healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">healthcare organization service delivery identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000102 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000102">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000055"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">healthcare organization service delivery beginning temporal information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000103 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000103">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000065"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000056"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">healthcare organization service delivery ending temporal information</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000120 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000120">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
-        <obo:IAO_0000115 xml:lang="en">A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian postal code that denotes a geographical region where a canadian healthcare facility is located.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">canadian healthcare facility postal code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000121 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000121">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000026"/>
-        <obo:IAO_0000115 xml:lang="en">A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">canadian healthcare organization postal code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000122 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000122">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">canadian healthcare facility forward sorting area code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000123 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000123">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000023"/>
-        <obo:IAO_0000115 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">canadian healthcare organization forward sorting area code</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000124 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000124">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000010"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HEPRO_0000017"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000126"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">healthcare organization clinical visit pathological condition impact statement</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000125 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000125">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000010"/>
-        <obo:IAO_0000115 xml:lang="en">A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">clinical visit ending determination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000126 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000126">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <obo:IAO_0000112 xml:lang="en">&apos;primary diagnosis&apos; or &apos;secondary diagnosis&apos; associated with a diagnosis code.</obo:IAO_0000112>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:IAO_0000115>
-        <obo:OpenLHS-Core_0000062 xml:lang="en">An information content entity that describes the type of impact of a pathological condition on a clinical visit.</obo:OpenLHS-Core_0000062>
-        <rdfs:label xml:lang="en">pathological condition impact type on clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000137 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000137">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000003"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:label xml:lang="en">human clinical visit specified patient</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000138 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000138">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HEPRO_0000009"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000219"/>
-                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                        <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000009"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a healthcare provider.</obo:IAO_0000115>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">healthcare provider identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000139 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000139">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002479"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000004"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">facility-supported clinical visit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000140 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000140">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000422"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000062"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A postal address that enables an agent to locate a facility.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">facility address</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000142 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000142">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HOSO_0000140"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000020"/>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:label xml:lang="en">canadian facility address</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000145 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000145">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">DRG</obo:IAO_0000118>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
-        <rdfs:label xml:lang="en">diagnosis related group</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">A human age at a specified temporal region where the temporal region is denoted by a healthcare organization service delivery beginning temporal information, and expressed according to ISO8601 standard.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">human age at beginning of the healthcare organization service delivery</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HOSO_0000151 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000151">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IOIO_0000031"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002180"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000150"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">human age at the beginning of the healthcare organization service delivery statement</rdfs:label>
-    </owl:Class>
-</rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+Prefix(:=<http://purl.obolibrary.org/obo/HOSO.owl#>)
+Prefix(dc:=<http://purl.org/dc/elements/1.1/>)
+Prefix(obo:=<http://purl.obolibrary.org/obo/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(HOSO:=<http://purl.obolibrary.org/obo/HOSO#>)
+Prefix(IOIO:=<http://purl.obolibrary.org/obo/IOIO#>)
+Prefix(foaf:=<http://xmlns.com/foaf/0.1/>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(HEPRO:=<http://purl.obolibrary.org/obo/HEPRO#>)
+Prefix(terms:=<http://purl.org/dc/terms/>)
+Prefix(subsets:=<http://purl.obolibrary.org/obo/ro/subsets#>)
+Prefix(oboInOwl:=<http://www.geneontology.org/formats/oboInOwl#>)
+Prefix(OpenLHS-Core:=<http://purl.obolibrary.org/obo/OpenLHS-Core#>)
+Prefix(CommonCoreOntologies:=<http://www.ontologyrepository.com/CommonCoreOntologies/>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/HOSO.owl>
+Import(<http://purl.obolibrary.org/obo/HOSO/imports/HEPRO_import.owl>)
+Annotation(dc:contributor "Adrien Barton"@en)
+Annotation(dc:contributor "Jean-François Ethier"@en)
+Annotation(dc:contributor "Mark McGilchrist"@en)
+Annotation(dc:contributor "Paul Fabry"@en)
+Annotation(terms:description "HOSO is an ontology of informational entities and processes related to healthcare organizations and services."@en)
+Annotation(terms:license <https://creativecommons.org/licenses/by/4.0/>)
+Annotation(terms:title "Healthcare Organizations and Services ontology")
+
+Declaration(Class(obo:HOSO_0000003))
+Declaration(Class(obo:HOSO_0000004))
+Declaration(Class(obo:HOSO_0000006))
+Declaration(Class(obo:HOSO_0000008))
+Declaration(Class(obo:HOSO_0000009))
+Declaration(Class(obo:HOSO_0000010))
+Declaration(Class(obo:HOSO_0000011))
+Declaration(Class(obo:HOSO_0000012))
+Declaration(Class(obo:HOSO_0000013))
+Declaration(Class(obo:HOSO_0000014))
+Declaration(Class(obo:HOSO_0000016))
+Declaration(Class(obo:HOSO_0000017))
+Declaration(Class(obo:HOSO_0000018))
+Declaration(Class(obo:HOSO_0000019))
+Declaration(Class(obo:HOSO_0000022))
+Declaration(Class(obo:HOSO_0000023))
+Declaration(Class(obo:HOSO_0000026))
+Declaration(Class(obo:HOSO_0000028))
+Declaration(Class(obo:HOSO_0000029))
+Declaration(Class(obo:HOSO_0000030))
+Declaration(Class(obo:HOSO_0000031))
+Declaration(Class(obo:HOSO_0000032))
+Declaration(Class(obo:HOSO_0000033))
+Declaration(Class(obo:HOSO_0000034))
+Declaration(Class(obo:HOSO_0000035))
+Declaration(Class(obo:HOSO_0000036))
+Declaration(Class(obo:HOSO_0000037))
+Declaration(Class(obo:HOSO_0000038))
+Declaration(Class(obo:HOSO_0000039))
+Declaration(Class(obo:HOSO_0000040))
+Declaration(Class(obo:HOSO_0000041))
+Declaration(Class(obo:HOSO_0000042))
+Declaration(Class(obo:HOSO_0000043))
+Declaration(Class(obo:HOSO_0000044))
+Declaration(Class(obo:HOSO_0000045))
+Declaration(Class(obo:HOSO_0000046))
+Declaration(Class(obo:HOSO_0000047))
+Declaration(Class(obo:HOSO_0000048))
+Declaration(Class(obo:HOSO_0000049))
+Declaration(Class(obo:HOSO_0000050))
+Declaration(Class(obo:HOSO_0000051))
+Declaration(Class(obo:HOSO_0000052))
+Declaration(Class(obo:HOSO_0000053))
+Declaration(Class(obo:HOSO_0000054))
+Declaration(Class(obo:HOSO_0000055))
+Declaration(Class(obo:HOSO_0000056))
+Declaration(Class(obo:HOSO_0000060))
+Declaration(Class(obo:HOSO_0000061))
+Declaration(Class(obo:HOSO_0000062))
+Declaration(Class(obo:HOSO_0000063))
+Declaration(Class(obo:HOSO_0000067))
+Declaration(Class(obo:HOSO_0000068))
+Declaration(Class(obo:HOSO_0000069))
+Declaration(Class(obo:HOSO_0000070))
+Declaration(Class(obo:HOSO_0000071))
+Declaration(Class(obo:HOSO_0000072))
+Declaration(Class(obo:HOSO_0000073))
+Declaration(Class(obo:HOSO_0000074))
+Declaration(Class(obo:HOSO_0000075))
+Declaration(Class(obo:HOSO_0000076))
+Declaration(Class(obo:HOSO_0000077))
+Declaration(Class(obo:HOSO_0000078))
+Declaration(Class(obo:HOSO_0000079))
+Declaration(Class(obo:HOSO_0000080))
+Declaration(Class(obo:HOSO_0000081))
+Declaration(Class(obo:HOSO_0000082))
+Declaration(Class(obo:HOSO_0000083))
+Declaration(Class(obo:HOSO_0000084))
+Declaration(Class(obo:HOSO_0000085))
+Declaration(Class(obo:HOSO_0000086))
+Declaration(Class(obo:HOSO_0000100))
+Declaration(Class(obo:HOSO_0000102))
+Declaration(Class(obo:HOSO_0000103))
+Declaration(Class(obo:HOSO_0000120))
+Declaration(Class(obo:HOSO_0000121))
+Declaration(Class(obo:HOSO_0000122))
+Declaration(Class(obo:HOSO_0000123))
+Declaration(Class(obo:HOSO_0000124))
+Declaration(Class(obo:HOSO_0000125))
+Declaration(Class(obo:HOSO_0000126))
+Declaration(Class(obo:HOSO_0000137))
+Declaration(Class(obo:HOSO_0000138))
+Declaration(Class(obo:HOSO_0000139))
+Declaration(Class(obo:HOSO_0000140))
+Declaration(Class(obo:HOSO_0000142))
+Declaration(Class(obo:HOSO_0000145))
+Declaration(Class(obo:HOSO_0000150))
+Declaration(Class(obo:HOSO_0000151))
+Declaration(Class(obo:HOSO_0000152))
+Declaration(ObjectProperty(obo:HOSO_0000001))
+Declaration(ObjectProperty(obo:HOSO_0000002))
+Declaration(AnnotationProperty(terms:description))
+Declaration(AnnotationProperty(terms:license))
+Declaration(AnnotationProperty(terms:title))
+############################
+#   Annotation Properties
+############################
 
+# Annotation Property: terms:description (description)
+
+AnnotationAssertion(rdfs:label terms:description "description")
+
+# Annotation Property: terms:license (license)
+
+AnnotationAssertion(rdfs:label terms:license "license")
+
+# Annotation Property: terms:title (title)
+
+AnnotationAssertion(rdfs:label terms:title "title")
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: obo:HOSO_0000001 (has participating performer)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000001 "TBD"@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000001 "has participating performer"@en)
+SubObjectPropertyOf(obo:HOSO_0000001 obo:RO_0000057)
+
+# Object Property: obo:HOSO_0000002 (has participating recipient)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000002 "TBD"@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000002 "has participating recipient"@en)
+SubObjectPropertyOf(obo:HOSO_0000002 obo:RO_0000057)
+
+
+
+
+############################
+#   Classes
+############################
+
+# Class: obo:HOSO_0000003 (healthcare service organism specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000003 "A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000003 "healthcare service organism specification"@en)
+SubClassOf(obo:HOSO_0000003 obo:OpenLHS-Core_0000028)
+SubClassOf(obo:HOSO_0000003 ObjectSomeValuesFrom(obo:IAO_0000219 obo:OBI_0100026))
+
+# Class: obo:HOSO_0000004 (healthcare facility)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000004 "A facility that bears a healthcare function - WiP."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000004 "healthcare facility"@en)
+SubClassOf(obo:HOSO_0000004 obo:OMRSE_00000062)
+
+# Class: obo:HOSO_0000006 (healthcare organization role)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000006 "A role that inheres in an organisation and is realized by providing some healthcare service delivery."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000006 "healthcare organization role"@en)
+SubClassOf(obo:HOSO_0000006 obo:BFO_0000023)
+
+# Class: obo:HOSO_0000008 (healthcare organization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000008 "An organisation that bears a healthcare organisation role."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000008 "healthcare organization"@en)
+SubClassOf(obo:HOSO_0000008 obo:OBI_0000245)
+SubClassOf(obo:HOSO_0000008 ObjectSomeValuesFrom(obo:RO_0000087 obo:HOSO_0000006))
+
+# Class: obo:HOSO_0000009 (healthcare provider)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000009 "A health provider who is a member of a healthcare organisation."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000009 "healthcare provider"@en)
+EquivalentClasses(obo:HOSO_0000009 ObjectIntersectionOf(obo:HEPRO_0000012 ObjectSomeValuesFrom(obo:RO_0002350 obo:HOSO_0000008)))
+
+# Class: obo:HOSO_0000010 (healthcare procedure)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000010 "A health procedure that is part of a healthcare service delivery and that is performed by a healthcare worker while realizing its health care worker role."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000010 "healthcare procedure"@en)
+SubClassOf(obo:HOSO_0000010 obo:HEPRO_0000004)
+SubClassOf(obo:HOSO_0000010 ObjectSomeValuesFrom(obo:HOSO_0000001 obo:HOSO_0000009))
+
+# Class: obo:HOSO_0000011 (healthcare organization service delivery)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000011 "A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000011 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000011 "healthcare organization service delivery"@en)
+SubClassOf(obo:HOSO_0000011 obo:OpenLHS-Core_0000036)
+SubClassOf(obo:HOSO_0000011 ObjectSomeValuesFrom(obo:BFO_0000055 obo:HOSO_0000006))
+
+# Class: obo:HOSO_0000012 (healthcare organization clinical visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000012 "A healthcare organisation service delivery that aims at providing a desired effect on the health status of a specified organism. It is usually composed of health procedures and possibly associated ancillary processes."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000012 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000012 "healthcare organization clinical visit"@en)
+SubClassOf(obo:HOSO_0000012 obo:HOSO_0000011)
+SubClassOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000010))
+SubClassOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:HOSO_0000002 obo:HOSO_0000081))
+SubClassOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000004 obo:HOSO_0000074))
+SubClassOf(obo:HOSO_0000012 ObjectExactCardinality(1 obo:OpenLHS-Core_0000004 obo:HOSO_0000003))
+
+# Class: obo:HOSO_0000013 (ancillary care service delivery)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000013 "A service delivery that aims to support health services without directly providing a desired effect on the health status of individuals or communities."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000013 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000013 "ancillary care service delivery"@en)
+SubClassOf(obo:HOSO_0000013 obo:OpenLHS-Core_0000036)
+
+# Class: obo:HOSO_0000014 (custodial care service delivery)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000014 "A service delivery from an organization that aims to provide for the activities of daily living of individuals or communities."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000014 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000014 "custodial care service delivery"@en)
+SubClassOf(obo:HOSO_0000014 obo:OpenLHS-Core_0000036)
+
+# Class: obo:HOSO_0000016 (populational healthcare service)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000016 "A healthcare service that aims at providing a desired effect on the health status of a community."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000016 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000016 "populational healthcare service"@en)
+SubClassOf(obo:HOSO_0000016 obo:HOSO_0000011)
+
+# Class: obo:HOSO_0000017 (healthcare organization clinical encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000017 "A temporally-connected healthcare organization clinical visit that aims to improve, maintain or restore the health of some participating organism. It may have several healthcare organization clinical visits as components."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000017 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000017 "healthcare organization clinical encounter"@en)
+SubClassOf(obo:HOSO_0000017 obo:HOSO_0000012)
+SubClassOf(obo:HOSO_0000017 ObjectSomeValuesFrom(obo:RO_0002018 obo:HOSO_0000012))
+
+# Class: obo:HOSO_0000018 (facility-supported healthcare encounter)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000018 "A healthcare encounter during which the recipient is located in a healthcare facility at some time."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000018 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000018 "facility-supported healthcare encounter"@en)
+EquivalentClasses(obo:HOSO_0000018 ObjectIntersectionOf(obo:HOSO_0000017 ObjectSomeValuesFrom(obo:RO_0002479 obo:HOSO_0000004)))
+
+# Class: obo:HOSO_0000019 (public provincial health identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000019 "An identifier that denotes a public provincial health insurance record."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000019 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000019 "public provincial health identifier"@en)
+SubClassOf(obo:HOSO_0000019 obo:IAO_0020000)
+SubClassOf(obo:HOSO_0000019 obo:OpenLHS-Core_0000054)
+SubClassOf(obo:HOSO_0000019 ObjectSomeValuesFrom(obo:IAO_0000136 obo:HOSO_0000060))
+
+# Class: obo:HOSO_0000022 (healthcare facility identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000022 "An identifier that denotes a building administered by a healthcare organization for the purpose of providing healthcare to a patient or patient population."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000022 "healthcare facility identifier"@en)
+SubClassOf(obo:HOSO_0000022 obo:IAO_0020000)
+
+# Class: obo:HOSO_0000023 (healthcare organization identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000023 "An identifier that denotes a healthcare organization."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000023 "healthcare organization identifier"@en)
+SubClassOf(obo:HOSO_0000023 obo:IAO_0020000)
+SubClassOf(obo:HOSO_0000023 ObjectExactCardinality(1 obo:IAO_0000219 obo:HOSO_0000008))
+
+# Class: obo:HOSO_0000026 (outpatient visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000026 "A healthcare organisation clinical visit where the patient physically attends to a healthcare facility, but where there is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000026 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000026 "outpatient visit"@en)
+SubClassOf(obo:HOSO_0000026 obo:HOSO_0000012)
+SubClassOf(obo:HOSO_0000026 ObjectSomeValuesFrom(obo:RO_0002479 obo:HOSO_0000004))
+
+# Class: obo:HOSO_0000028 (inpatient visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000028 "A healthcare organisation clinical visit where there is expectation of providing support for activities of daily living (such as eating and bathing) and accommodation for the patient."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000028 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000028 "inpatient visit"@en)
+SubClassOf(obo:HOSO_0000028 obo:HOSO_0000012)
+SubClassOf(obo:HOSO_0000028 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000014))
+SubClassOf(obo:HOSO_0000028 ObjectSomeValuesFrom(obo:RO_0002479 obo:HOSO_0000004))
+
+# Class: obo:HOSO_0000029 (day inpatient visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000029 "An inpatient visit that does not extend overnight."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000029 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000029 "day inpatient visit"@en)
+SubClassOf(obo:HOSO_0000029 obo:HOSO_0000028)
+
+# Class: obo:HOSO_0000030 (day inpatient surgery visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000030 "A day inpatient visit which includes a surgical procedure."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000030 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000030 "day inpatient surgery visit"@en)
+SubClassOf(obo:HOSO_0000030 obo:HOSO_0000029)
+SubClassOf(obo:HOSO_0000030 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HEPRO_0000014))
+
+# Class: obo:HOSO_0000031 (hospitalization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000031 "An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000031 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000031 "hospitalization"@en)
+SubClassOf(obo:HOSO_0000031 obo:HOSO_0000028)
+
+# Class: obo:HOSO_0000032 (emergency department visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000032 "A healthcare organisation clinical visit where there is expectation of providing unplanned, timely, urgent care, including handling life-threatening conditions.
+It is not necessarily an immediate inpatient subsequent visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000032 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000032 "emergency department visit"@en)
+SubClassOf(obo:HOSO_0000032 obo:HOSO_0000012)
+SubClassOf(obo:HOSO_0000032 ObjectSomeValuesFrom(obo:RO_0002479 obo:HOSO_0000004))
+
+# Class: obo:HOSO_0000033 (emergency department inpatient visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000033 "An emergency department visit and an inpatient visit, where there is usually limited accommodation and where the goal is to stabilise a life-threatening condition or decide whether the clinical situation requires a hospitalisation visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000033 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000033 "emergency department inpatient visit"@en)
+EquivalentClasses(obo:HOSO_0000033 ObjectIntersectionOf(obo:HOSO_0000028 obo:HOSO_0000032))
+
+# Class: obo:HOSO_0000034 (emergency department outpatient visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000034 "An emergency department visit and an outpatient visit."@en)
+AnnotationAssertion(obo:IAO_0000600 obo:HOSO_0000034 "There is no expectation of providing support for activities of daily living (such as eating and bathing) nor accommodation for the patient"@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000034 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000034 "emergency department outpatient visit"@en)
+EquivalentClasses(obo:HOSO_0000034 ObjectIntersectionOf(obo:HOSO_0000026 obo:HOSO_0000032))
+SubClassOf(obo:HOSO_0000034 obo:HOSO_0000012)
+
+# Class: obo:HOSO_0000035 (walk-in clinic visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000035 "An outpatient visit where there is expectation of providing unplanned, timely care, but excluding handling life-threatening conditions."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000035 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000035 "walk-in clinic visit"@en)
+SubClassOf(obo:HOSO_0000035 obo:HOSO_0000026)
+
+# Class: obo:HOSO_0000036 (outpatient surgery visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000036 "An outpatient visit which includes a surgical procedure."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000036 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000036 "outpatient surgery visit"@en)
+SubClassOf(obo:HOSO_0000036 obo:HOSO_0000026)
+SubClassOf(obo:HOSO_0000036 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HEPRO_0000014))
+
+# Class: obo:HOSO_0000037 (outpatient diagnostic visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000037 "An outpatient visit which includes a diagnostic procedure."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000037 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000037 "outpatient diagnostic visit"@en)
+SubClassOf(obo:HOSO_0000037 obo:HOSO_0000026)
+SubClassOf(obo:HOSO_0000037 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HEPRO_0000013))
+
+# Class: obo:HOSO_0000038 (immediate inpatient subsequent visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000038 "An immediate subsequent visit healthcare organisation visit for a given patient that was participating in another healthcare organisation visit for the same organisation just prior to this visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000038 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000038 "immediate inpatient subsequent visit"@en)
+EquivalentClasses(obo:HOSO_0000038 ObjectIntersectionOf(obo:HOSO_0000028 obo:HOSO_0000069))
+
+# Class: obo:HOSO_0000039 (prior visit category to an inpatient visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000039 "An information content entity describing the type of visit that occured prior to an immediate inpatient subsequent visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000039 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000039 "prior visit category to an inpatient visit"@en)
+SubClassOf(obo:HOSO_0000039 obo:IAO_0000030)
+SubClassOf(obo:HOSO_0000039 ObjectSomeValuesFrom(obo:IAO_0000136 ObjectIntersectionOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:RO_0002090 obo:HOSO_0000038))))
+
+# Class: obo:HOSO_0000040 (still born healthcare service)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000040 "A healthcare organisation service delivery where the main entity of interest is a still born."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000040 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000040 "still born healthcare service"@en)
+SubClassOf(obo:HOSO_0000040 obo:HOSO_0000011)
+
+# Class: obo:HOSO_0000041 (healthcare birth visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000041 "A healthcare organization clinical visit during which a birth statement was produced regarding the birth of the main patient visit beneficiary."@en)
+AnnotationAssertion(obo:IAO_0000600 obo:HOSO_0000041 "In the case of human health the specified organism refers to the child born during the visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000041 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000041 "healthcare birth visit"@en)
+EquivalentClasses(obo:HOSO_0000041 ObjectIntersectionOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectIntersectionOf(obo:IOIO_0000001 ObjectExactCardinality(1 obo:IAO_0000136 obo:HOSO_0000137)))))
+
+# Class: obo:HOSO_0000042 (inpatient visit from an external location)
+
+AnnotationAssertion(obo:IAO_0000112 obo:HOSO_0000042 "Patient hospitalized directly from home."@en)
+AnnotationAssertion(obo:IAO_0000112 obo:HOSO_0000042 "Patient transferred from a healthcare organization emergency department to be hospitalized by a different healthcare organization."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000042 "an inpatient visit that is not immedately following another healthcare organisation clinical visit in the same organisation, and is not a healthcare birth visit"@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000042 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000042 "inpatient visit from an external location"@en)
+SubClassOf(obo:HOSO_0000042 obo:HOSO_0000028)
+
+# Class: obo:HOSO_0000043 (ambulance initiated emergency department visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000043 "An emergency department visit for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit."@en)
+AnnotationAssertion(obo:IAO_0000116 obo:HOSO_0000043 "Considérer axomatisation séquentielle")
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000043 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000043 "ambulance initiated emergency department visit"@en)
+EquivalentClasses(obo:HOSO_0000043 ObjectIntersectionOf(obo:HOSO_0000032 ObjectSomeValuesFrom(obo:RO_0002087 obo:HOSO_0000071)))
+
+# Class: obo:HOSO_0000044 (cadaver service)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000044 "A healthcare organization service delivery where the main entity of interest is a human cadaver that was not delivered just prior to this service."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000044 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000044 "cadaver service"@en)
+SubClassOf(obo:HOSO_0000044 obo:HOSO_0000011)
+
+# Class: obo:HOSO_0000045 (healthcare visit of expiration)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000045 "A healthcare organization clinical visit during which a death statement was produced regarding the death of the main patient visit beneficiary."@en)
+AnnotationAssertion(obo:IAO_0000600 obo:HOSO_0000045 "A healthcare organization clinical visit during which the patient died."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000045 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000045 "healthcare visit of expiration"@en)
+EquivalentClasses(obo:HOSO_0000045 ObjectIntersectionOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:OBI_0000299 ObjectIntersectionOf(obo:IOIO_0000003 ObjectExactCardinality(1 obo:IAO_0000136 obo:HOSO_0000137)))))
+
+# Class: obo:HOSO_0000046 (visit discharge specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000046 "A directive information entity that aims at directing what health procedures or healthcare organization services are recommended after this visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000046 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000046 "visit discharge specification"@en)
+SubClassOf(obo:HOSO_0000046 obo:IAO_0000033)
+SubClassOf(obo:HOSO_0000046 ObjectSomeValuesFrom(obo:IAO_0000136 obo:HOSO_0000012))
+
+# Class: obo:HOSO_0000047 (visit transfer specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000047 "A visit discharge specification that aims at directing to which healthcare organisation the patient should be transferred after the end of the current visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000047 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000047 "visit transfer specification"@en)
+SubClassOf(obo:HOSO_0000047 obo:HOSO_0000046)
+SubClassOf(obo:HOSO_0000047 ObjectSomeValuesFrom(obo:IAO_0000136 obo:HOSO_0000008))
+
+# Class: obo:HOSO_0000048 (visit transfer specification category)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000048 "An information content entity that is part of a visit transfer specification and is about the type of healthcare organization specified."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000048 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000048 "visit transfer specification category"@en)
+SubClassOf(obo:HOSO_0000048 obo:IAO_0000030)
+SubClassOf(obo:HOSO_0000048 ObjectSomeValuesFrom(obo:BFO_0000050 obo:HOSO_0000047))
+
+# Class: obo:HOSO_0000049 (visit discharge specification for home)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000049 "A visit discharge specification for a given clinical visit that has no visit transfer specification."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000049 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000049 "visit discharge specification for home"@en)
+EquivalentClasses(obo:HOSO_0000049 ObjectIntersectionOf(obo:HOSO_0000046 ObjectComplementOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000047))))
+
+# Class: obo:HOSO_0000050 (visit ended by the patient)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000050 "A healthcare organization clinical visit ended at the initiative of the patient without physician approval."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000050 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000050 "visit ended by the patient"@en)
+EquivalentClasses(obo:HOSO_0000050 ObjectIntersectionOf(obo:HOSO_0000012 ObjectComplementOf(ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000125))))
+
+# Class: obo:HOSO_0000051 (visit ended by the patient without notification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000051 "A visit ended by the patient without notifying the healthcare organization."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000051 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000051 "visit ended by the patient without notification"@en)
+SubClassOf(obo:HOSO_0000051 obo:HOSO_0000050)
+
+# Class: obo:HOSO_0000052 (triage-only emergency department visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000052 "An emergency department visit with a triage encounter but no further encounter."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000052 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000052 "triage-only emergency department visit"@en)
+SubClassOf(obo:HOSO_0000052 obo:HOSO_0000032)
+
+# Class: obo:HOSO_0000053 (emergency department visit with partial treatment)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000053 "An emergency department visit and a visit ended by the patient and some treatment healthcare procedure was provided."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000053 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000053 "emergency department visit with partial treatment"@en)
+SubClassOf(obo:HOSO_0000053 obo:HOSO_0000032)
+SubClassOf(obo:HOSO_0000053 obo:HOSO_0000050)
+
+# Class: obo:HOSO_0000054 (visit diagnosis related group code)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000054 "An identifier that denotes a diagnosis related group."@en)
+AnnotationAssertion(obo:IAO_0000118 obo:HOSO_0000054 "DRG code"@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000054 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000054 "visit diagnosis related group code"@en)
+SubClassOf(obo:HOSO_0000054 obo:IAO_0020000)
+
+# Class: obo:HOSO_0000055 (healthcare organization service delivery beginning statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000055 "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000055 "A process beginning statement that temporally qualifies the beginning of a healthcare organisation service delivery."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000055 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000055 "healthcare organization service delivery beginning statement"@en)
+SubClassOf(obo:HOSO_0000055 obo:OpenLHS-Core_0000033)
+SubClassOf(obo:HOSO_0000055 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000100))
+SubClassOf(obo:HOSO_0000055 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000102))
+
+# Class: obo:HOSO_0000056 (healthcare organization service delivery ending statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000056 "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000056 "A process ending statement that temporally qualifies the ending of a healthcare organisation service delivery."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000056 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000056 "healthcare organization service delivery ending statement"@en)
+SubClassOf(obo:HOSO_0000056 obo:OpenLHS-Core_0000034)
+SubClassOf(obo:HOSO_0000056 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000100))
+SubClassOf(obo:HOSO_0000056 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000103))
+
+# Class: obo:HOSO_0000060 (public provincial health insurance record)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000060 "An information content entity that contains the information required to manage the insurance coverage of an insured individual."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000060 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000060 "public provincial health insurance record"@en)
+SubClassOf(obo:HOSO_0000060 obo:IAO_0000030)
+SubClassOf(obo:HOSO_0000060 ObjectExactCardinality(1 obo:IAO_0000136 obo:HOSO_0000062))
+
+# Class: obo:HOSO_0000061 (primary health insurance beneficiary human role)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000061 "A role that is borne by an human that is the primary beneficiary of a health insurance plan and so is responsible for its associated contract."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000061 "primary health insurance beneficiary human role"@en)
+SubClassOf(obo:HOSO_0000061 obo:BFO_0000023)
+
+# Class: obo:HOSO_0000062 (primary health insurance beneficiary human)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000062 "A human that has a role of primary health insurance benificiary role"@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000062 "primary health insurance beneficiary human"@en)
+EquivalentClasses(obo:HOSO_0000062 ObjectIntersectionOf(obo:NCBITaxon_9606 ObjectSomeValuesFrom(obo:RO_0000087 obo:HOSO_0000061)))
+SubClassOf(obo:HOSO_0000062 obo:NCBITaxon_9606)
+
+# Class: obo:HOSO_0000063 (public provincial health insurance primary residence statement)
+
+AnnotationAssertion(obo:IAO_0000600 obo:HOSO_0000063 "A statement that indicates the postal address of the primary residence for a primary health insurance beneficiary of a public health provincial plan."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000063 "public provincial health insurance primary residence statement"@en)
+SubClassOf(obo:HOSO_0000063 obo:OpenLHS-Core_0000010)
+SubClassOf(obo:HOSO_0000063 ObjectSomeValuesFrom(obo:BFO_0000050 obo:HOSO_0000060))
+SubClassOf(obo:HOSO_0000063 ObjectMaxCardinality(1 obo:RO_0002180 obo:OpenLHS-Core_0000020))
+
+# Class: obo:HOSO_0000067 (provincial health insurance primary residence statement beginning)
+
+AnnotationAssertion(rdfs:label obo:HOSO_0000067 "provincial health insurance primary residence statement beginning"@en)
+SubClassOf(obo:HOSO_0000067 obo:OpenLHS-Core_0000033)
+SubClassOf(obo:HOSO_0000067 ObjectSomeValuesFrom(obo:IAO_0000136 obo:HOSO_0000063))
+
+# Class: obo:HOSO_0000068 (immediate subsequent visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000068 "A healthcare organization clinical visit for a given patient that was participating in another healthcare organisation clinical visit just prior to this visit."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000068 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000068 "immediate subsequent visit"@en)
+EquivalentClasses(obo:HOSO_0000068 ObjectIntersectionOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:RO_0002087 obo:HOSO_0000012)))
+
+# Class: obo:HOSO_0000069 (immediate subsequent visit in same organization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000069 "An immediate subsequent visit where both visits are under the responsability of the same healthcare organisation."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000069 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000069 "immediate subsequent visit in same organization"@en)
+SubClassOf(obo:HOSO_0000069 obo:HOSO_0000068)
+
+# Class: obo:HOSO_0000070 (direct ambulance initiated hospitalization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000070 "An hospitalization for a given patient that was participating in another healthcare organisation visit involving paramedics just prior to this visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000070 "direct ambulance initiated hospitalization"@en)
+EquivalentClasses(obo:HOSO_0000070 ObjectIntersectionOf(obo:HOSO_0000031 ObjectSomeValuesFrom(obo:RO_0002087 obo:HOSO_0000071)))
+
+# Class: obo:HOSO_0000071 (ambulance paramedics visit)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000071 "A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000071 "ambulance paramedics visit"@en)
+SubClassOf(obo:HOSO_0000071 obo:HOSO_0000012)
+
+# Class: obo:HOSO_0000072 (ED by ambulance initiated hospitalization)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000072 "An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000072 "ED by ambulance initiated hospitalization"@en)
+EquivalentClasses(obo:HOSO_0000072 ObjectIntersectionOf(obo:HOSO_0000031 ObjectSomeValuesFrom(obo:RO_0002087 obo:HOSO_0000043)))
+SubClassOf(obo:HOSO_0000072 obo:HOSO_0000031)
+
+# Class: obo:HOSO_0000073 (ICU admission specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000073 "A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000073 "ICU admission specification"@en)
+SubClassOf(obo:HOSO_0000073 obo:HOSO_0000077)
+
+# Class: obo:HOSO_0000074 (clinical visit agreement specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000074 "A service agreement specification for a clinical visit admission."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000074 "clinical visit agreement specification"@en)
+SubClassOf(obo:HOSO_0000074 obo:OpenLHS-Core_0000028)
+
+# Class: obo:HOSO_0000075 (clinical visit urgency level specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000075 "A clinical visit agreement specification mandating the urgency level of the clinical visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000075 "clinical visit urgency level specification"@en)
+SubClassOf(obo:HOSO_0000075 obo:HOSO_0000074)
+
+# Class: obo:HOSO_0000076 (hospitalization admission urgency level specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000076 "A clinical visit urgency level specification mandating the urgency level of the hospitalization admission."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000076 "hospitalization admission urgency level specification"@en)
+SubClassOf(obo:HOSO_0000076 obo:HOSO_0000075)
+
+# Class: obo:HOSO_0000077 (clinical visit unit type specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000077 "A clinical visit agreement specification mandating the type of unit required for a clinical visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000077 "clinical visit unit type specification"@en)
+SubClassOf(obo:HOSO_0000077 obo:HOSO_0000074)
+
+# Class: obo:HOSO_0000078 (hospitalization admitting physician specification)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000078 "A clinical visit agreement specification mandating the admitting physician."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000078 "hospitalization admitting physician specification"@en)
+SubClassOf(obo:HOSO_0000078 obo:HOSO_0000074)
+SubClassOf(obo:HOSO_0000078 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000138))
+
+# Class: obo:HOSO_0000079 (healthcare physician service)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000079 "A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members"@en)
+AnnotationAssertion(rdfs:comment obo:HOSO_0000079 "It is often a sub-organization of a department. Ex: General internal medicine service is under the medicine department."@en)
+AnnotationAssertion(rdfs:comment obo:HOSO_0000079 "It is often based on the specialty of its members (e.g. respirology), but not always (e.g. vascular service, which may include general internal medicine physician as well as vascular surgeon)."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000079 "healthcare physician service"@en)
+SubClassOf(obo:HOSO_0000079 obo:HOSO_0000008)
+SubClassOf(obo:HOSO_0000079 ObjectSomeValuesFrom(obo:RO_0002350 obo:HOSO_0000008))
+
+# Class: obo:HOSO_0000080 (living environment type prior to clinical visit statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000080 "A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000080 "living environment type prior to clinical visit statement"@en)
+SubClassOf(obo:HOSO_0000080 obo:IOIO_0000022)
+SubClassOf(obo:HOSO_0000080 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000100))
+SubClassOf(obo:HOSO_0000080 ObjectSomeValuesFrom(obo:RO_0002180 obo:IOIO_0000023))
+
+# Class: obo:HOSO_0000081 (patient)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000081 "An eukaryote that is the bearer of a patient role."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000081 "patient"@en)
+SubClassOf(obo:HOSO_0000081 obo:NCBITaxon_2759)
+SubClassOf(obo:HOSO_0000081 ObjectSomeValuesFrom(obo:RO_0000087 obo:HOSO_0000082))
+
+# Class: obo:HOSO_0000082 (patient role)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000082 "A role born by an organism which is the primary recipient in a healthcare organization clinical visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000082 "patient role"@en)
+SubClassOf(obo:HOSO_0000082 obo:BFO_0000023)
+SubClassOf(obo:HOSO_0000082 ObjectSomeValuesFrom(obo:BFO_0000054 obo:HOSO_0000012))
+
+# Class: obo:HOSO_0000083 (human patient)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000083 "A patient that is a Homo sapiens."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000083 "human patient"@en)
+EquivalentClasses(obo:HOSO_0000083 ObjectIntersectionOf(obo:HOSO_0000081 obo:NCBITaxon_9606))
+
+# Class: obo:HOSO_0000084 (healthcare physician service identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000084 "A healthcare organization identifier that denotes a physician service."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000084 "healthcare physician service identifier"@en)
+SubClassOf(obo:HOSO_0000084 obo:HOSO_0000023)
+SubClassOf(obo:HOSO_0000084 ObjectExactCardinality(1 obo:IAO_0000219 obo:HOSO_0000079))
+
+# Class: obo:HOSO_0000085 (hospitalization starting with ICU stay)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000085 "An hospitalization for a given patient that starts with a stay in an intensive care unit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000085 "hospitalization starting with ICU stay"@en)
+EquivalentClasses(obo:HOSO_0000085 ObjectIntersectionOf(obo:HOSO_0000031 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000004 obo:HOSO_0000073)))
+SubClassOf(obo:HOSO_0000085 obo:HOSO_0000031)
+
+# Class: obo:HOSO_0000086 (clinical visit admission diagnosis)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000086 "A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)"@en)
+AnnotationAssertion(rdfs:comment obo:HOSO_0000086 "Voir si on sous-classe sous 'pathological condition presence statement'")
+AnnotationAssertion(rdfs:label obo:HOSO_0000086 "clinical visit admission diagnosis"@en)
+SubClassOf(obo:HOSO_0000086 obo:HOSO_0000074)
+
+# Class: obo:HOSO_0000100 (healthcare organization service delivery identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000100 "An identifier that denotes a healthcare organization service delivery."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000100 "An identifier that denotes a healthcare organization service delivery."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000100 "healthcare organization service delivery identifier"@en)
+SubClassOf(obo:HOSO_0000100 obo:IAO_0020000)
+SubClassOf(obo:HOSO_0000100 ObjectSomeValuesFrom(obo:IAO_0000219 obo:HOSO_0000011))
+SubClassOf(obo:HOSO_0000100 DataExactCardinality(1 obo:Ontorel-Core_0000002))
+
+# Class: obo:HOSO_0000102 (healthcare organization service delivery beginning temporal information)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000102 "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000102 "A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000102 "healthcare organization service delivery beginning temporal information"@en)
+SubClassOf(obo:HOSO_0000102 obo:OpenLHS-Core_0000065)
+SubClassOf(obo:HOSO_0000102 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000070 obo:HOSO_0000055))
+
+# Class: obo:HOSO_0000103 (healthcare organization service delivery ending temporal information)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000103 "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000103 "A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000103 "healthcare organization service delivery ending temporal information"@en)
+SubClassOf(obo:HOSO_0000103 obo:OpenLHS-Core_0000065)
+SubClassOf(obo:HOSO_0000103 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000070 obo:HOSO_0000056))
+
+# Class: obo:HOSO_0000120 (canadian healthcare facility postal code)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000120 "A canadian postal code that denotes a geographical region where a canadian healthcare facility is located."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000120 "A canadian postal code that denotes a geographical region where a canadian healthcare facility is located."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000120 "canadian healthcare facility postal code"@en)
+SubClassOf(obo:HOSO_0000120 obo:OpenLHS-Core_0000026)
+
+# Class: obo:HOSO_0000121 (canadian healthcare organization postal code)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000121 "A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000121 "A canadian postal code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000121 "canadian healthcare organization postal code"@en)
+SubClassOf(obo:HOSO_0000121 obo:OpenLHS-Core_0000026)
+
+# Class: obo:HOSO_0000122 (canadian healthcare facility forward sorting area code)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000122 "A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000122 "A canadian forward sorting area code that denotes a geographical region where a canadian healthcare facility is located."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000122 "canadian healthcare facility forward sorting area code"@en)
+SubClassOf(obo:HOSO_0000122 obo:OpenLHS-Core_0000023)
+
+# Class: obo:HOSO_0000123 (canadian healthcare organization forward sorting area code)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000123 "A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000123 "A canadian forward sorting area code that denotes a geographical region where postal payloads are to be delivered for a canadian healthcare organization."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000123 "canadian healthcare organization forward sorting area code"@en)
+SubClassOf(obo:HOSO_0000123 obo:OpenLHS-Core_0000023)
+
+# Class: obo:HOSO_0000124 (healthcare organization clinical visit pathological condition impact statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000124 "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000124 "A pragmatically accepted statement that states the impact of a pathological condition on a clinical visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000124 "healthcare organization clinical visit pathological condition impact statement"@en)
+SubClassOf(obo:HOSO_0000124 obo:OpenLHS-Core_0000010)
+SubClassOf(obo:HOSO_0000124 ObjectSomeValuesFrom(obo:RO_0002180 obo:HEPRO_0000017))
+SubClassOf(obo:HOSO_0000124 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000100))
+SubClassOf(obo:HOSO_0000124 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000126))
+
+# Class: obo:HOSO_0000125 (clinical visit ending determination)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000125 "A healthcare procedure where the responsible healthcare worker comes to the conclusion that a clinical visit can end."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000125 "clinical visit ending determination"@en)
+SubClassOf(obo:HOSO_0000125 obo:HOSO_0000010)
+
+# Class: obo:HOSO_0000126 (pathological condition impact type on clinical visit)
+
+AnnotationAssertion(obo:IAO_0000112 obo:HOSO_0000126 "'primary diagnosis' or 'secondary diagnosis' associated with a diagnosis code."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000126 "An information content entity that describes the type of impact of a pathological condition on a clinical visit."@en)
+AnnotationAssertion(obo:OpenLHS-Core_0000062 obo:HOSO_0000126 "An information content entity that describes the type of impact of a pathological condition on a clinical visit."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000126 "pathological condition impact type on clinical visit"@en)
+SubClassOf(obo:HOSO_0000126 obo:IAO_0000030)
+
+# Class: obo:HOSO_0000137 (human clinical visit specified patient)
+
+AnnotationAssertion(rdfs:label obo:HOSO_0000137 "human clinical visit specified patient"@en)
+EquivalentClasses(obo:HOSO_0000137 ObjectIntersectionOf(obo:NCBITaxon_9606 ObjectSomeValuesFrom(obo:IAO_0000235 obo:HOSO_0000003)))
+
+# Class: obo:HOSO_0000138 (healthcare provider identifier)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000138 "An identifier that denotes a healthcare provider."@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000138 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000138 "healthcare provider identifier"@en)
+EquivalentClasses(obo:HOSO_0000138 ObjectIntersectionOf(obo:HEPRO_0000009 ObjectExactCardinality(1 obo:IAO_0000219 obo:HOSO_0000009)))
+
+# Class: obo:HOSO_0000139 (facility-supported clinical visit)
+
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000139 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000139 "facility-supported clinical visit"@en)
+EquivalentClasses(obo:HOSO_0000139 ObjectIntersectionOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:RO_0002479 obo:HOSO_0000004)))
+
+# Class: obo:HOSO_0000140 (facility address)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000140 "A postal address that enables an agent to locate a facility."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000140 "facility address"@en)
+SubClassOf(obo:HOSO_0000140 obo:IAO_0000422)
+SubClassOf(obo:HOSO_0000140 ObjectSomeValuesFrom(obo:IAO_0000136 obo:OMRSE_00000062))
+
+# Class: obo:HOSO_0000142 (canadian facility address)
+
+AnnotationAssertion(rdfs:label obo:HOSO_0000142 "canadian facility address"@en)
+EquivalentClasses(obo:HOSO_0000142 ObjectIntersectionOf(obo:HOSO_0000140 obo:OpenLHS-Core_0000020))
+
+# Class: obo:HOSO_0000145 (diagnosis related group)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000145 "An information content entity that aims at representing the various forms of care provided within the healthcare organization clinical visit as approximated by a case-mix group definition."@en)
+AnnotationAssertion(obo:IAO_0000118 obo:HOSO_0000145 "DRG"@en)
+AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000145 OpenLHS-Core:OpenLHS-H)
+AnnotationAssertion(rdfs:label obo:HOSO_0000145 "diagnosis related group"@en)
+SubClassOf(obo:HOSO_0000145 obo:IAO_0000030)
+SubClassOf(obo:HOSO_0000145 ObjectSomeValuesFrom(obo:IAO_0000136 obo:HOSO_0000012))
+
+# Class: obo:HOSO_0000150 (human age at beginning of the healthcare organization service delivery)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000150 "A human age at a specified temporal region where the temporal region is denoted by a healthcare organization service delivery beginning temporal information, and expressed according to ISO8601 standard."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000150 "human age at beginning of the healthcare organization service delivery"@en)
+SubClassOf(obo:HOSO_0000150 obo:IOIO_0000030)
+
+# Class: obo:HOSO_0000151 (human age at the beginning of the healthcare organization service delivery statement)
+
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000151 "A human age at a specified temporal region statement that includes an human identifier, a healthcare organization service delivery identifier, and the human age at beginning of the healthcare organization service delivery of the human denoted by the human identifier, for the healthcare organization service delivery identified by the healthcare organization service delivery identifier."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000151 "human age at the beginning of the healthcare organization service delivery statement"@en)
+SubClassOf(obo:HOSO_0000151 obo:IOIO_0000031)
+SubClassOf(obo:HOSO_0000151 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000100))
+SubClassOf(obo:HOSO_0000151 ObjectSomeValuesFrom(obo:RO_0002180 obo:HOSO_0000150))
+
+# Class: obo:HOSO_0000152 (human age at the beginning of the clinical visit statement)
+
+AnnotationAssertion(rdfs:label obo:HOSO_0000152 "human age at the beginning of the clinical visit statement"@en)
+SubClassOf(obo:HOSO_0000152 obo:HOSO_0000151)
+SubClassOf(obo:HOSO_0000152 ObjectSomeValuesFrom(obo:IAO_0000136 obo:HOSO_0000137))
+
+
+)
