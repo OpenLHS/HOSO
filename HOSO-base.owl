@@ -18,7 +18,7 @@
      xmlns:OpenLHS-Core="http://purl.obolibrary.org/obo/OpenLHS-Core#"
      xmlns:CommonCoreOntologies="http://www.ontologyrepository.com/CommonCoreOntologies/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HOSO/HOSO-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-09-06/HOSO-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/HOSO/releases/2025-09-09/HOSO-base.owl"/>
         <dc:contributor xml:lang="en">Adrien Barton</dc:contributor>
         <dc:contributor xml:lang="en">Jean-François Ethier</dc:contributor>
         <dc:contributor xml:lang="en">Mark McGilchrist</dc:contributor>
@@ -27,7 +27,7 @@
         <terms:description xml:lang="en">HOSO is an ontology of informational entities and processes related to healthcare organizations and services.</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
         <terms:title>Healthcare Organizations and Services ontology</terms:title>
-        <owl:versionInfo>2025-09-06</owl:versionInfo>
+        <owl:versionInfo>2025-09-09</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -164,8 +164,18 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HOSO_0000002">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000087"/>
         <obo:IAO_0000115 xml:lang="en">TBD</obo:IAO_0000115>
         <rdfs:label xml:lang="en">has participating recipient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HOSO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HOSO_0000087">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+        <rdfs:label xml:lang="en">participates as recipient</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -203,6 +213,12 @@
     <!-- http://purl.obolibrary.org/obo/OpenLHS-Core_0000070 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OpenLHS-Core_0000070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
     
 
 
@@ -334,7 +350,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">healthcare service organism specification</rdfs:label>
     </owl:Class>
     
@@ -429,6 +445,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000002"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000081"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A service delivery under the responsibility of a healthcare organisation. It stems from an agreement between a requesting agent and a healthcare organization.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">healthcare organization service delivery</rdfs:label>
@@ -444,12 +466,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000002"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000081"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -662,6 +678,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000028"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000004"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An inpatient visit located in a hospital facility requested by a physician, where the healthcare organization can offer an extension overnight.</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core#OpenLHS-H"/>
         <rdfs:label xml:lang="en">hospitalization</rdfs:label>
@@ -1402,8 +1431,8 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000074">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OpenLHS-Core_0000028"/>
-        <obo:IAO_0000115 xml:lang="en">A service agreement specification for a clinical visit admission.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">clinical visit agreement specification</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A service agreement directive entity that directs a clinical visit admission.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">clinical visit agreement directive entity</rdfs:label>
     </owl:Class>
     
 
@@ -1412,7 +1441,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification mandating the urgency level of the clinical visit.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement directive entity mandating the urgency level of the clinical visit.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">clinical visit urgency level specification</rdfs:label>
     </owl:Class>
     
@@ -1432,7 +1461,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification mandating the type of unit required for a clinical visit.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement directive entity mandating the type of unit required for a clinical visit.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">clinical visit unit type specification</rdfs:label>
     </owl:Class>
     
@@ -1448,7 +1477,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000138"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification mandating the admitting physician.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement directive entity mandating the admitting physician.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">hospitalization admitting physician specification</rdfs:label>
     </owl:Class>
     
@@ -1599,7 +1628,7 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HOSO_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000074"/>
-        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A clinical visit agreement directive entity stating the diagnosis as the cause of the visit (TBD)</obo:IAO_0000115>
         <rdfs:comment>Voir si on sous-classe sous &apos;pathological condition presence statement&apos;</rdfs:comment>
         <rdfs:label xml:lang="en">clinical visit admission diagnosis</rdfs:label>
     </owl:Class>
@@ -1773,6 +1802,12 @@ It is not necessarily an immediate inpatient subsequent visit.</obo:IAO_0000115>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000087"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HOSO_0000012"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000235"/>
