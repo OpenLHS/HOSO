@@ -2,6 +2,7 @@ Level	Rule Name	Subject	Property	Value
 ERROR	duplicate_definition	has participating performer	IAO:0000115	TBD@en
 ERROR	duplicate_definition	has participating recipient	IAO:0000115	TBD@en
 WARN	missing_definition	provincial health insurance primary residence statement beginning	IAO:0000115	
+WARN	missing_definition	participates as recipient	IAO:0000115	
 WARN	missing_definition	human clinical visit specified patient	IAO:0000115	
 WARN	missing_definition	facility-supported clinical visit	IAO:0000115	
 WARN	missing_definition	canadian facility address	IAO:0000115	
@@ -23,7 +24,6 @@ INFO	missing_superclass	visit ended by the patient	rdfs:subClassOf
 INFO	missing_superclass	immediate subsequent visit	rdfs:subClassOf	
 INFO	missing_superclass	direct ambulance initiated hospitalization	rdfs:subClassOf	
 INFO	missing_superclass	human patient	rdfs:subClassOf	
-INFO	missing_superclass	human clinical visit specified patient	rdfs:subClassOf	
 INFO	missing_superclass	healthcare provider identifier	rdfs:subClassOf	
 INFO	missing_superclass	facility-supported clinical visit	rdfs:subClassOf	
 INFO	missing_superclass	canadian facility address	rdfs:subClassOf	

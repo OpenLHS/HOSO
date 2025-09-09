@@ -76,7 +76,8 @@ http://purl.obolibrary.org/obo/HOSO_0000062	primary health insurance beneficiary
 http://purl.obolibrary.org/obo/HOSO_0000068	immediate subsequent visit
 http://purl.obolibrary.org/obo/HOSO_0000069	immediate subsequent visit in same organization
 http://purl.obolibrary.org/obo/HOSO_0000071	ambulance paramedics visit
-http://purl.obolibrary.org/obo/HOSO_0000074	clinical visit agreement specification
+http://purl.obolibrary.org/obo/HOSO_0000074	clinical visit agreement directive entity
+http://purl.obolibrary.org/obo/HOSO_0000078	hospitalization admitting physician specification
 http://purl.obolibrary.org/obo/HOSO_0000081	patient
 http://purl.obolibrary.org/obo/HOSO_0000082	patient role
 http://purl.obolibrary.org/obo/HOSO_0000100	healthcare organization service delivery identifier

@@ -1,5 +1,5 @@
 IRI,value,def
-HOSO_0000003,healthcare service organism specification,A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.
+HOSO_0000003,healthcare service organism specification,A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status.
 HOSO_0000004,healthcare facility,A facility that bears a healthcare function - WiP.
 HOSO_0000006,healthcare organization role,A role that inheres in an organisation and is realized by providing some healthcare service delivery.
 HOSO_0000008,healthcare organization,An organisation that bears a healthcare organisation role.
@@ -57,11 +57,11 @@ HOSO_0000070,direct ambulance initiated hospitalization,An hospitalization for a
 HOSO_0000071,ambulance paramedics visit,A healthcare organization clinical visit involving an ambulance and paramedics as healthcare provider.
 HOSO_0000072,ED by ambulance initiated hospitalization,An hospitalization for a given patient that was participating in an ambulance initiated emergency departement visit.
 HOSO_0000073,ICU admission specification,A clinical visit unit type specification mandating an hospitalization admission to an intensive care unit.
-HOSO_0000074,clinical visit agreement specification,A service agreement specification for a clinical visit admission.
-HOSO_0000075,clinical visit urgency level specification,A clinical visit agreement specification mandating the urgency level of the clinical visit.
+HOSO_0000074,clinical visit agreement directive entity,A service agreement directive entity that directs a clinical visit admission.
+HOSO_0000075,clinical visit urgency level specification,A clinical visit agreement directive entity mandating the urgency level of the clinical visit.
 HOSO_0000076,hospitalization admission urgency level specification,A clinical visit urgency level specification mandating the urgency level of the hospitalization admission.
-HOSO_0000077,clinical visit unit type specification,A clinical visit agreement specification mandating the type of unit required for a clinical visit.
-HOSO_0000078,hospitalization admitting physician specification,A clinical visit agreement specification mandating the admitting physician.
+HOSO_0000077,clinical visit unit type specification,A clinical visit agreement directive entity mandating the type of unit required for a clinical visit.
+HOSO_0000078,hospitalization admitting physician specification,A clinical visit agreement directive entity mandating the admitting physician.
 HOSO_0000079,healthcare physician service,A healthcare organization with a mandate to manage and coordinate healthcare procedures deliveries under the responsability of its members
 HOSO_0000080,living environment type prior to clinical visit statement,A primary residence statement that states the type of living environment of a patient immediately prior to a clinical visit.
 HOSO_0000081,patient,An eukaryote that is the bearer of a patient role.
@@ -69,7 +69,7 @@ HOSO_0000082,patient role,A role born by an organism which is the primary recipi
 HOSO_0000083,human patient,A patient that is a Homo sapiens.
 HOSO_0000084,healthcare physician service identifier,A healthcare organization identifier that denotes a physician service.
 HOSO_0000085,hospitalization starting with ICU stay,An hospitalization for a given patient that starts with a stay in an intensive care unit.
-HOSO_0000086,clinical visit admission diagnosis,A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)
+HOSO_0000086,clinical visit admission diagnosis,A clinical visit agreement directive entity stating the diagnosis as the cause of the visit (TBD)
 HOSO_0000100,healthcare organization service delivery identifier,An identifier that denotes a healthcare organization service delivery.
 HOSO_0000102,healthcare organization service delivery beginning temporal information,A temporal information that is a component of a healthcare organization service delivery beginning statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the beginning of healthcare organization service delivery.
 HOSO_0000103,healthcare organization service delivery ending temporal information,A temporal information that is a component of a healthcare organization service delivery ending statement that states that the temporal region denoted by this temporal information overlaps with the temporal region occupied by the ending of healthcare organization service delivery.

@@ -118,6 +118,7 @@ Declaration(Class(obo:HOSO_0000151))
 Declaration(Class(obo:HOSO_0000152))
 Declaration(ObjectProperty(obo:HOSO_0000001))
 Declaration(ObjectProperty(obo:HOSO_0000002))
+Declaration(ObjectProperty(obo:HOSO_0000087))
 Declaration(AnnotationProperty(terms:description))
 Declaration(AnnotationProperty(terms:license))
 Declaration(AnnotationProperty(terms:title))
@@ -153,6 +154,12 @@ SubObjectPropertyOf(obo:HOSO_0000001 obo:RO_0000057)
 AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000002 "TBD"@en)
 AnnotationAssertion(rdfs:label obo:HOSO_0000002 "has participating recipient"@en)
 SubObjectPropertyOf(obo:HOSO_0000002 obo:RO_0000057)
+InverseObjectProperties(obo:HOSO_0000002 obo:HOSO_0000087)
+
+# Object Property: obo:HOSO_0000087 (participates as recipient)
+
+AnnotationAssertion(rdfs:label obo:HOSO_0000087 "participates as recipient"@en)
+SubObjectPropertyOf(obo:HOSO_0000087 obo:RO_0000056)
 
 
 
@@ -163,7 +170,7 @@ SubObjectPropertyOf(obo:HOSO_0000002 obo:RO_0000057)
 
 # Class: obo:HOSO_0000003 (healthcare service organism specification)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000003 "A service agreement specification identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000003 "A service agreement directive entity identifying an organism for whom a healthcare service delivery aims at providing a desired effect to its health status."@en)
 AnnotationAssertion(rdfs:label obo:HOSO_0000003 "healthcare service organism specification"@en)
 SubClassOf(obo:HOSO_0000003 obo:OpenLHS-Core_0000028)
 SubClassOf(obo:HOSO_0000003 ObjectSomeValuesFrom(obo:IAO_0000219 obo:OBI_0100026))
@@ -207,6 +214,7 @@ AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000011 OpenLHS-Core:OpenLHS-H)
 AnnotationAssertion(rdfs:label obo:HOSO_0000011 "healthcare organization service delivery"@en)
 SubClassOf(obo:HOSO_0000011 obo:OpenLHS-Core_0000036)
 SubClassOf(obo:HOSO_0000011 ObjectSomeValuesFrom(obo:BFO_0000055 obo:HOSO_0000006))
+SubClassOf(obo:HOSO_0000011 ObjectSomeValuesFrom(obo:HOSO_0000002 obo:HOSO_0000081))
 
 # Class: obo:HOSO_0000012 (healthcare organization clinical visit)
 
@@ -215,7 +223,6 @@ AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000012 OpenLHS-Core:OpenLHS-H)
 AnnotationAssertion(rdfs:label obo:HOSO_0000012 "healthcare organization clinical visit"@en)
 SubClassOf(obo:HOSO_0000012 obo:HOSO_0000011)
 SubClassOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000010))
-SubClassOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:HOSO_0000002 obo:HOSO_0000081))
 SubClassOf(obo:HOSO_0000012 ObjectSomeValuesFrom(obo:OpenLHS-Core_0000004 obo:HOSO_0000074))
 SubClassOf(obo:HOSO_0000012 ObjectExactCardinality(1 obo:OpenLHS-Core_0000004 obo:HOSO_0000003))
 
@@ -315,6 +322,7 @@ AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000031 "An inpatient visit located
 AnnotationAssertion(oboInOwl:inSubset obo:HOSO_0000031 OpenLHS-Core:OpenLHS-H)
 AnnotationAssertion(rdfs:label obo:HOSO_0000031 "hospitalization"@en)
 SubClassOf(obo:HOSO_0000031 obo:HOSO_0000028)
+SubClassOf(obo:HOSO_0000031 ObjectExactCardinality(1 obo:OpenLHS-Core_0000004 obo:HOSO_0000078))
 
 # Class: obo:HOSO_0000032 (emergency department visit)
 
@@ -588,15 +596,15 @@ AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000073 "A clinical visit unit type
 AnnotationAssertion(rdfs:label obo:HOSO_0000073 "ICU admission specification"@en)
 SubClassOf(obo:HOSO_0000073 obo:HOSO_0000077)
 
-# Class: obo:HOSO_0000074 (clinical visit agreement specification)
+# Class: obo:HOSO_0000074 (clinical visit agreement directive entity)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000074 "A service agreement specification for a clinical visit admission."@en)
-AnnotationAssertion(rdfs:label obo:HOSO_0000074 "clinical visit agreement specification"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000074 "A service agreement directive entity that directs a clinical visit admission."@en)
+AnnotationAssertion(rdfs:label obo:HOSO_0000074 "clinical visit agreement directive entity"@en)
 SubClassOf(obo:HOSO_0000074 obo:OpenLHS-Core_0000028)
 
 # Class: obo:HOSO_0000075 (clinical visit urgency level specification)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000075 "A clinical visit agreement specification mandating the urgency level of the clinical visit."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000075 "A clinical visit agreement directive entity mandating the urgency level of the clinical visit."@en)
 AnnotationAssertion(rdfs:label obo:HOSO_0000075 "clinical visit urgency level specification"@en)
 SubClassOf(obo:HOSO_0000075 obo:HOSO_0000074)
 
@@ -608,13 +616,13 @@ SubClassOf(obo:HOSO_0000076 obo:HOSO_0000075)
 
 # Class: obo:HOSO_0000077 (clinical visit unit type specification)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000077 "A clinical visit agreement specification mandating the type of unit required for a clinical visit."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000077 "A clinical visit agreement directive entity mandating the type of unit required for a clinical visit."@en)
 AnnotationAssertion(rdfs:label obo:HOSO_0000077 "clinical visit unit type specification"@en)
 SubClassOf(obo:HOSO_0000077 obo:HOSO_0000074)
 
 # Class: obo:HOSO_0000078 (hospitalization admitting physician specification)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000078 "A clinical visit agreement specification mandating the admitting physician."@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000078 "A clinical visit agreement directive entity mandating the admitting physician."@en)
 AnnotationAssertion(rdfs:label obo:HOSO_0000078 "hospitalization admitting physician specification"@en)
 SubClassOf(obo:HOSO_0000078 obo:HOSO_0000074)
 SubClassOf(obo:HOSO_0000078 ObjectSomeValuesFrom(obo:BFO_0000051 obo:HOSO_0000138))
@@ -672,7 +680,7 @@ SubClassOf(obo:HOSO_0000085 obo:HOSO_0000031)
 
 # Class: obo:HOSO_0000086 (clinical visit admission diagnosis)
 
-AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000086 "A clinical visit agreement specification stating the diagnosis as the cause of the visit (TBD)"@en)
+AnnotationAssertion(obo:IAO_0000115 obo:HOSO_0000086 "A clinical visit agreement directive entity stating the diagnosis as the cause of the visit (TBD)"@en)
 AnnotationAssertion(rdfs:comment obo:HOSO_0000086 "Voir si on sous-classe sous 'pathological condition presence statement'")
 AnnotationAssertion(rdfs:label obo:HOSO_0000086 "clinical visit admission diagnosis"@en)
 SubClassOf(obo:HOSO_0000086 obo:HOSO_0000074)
@@ -758,6 +766,7 @@ SubClassOf(obo:HOSO_0000126 obo:IAO_0000030)
 
 AnnotationAssertion(rdfs:label obo:HOSO_0000137 "human clinical visit specified patient"@en)
 EquivalentClasses(obo:HOSO_0000137 ObjectIntersectionOf(obo:NCBITaxon_9606 ObjectSomeValuesFrom(obo:IAO_0000235 obo:HOSO_0000003)))
+SubClassOf(obo:HOSO_0000137 ObjectSomeValuesFrom(obo:HOSO_0000087 obo:HOSO_0000012))
 
 # Class: obo:HOSO_0000138 (healthcare provider identifier)
 
